@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { MotionValue, useTransform, useMotionValueEvent } from "framer-motion";
 import Cell from "@/components/biology/Cell";
+import SVGDefs from "@/components/biology/SVGDefs";
 import Mitochondrion from "@/components/biology/Mitochondrion";
 import BclXL from "@/components/biology/BclXL";
 import BaxBak from "@/components/biology/BaxBak";
@@ -33,6 +34,7 @@ export default function Scene1Apoptosis({ progress, isInView }: Scene1Props) {
       className="w-full h-auto max-h-[70vh]"
       preserveAspectRatio="xMidYMid meet"
     >
+      <SVGDefs />
       {isInView && (
         <>
           {/* Healthy cell */}

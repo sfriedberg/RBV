@@ -11,14 +11,17 @@ interface UbiquitinProps {
 }
 
 export default function Ubiquitin({
-  x = 0,
-  y = 0,
+  x = 0, y = 0,
   count = 4,
-  progress,
-  growRange,
+  progress, growRange,
 }: UbiquitinProps) {
   return (
     <g transform={`translate(${x}, ${y})`}>
+      {/* Chain connector line */}
+      <line x1={0} y1={0} x2={(count - 1) * 11} y2={0}
+        stroke="var(--color-ubiquitin)" strokeWidth={1}
+        strokeOpacity={0.3} strokeDasharray="2 2" />
+
       {Array.from({ length: count }).map((_, i) => {
         const tagOpacity = progress && growRange
           ? useTransform(
@@ -33,20 +36,20 @@ export default function Ubiquitin({
 
         return (
           <motion.g key={i} style={{ opacity: tagOpacity }}>
-            <circle
-              cx={i * 10} cy={0} r={4}
-              fill="var(--color-ubiquitin)"
-              stroke="var(--color-ubiquitin)"
-              strokeWidth={0.8}
-              fillOpacity={0.9}
-            />
-            <text
-              x={i * 10} y={2.5}
-              textAnchor="middle"
-              fill="#422006"
-              fontSize={4}
-              fontWeight="bold"
-            >
+            {/* Glow behind each tag */}
+            <circle cx={i * 11} cy={0} r={7}
+              fill="var(--color-ubiquitin)" fillOpacity={0.08}
+              filter="url(#glow-sm)" />
+            {/* Ubiquitin bead */}
+            <circle cx={i * 11} cy={0} r={5}
+              fill="url(#grad-ubiquitin)"
+              stroke="var(--color-ubiquitin)" strokeWidth={0.8}
+              strokeOpacity={0.6} />
+            {/* Highlight */}
+            <circle cx={i * 11 - 1.5} cy={-1.5} r={2}
+              fill="white" fillOpacity={0.15} />
+            <text x={i * 11} y={2.5} textAnchor="middle"
+              fill="#422006" fontSize={4} fontWeight="bold">
               Ub
             </text>
           </motion.g>

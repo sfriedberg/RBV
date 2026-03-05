@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { MotionValue, useTransform, useMotionValueEvent, motion } from "framer-motion";
 import Cell from "@/components/biology/Cell";
+import SVGDefs from "@/components/biology/SVGDefs";
 import Mitochondrion from "@/components/biology/Mitochondrion";
 import BclXL from "@/components/biology/BclXL";
 import BaxBak from "@/components/biology/BaxBak";
@@ -35,10 +36,11 @@ export default function Scene2CancerSurvival({ progress, isInView }: Scene2Props
       className="w-full h-auto max-h-[70vh]"
       preserveAspectRatio="xMidYMid meet"
     >
+      <SVGDefs />
       {isInView && (
         <>
           {/* Cancer cell - red tinted */}
-          <Cell cx={300} cy={250} rx={180} ry={150} color="var(--color-cancer-cell)">
+          <Cell cx={300} cy={250} rx={180} ry={150} color="var(--color-cancer-cell)" cancer>
             <Mitochondrion x={230} y={210} scale={0.9} />
             <Mitochondrion x={370} y={280} scale={0.8} />
 

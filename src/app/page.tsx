@@ -17,15 +17,17 @@ export default function Home() {
       <SceneProgressBar />
 
       {/* Footer */}
-      <footer className="text-center py-12 text-sm text-[var(--text-muted)] border-t border-white/5">
-        <p className="mb-2">
-          <span className="text-[var(--text-accent)]">Dialectic Therapeutics</span>
-        </p>
-        <p className="max-w-lg mx-auto text-xs leading-relaxed opacity-60">
-          This is an educational visualization. Biological shapes are schematic
-          representations, not molecular-scale models. For clinical information,
-          consult published research and clinical trial data.
-        </p>
+      <footer className="relative text-center py-16 text-sm border-t border-white/[0.04]">
+        <div className="max-w-lg mx-auto px-6">
+          <p className="text-[var(--text-accent)] font-semibold tracking-wide text-[13px] mb-3">
+            Dialectic Therapeutics
+          </p>
+          <p className="text-[12px] leading-[1.8] text-[var(--text-muted)] opacity-50">
+            This is an educational visualization. Biological shapes are schematic
+            representations, not molecular-scale models. For clinical information,
+            consult published research and clinical trial data.
+          </p>
+        </div>
       </footer>
     </main>
   );

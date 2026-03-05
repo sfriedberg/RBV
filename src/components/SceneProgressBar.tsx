@@ -31,31 +31,50 @@ export default function SceneProgressBar() {
   }, []);
 
   return (
-    <nav className="fixed right-4 top-1/2 -translate-y-1/2 z-50 hidden lg:flex flex-col gap-3">
-      {scenes.map((scene, i) => (
-        <button
-          key={scene.id}
-          onClick={() => {
-            document.getElementById(scene.id)?.scrollIntoView({ behavior: "smooth" });
-          }}
-          className="group relative flex items-center justify-end gap-3"
-          aria-label={`Go to ${scene.title}`}
-        >
-          <span className="text-xs font-mono opacity-0 group-hover:opacity-100 transition-opacity text-[var(--text-muted)] whitespace-nowrap">
-            {scene.title}
-          </span>
-          <motion.div
-            className="rounded-full"
-            animate={{
-              width: activeScene === i ? 12 : 6,
-              height: activeScene === i ? 12 : 6,
-              backgroundColor:
-                activeScene === i ? "var(--text-accent)" : "var(--text-muted)",
+    <nav className="fixed right-6 top-1/2 -translate-y-1/2 z-50 hidden lg:flex flex-col items-end gap-4">
+      {scenes.map((scene, i) => {
+        const isActive = activeScene === i;
+        return (
+          <button
+            key={scene.id}
+            onClick={() => {
+              document.getElementById(scene.id)?.scrollIntoView({ behavior: "smooth" });
             }}
-            transition={{ duration: 0.3 }}
-          />
-        </button>
-      ))}
+            className="group relative flex items-center justify-end gap-3"
+            aria-label={`Go to ${scene.title}`}
+          >
+            {/* Hover label */}
+            <span className="text-[10px] font-mono tracking-wider opacity-0 group-hover:opacity-80 transition-opacity duration-200 text-[var(--text-muted)] whitespace-nowrap">
+              {scene.title}
+            </span>
+
+            {/* Dot with connecting line */}
+            <div className="relative flex items-center">
+              {isActive && (
+                <motion.div
+                  className="absolute -inset-1.5 rounded-full"
+                  style={{ backgroundColor: "var(--text-accent)" }}
+                  initial={{ opacity: 0, scale: 0 }}
+                  animate={{ opacity: 0.15, scale: 1 }}
+                  transition={{ duration: 0.3 }}
+                />
+              )}
+              <motion.div
+                className="relative rounded-full"
+                animate={{
+                  width: isActive ? 10 : 5,
+                  height: isActive ? 10 : 5,
+                  backgroundColor: isActive
+                    ? "var(--text-accent)"
+                    : "var(--text-muted)",
+                  opacity: isActive ? 1 : 0.4,
+                }}
+                transition={{ duration: 0.3 }}
+              />
+            </div>
+          </button>
+        );
+      })}
     </nav>
   );
 }
