@@ -1,0 +1,2 @@
+[console_scripts]
+dialpha = dialpha.__main__:cli

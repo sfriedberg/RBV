@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: dialpha
+Version: 0.1.0
+Summary: Local desktop app: extract deal patterns, score alpha signals, run weekly reports
+Author-email: Stephen Friedberg <stephen@rockbrookventures.com>
+License: MIT
+Requires-Python: >=3.11
+License-File: LICENSE
+Requires-Dist: flask>=3.0
+Requires-Dist: reportlab>=4.0
+Requires-Dist: pandas>=2.2
+Requires-Dist: requests>=2.32
+Requires-Dist: beautifulsoup4>=4.12
+Requires-Dist: apscheduler>=3.10
+Dynamic: license-file

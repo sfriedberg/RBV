@@ -1,0 +1,250 @@
+{"kind":"deck","id":"pr/m1d52b","name":"Deck"}
+{"kind":"layout","layoutId":"fb375132-25a5-4b96-a8df-3a609295b452","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"65e842d4-b055-47cb-ab82-7c5b50fbdde7","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/x9arit","slide":1,"title":"Progress and capital plan","textShapes":6}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":1,"text":"Progress and capital plan","textPreview":"Progress and capital plan","textChars":25,"textLines":1,"bbox":[70,205,790,64]}
+{"kind":"textbox","id":"sh/7y1kre1w","slide":1,"text":"A focused path to extend existing convertible notes, fund the next evidence inflection, and keep DT2216 moving toward meaningful treatment outcomes.","textPreview":"A focused path to extend existing convertible notes, fund the next evidence inflection, and keep DT2216 moving toward meaningful treatmen...","textChars":148,"textLines":1,"bbox":[72,292,880,92]}
+{"kind":"shape","id":"sh/0bi9s36h","slide":1,"bbox":[72,430,168,36]}
+{"kind":"textbox","id":"sh/pwb2hwfy","slide":1,"text":"Confidential","textPreview":"Confidential","textChars":12,"textLines":1,"bbox":[86,439,140,18]}
+{"kind":"shape","id":"sh/i5sneloj","slide":1,"bbox":[256,430,168,36]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":1,"text":"July 2026","textPreview":"July 2026","textChars":9,"textLines":1,"bbox":[270,439,140,18]}
+{"kind":"shape","id":"sh/0z61032l","slide":1,"bbox":[0,600,1280,120]}
+{"kind":"textbox","id":"sh/pkzupwb2","slide":1,"text":"Core message: the extension is justified only if it buys time for specific scientific, clinical, and financing milestones.","textPreview":"Core message: the extension is justified only if it buys time for specific scientific, clinical, and financing milestones.","textChars":122,"textLines":1,"bbox":[72,636,980,38]}
+{"kind":"textbox","id":"sh/cbulwval","slide":1,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[1208,662,48,24]}
+{"kind":"image","id":"im/ovahoza1","slide":1,"name":"","alt":"Dialectic Therapeutics logo","bbox":[70,80,360,74]}
+{"kind":"image","id":"im/2x4nap4r","slide":1,"name":"","alt":"Dialectic Therapeutics logo","bbox":[1010,646,210,42]}
+{"kind":"notes","id":"nt/x9arit","slide":1,"text":"Purpose: noteholder/capital discussion, not a broad scientific review.\nThis deck does not add unsupported claims from the options inventory deck."}
+{"kind":"slide","id":"sl/39h3u0","slide":2,"title":"The case for extension is a milestone bridge","textShapes":11}
+{"kind":"shape","id":"sh/ed8v6psf","slide":2,"bbox":[0,0,1280,86]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":2,"text":"The case for extension is a milestone bridge","textPreview":"The case for extension is a milestone bridge","textChars":44,"textLines":1,"bbox":[64,22,880,44]}
+{"kind":"textbox","id":"sh/wjudg7ad","slide":2,"text":"Noteholders and new capital should see a specific operating plan, not a request for more time.","textPreview":"Noteholders and new capital should see a specific operating plan, not a request for more time.","textChars":94,"textLines":1,"bbox":[66,92,980,34]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":2,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[1208,662,48,24]}
+{"kind":"shape","id":"sh/pwb2hwfy","slide":2,"bbox":[70,162,350,260]}
+{"kind":"shape","id":"sh/0bi9s36h","slide":2,"bbox":[70,162,8,260]}
+{"kind":"textbox","id":"sh/7ed8bat4","slide":2,"text":"What has been de-risked","textPreview":"What has been de-risked","textChars":23,"textLines":1,"bbox":[94,180,306,34]}
+{"kind":"textbox","id":"sh/itgfmlkj","slide":2,"text":"Phase 1a established a recommended Phase 2 dose and showed rapid, sustained BCL-xL degradation at 0.4 mg/kg IV twice weekly. Platelet effects were transient and recovered.","textPreview":"Phase 1a established a recommended Phase 2 dose and showed rapid, sustained BCL-xL degradation at 0.4 mg/kg IV twice weekly. Platelet eff...","textChars":171,"textLines":1,"bbox":[94,224,306,182]}
+{"kind":"shape","id":"sh/cvixczed","slide":2,"bbox":[465,162,350,260]}
+{"kind":"shape","id":"sh/5gbq1ory","slide":2,"bbox":[465,162,8,260]}
+{"kind":"textbox","id":"sh/upwb2hwf","slide":2,"text":"What must be proven next","textPreview":"What must be proven next","textChars":24,"textLines":1,"bbox":[489,180,306,34]}
+{"kind":"textbox","id":"sh/nap4r65w","slide":2,"text":"The ovarian/paclitaxel program must convert preclinical and mechanistic rationale into clinical enrollment, safety, dose, biomarker, and response evidence.","textPreview":"The ovarian/paclitaxel program must convert preclinical and mechanistic rationale into clinical enrollment, safety, dose, biomarker, and ...","textChars":155,"textLines":1,"bbox":[489,224,306,182]}
+{"kind":"shape","id":"sh/cj6tovah","slide":2,"bbox":[860,162,350,260]}
+{"kind":"shape","id":"sh/54zidony","slide":2,"bbox":[860,162,8,260]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":2,"text":"Why capital matters now","textPreview":"Why capital matters now","textChars":23,"textLines":1,"bbox":[884,180,306,34]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":2,"text":"The business needs enough runway to activate the right sites, maintain drug supply and CRO execution, generate translational evidence, and support partner/outside capital discussions.","textPreview":"The business needs enough runway to activate the right sites, maintain drug supply and CRO execution, generate translational evidence, an...","textChars":183,"textLines":1,"bbox":[884,224,306,182]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":2,"text":"Decision standard","textPreview":"Decision standard","textChars":17,"textLines":1,"bbox":[75,474,240,30]}
+{"kind":"textbox","id":"sh/1032lszq","slide":2,"text":"- Extend notes only against a defined milestone plan and reporting cadence.\n- Raise capital around the clearest evidence path, not a broad opportunity inventory.\n- Keep scientific credibility by distinguishing data, hypotheses, and future work.","textPreview":"- Extend notes only against a defined milestone plan and reporting cadence. | - Raise capital around the clearest evidence path, not a br...","textChars":244,"textLines":3,"bbox":[78,512,1030,122]}
+{"kind":"image","id":"im/u9knih4b","slide":2,"name":"","alt":"Dialectic Therapeutics logo","bbox":[1010,646,210,42]}
+{"kind":"notes","id":"nt/39h3u0","slide":2,"text":"Source: DT2216 Phase 1a paper; prior Dialectic v4 deck; site expansion board package.\nThe visible language intentionally avoids a blank-check extension framing."}
+{"kind":"slide","id":"sl/wu6qq7","slide":3,"title":"DT2216 addresses a validated target problem","textShapes":10}
+{"kind":"shape","id":"sh/tgfmlkjm","slide":3,"bbox":[0,0,1280,86]}
+{"kind":"textbox","id":"sh/mp0bi9s3","slide":3,"text":"DT2216 addresses a validated target problem","textPreview":"DT2216 addresses a validated target problem","textChars":43,"textLines":1,"bbox":[64,22,880,44]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":3,"text":"The target was not the failure; platelet toxicity constrained the prior modality.","textPreview":"The target was not the failure; platelet toxicity constrained the prior modality.","textChars":81,"textLines":1,"bbox":[66,92,980,34]}
+{"kind":"textbox","id":"sh/tsvu9kni","slide":3,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[1208,662,48,24]}
+{"kind":"shape","id":"sh/m1cfa9w3","slide":3,"bbox":[80,158,330,260]}
+{"kind":"shape","id":"sh/bm58z25k","slide":3,"bbox":[80,158,8,260]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":3,"text":"The biological problem","textPreview":"The biological problem","textChars":22,"textLines":1,"bbox":[104,176,286,34]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":3,"text":"BCL-xL helps cancer cells evade apoptosis and has been one of the most validated survival targets in oncology. Direct inhibition also affects platelets.","textPreview":"BCL-xL helps cancer cells evade apoptosis and has been one of the most validated survival targets in oncology. Direct inhibition also aff...","textChars":152,"textLines":1,"bbox":[104,220,286,182]}
+{"kind":"shape","id":"sh/1cfa9w3m","slide":3,"bbox":[475,158,330,260]}
+{"kind":"shape","id":"sh/crmhk3q5","slide":3,"bbox":[475,158,8,260]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":3,"text":"Dialectic's approach","textPreview":"Dialectic's approach","textChars":20,"textLines":1,"bbox":[499,176,286,34]}
+{"kind":"textbox","id":"sh/ulwval87","slide":3,"text":"DT2216 is a VHL-recruiting BCL-xL degrader intended to separate tumor-cell degradation from platelet exposure because VHL is minimally expressed in platelets.","textPreview":"DT2216 is a VHL-recruiting BCL-xL degrader intended to separate tumor-cell degradation from platelet exposure because VHL is minimally ex...","textChars":158,"textLines":1,"bbox":[499,220,286,182]}
+{"kind":"shape","id":"sh/1kre1w7m","slide":3,"bbox":[870,158,330,260]}
+{"kind":"shape","id":"sh/c3ylc7u5","slide":3,"bbox":[870,158,8,260]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":3,"text":"Why this can matter clinically","textPreview":"Why this can matter clinically","textChars":30,"textLines":1,"bbox":[894,176,286,34]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":3,"text":"If the therapeutic window holds in combinations, DT2216 could make established cancer therapies more effective by re-sensitizing resistant tumors to cell death.","textPreview":"If the therapeutic window holds in combinations, DT2216 could make established cancer therapies more effective by re-sensitizing resistan...","textChars":160,"textLines":1,"bbox":[894,220,286,182]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":3,"text":"Use this as the scientific spine of the capital story. Cut unsupported antiviral or anti-aging claims from the main deck until the rationale and data are ready.","textPreview":"Use this as the scientific spine of the capital story. Cut unsupported antiviral or anti-aging claims from the main deck until the ration...","textChars":160,"textLines":1,"bbox":[90,480,1040,62]}
+{"kind":"image","id":"im/1kre1w7m","slide":3,"name":"","alt":"Dialectic Therapeutics logo","bbox":[1010,646,210,42]}
+{"kind":"notes","id":"nt/wu6qq7","slide":3,"text":"Source: Khan et al., Nature Medicine 2019 / PubMed 31792461; Dialectic website.\nAvoid overclaiming senolytic, HBV/HIV, or anti-aging until evidence is available."}
+{"kind":"slide","id":"sl/p5xbv4","slide":4,"title":"Phase 1a gives the foundation to keep advancing","textShapes":10}
+{"kind":"shape","id":"sh/72x4nap4","slide":4,"bbox":[0,0,1280,86]}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":4,"text":"Phase 1a gives the foundation to keep advancing","textPreview":"Phase 1a gives the foundation to keep advancing","textChars":47,"textLines":1,"bbox":[64,22,880,44]}
+{"kind":"textbox","id":"sh/p8nqxs72","slide":4,"text":"The near-term capital ask should point to the next data package, not restart the story.","textPreview":"The near-term capital ask should point to the next data package, not restart the story.","textChars":87,"textLines":1,"bbox":[66,92,980,34]}
+{"kind":"textbox","id":"sh/7ed8bat4","slide":4,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[1208,662,48,24]}
+{"kind":"shape","id":"sh/0z61032l","slide":4,"bbox":[80,160,330,230]}
+{"kind":"shape","id":"sh/pkzupwb2","slide":4,"bbox":[80,160,8,230]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":4,"text":"Dose foundation","textPreview":"Dose foundation","textChars":15,"textLines":1,"bbox":[104,178,286,34]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":4,"text":"RP2D: 0.4 mg/kg IV twice weekly in a first-in-human dose escalation study of relapsed/refractory solid malignancies.","textPreview":"RP2D: 0.4 mg/kg IV twice weekly in a first-in-human dose escalation study of relapsed/refractory solid malignancies.","textChars":116,"textLines":1,"bbox":[104,222,286,152]}
+{"kind":"shape","id":"sh/fu18jqh0","slide":4,"bbox":[475,160,330,230]}
+{"kind":"shape","id":"sh/m94fu18j","slide":4,"bbox":[475,160,8,230]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":4,"text":"Safety foundation","textPreview":"Safety foundation","textChars":17,"textLines":1,"bbox":[499,178,286,34]}
+{"kind":"textbox","id":"sh/4fu18jqh","slide":4,"text":"Transient thrombocytopenia recovered rapidly; no treatment-emergent adverse events leading to death were reported in the Phase 1a publication.","textPreview":"Transient thrombocytopenia recovered rapidly; no treatment-emergent adverse events leading to death were reported in the Phase 1a publica...","textChars":142,"textLines":1,"bbox":[499,222,286,152]}
+{"kind":"shape","id":"sh/fil0rqd4","slide":4,"bbox":[870,160,330,230]}
+{"kind":"shape","id":"sh/qxs72x4n","slide":4,"bbox":[870,160,8,230]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":4,"text":"PD foundation","textPreview":"PD foundation","textChars":13,"textLines":1,"bbox":[894,178,286,34]}
+{"kind":"textbox","id":"sh/83itgfml","slide":4,"text":"Patients at 0.4 mg/kg demonstrated rapid and sustained BCL-xL degradation in peripheral leukocytes.","textPreview":"Patients at 0.4 mg/kg demonstrated rapid and sustained BCL-xL degradation in peripheral leukocytes.","textChars":99,"textLines":1,"bbox":[894,222,286,152]}
+{"kind":"shape","id":"sh/fepkzupw","slide":4,"bbox":[80,440,1120,90]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":4,"text":"Implication for noteholders: the next dollar should fund clinical translation from dose/safety/PD foundation into site activation, enrollment, biomarker readout, and response signal.","textPreview":"Implication for noteholders: the next dollar should fund clinical translation from dose/safety/PD foundation into site activation, enroll...","textChars":182,"textLines":1,"bbox":[110,464,1060,40]}
+{"kind":"image","id":"im/f6dcbulw","slide":4,"name":"","alt":"Dialectic Therapeutics logo","bbox":[1010,646,210,42]}
+{"kind":"notes","id":"nt/p5xbv4","slide":4,"text":"Source: Mahadevan et al., Journal of Hematology & Oncology 2025; PMC12613848.\nUse as a source-backed progress slide."}
+{"kind":"slide","id":"sl/4hwegf","slide":5,"title":"Ovarian + paclitaxel is the lead value-creation path","textShapes":11}
+{"kind":"shape","id":"sh/1orytsvu","slide":5,"bbox":[0,0,1280,86]}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":5,"text":"Ovarian + paclitaxel is the lead value-creation path","textPreview":"Ovarian + paclitaxel is the lead value-creation path","textChars":52,"textLines":1,"bbox":[64,22,880,44]}
+{"kind":"textbox","id":"sh/jm1cfa9w","slide":5,"text":"This is the clearest clinical story for treatment outcomes and financing progress.","textPreview":"This is the clearest clinical story for treatment outcomes and financing progress.","textChars":82,"textLines":1,"bbox":[66,92,980,34]}
+{"kind":"textbox","id":"sh/1032lszq","slide":5,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1208,662,48,24]}
+{"kind":"shape","id":"sh/u9knih4b","slide":5,"bbox":[80,150,350,210]}
+{"kind":"shape","id":"sh/judg7ads","slide":5,"bbox":[80,150,8,210]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":5,"text":"Why ovarian","textPreview":"Why ovarian","textChars":11,"textLines":1,"bbox":[104,168,306,34]}
+{"kind":"textbox","id":"sh/54zidony","slide":5,"text":"High-grade serous ovarian cancer has strong apoptosis biology relevance and a continuing need for better options in platinum-resistant disease.","textPreview":"High-grade serous ovarian cancer has strong apoptosis biology relevance and a continuing need for better options in platinum-resistant di...","textChars":143,"textLines":1,"bbox":[104,212,306,132]}
+{"kind":"shape","id":"sh/t47y1kre","slide":5,"bbox":[465,150,350,210]}
+{"kind":"shape","id":"sh/0je9cvix","slide":5,"bbox":[465,150,8,210]}
+{"kind":"textbox","id":"sh/byhgn29g","slide":5,"text":"Why paclitaxel","textPreview":"Why paclitaxel","textChars":14,"textLines":1,"bbox":[489,168,306,34]}
+{"kind":"textbox","id":"sh/idonyd0z","slide":5,"text":"Mitotic arrest can increase dependence on BCL-xL-mediated survival pathways. DT2216 is positioned to pair with this vulnerability.","textPreview":"Mitotic arrest can increase dependence on BCL-xL-mediated survival pathways. DT2216 is positioned to pair with this vulnerability.","textChars":130,"textLines":1,"bbox":[489,212,306,132]}
+{"kind":"shape","id":"sh/tcj6tova","slide":5,"bbox":[850,150,350,210]}
+{"kind":"shape","id":"sh/0rqd4vmt","slide":5,"bbox":[850,150,8,210]}
+{"kind":"textbox","id":"sh/b6xkf6dc","slide":5,"text":"Why now","textPreview":"Why now","textChars":7,"textLines":1,"bbox":[874,168,306,34]}
+{"kind":"textbox","id":"sh/il0rqd4v","slide":5,"text":"The active DT2216 + paclitaxel study is designed to establish safety, tolerability, and recommended dosing in recurrent ovarian cancer.","textPreview":"The active DT2216 + paclitaxel study is designed to establish safety, tolerability, and recommended dosing in recurrent ovarian cancer.","textChars":135,"textLines":1,"bbox":[874,212,306,132]}
+{"kind":"textbox","id":"sh/tovahoza","slide":5,"text":"Operating focus","textPreview":"Operating focus","textChars":15,"textLines":1,"bbox":[80,410,240,30]}
+{"kind":"textbox","id":"sh/032lszqt","slide":5,"text":"- Keep ovarian/paclitaxel as the main financing narrative.\n- Use OVCAR3 and DF83 preclinical material as support, clearly labeled as company/unpublished where applicable.\n- Treat KRAS, SERD, ADC/topo-I, PARP, and senolytic paths as optional follow-on hypotheses unless data supports prioritization.","textPreview":"- Keep ovarian/paclitaxel as the main financing narrative. | - Use OVCAR3 and DF83 preclinical material as support, clearly labeled as co...","textChars":298,"textLines":3,"bbox":[84,450,1080,122]}
+{"kind":"image","id":"im/9w3m94fu","slide":5,"name":"","alt":"Dialectic Therapeutics logo","bbox":[1010,646,210,42]}
+{"kind":"notes","id":"nt/4hwegf","slide":5,"text":"Sources: Dana-Farber trial page 25-076; ClinicalTrials.gov NCT06964009; prior Dialectic v4 deck.\nVisible slide avoids quoting unpublished tumor regression values as independently verified."}
+{"kind":"slide","id":"sl/v7y8ft","slide":6,"title":"Enrollment is the operating story","textShapes":23}
+{"kind":"shape","id":"sh/mhk3q5o7","slide":6,"bbox":[0,0,1280,86]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":6,"text":"Enrollment is the operating story","textPreview":"Enrollment is the operating story","textChars":33,"textLines":1,"bbox":[64,22,880,44]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":6,"text":"A credible extension plan must show how Dialectic will improve trial execution, not just scientific optionality.","textPreview":"A credible extension plan must show how Dialectic will improve trial execution, not just scientific optionality.","textChars":112,"textLines":1,"bbox":[66,92,980,34]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":6,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[1208,662,48,24]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":6,"text":"First-wave academic outreach","textPreview":"First-wave academic outreach","textChars":28,"textLines":1,"bbox":[74,148,420,32]}
+{"kind":"shape","id":"sh/4byhgn29","slide":6,"bbox":[80,198,500,48]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":6,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[96,210,28,20]}
+{"kind":"textbox","id":"sh/m1cfa9w3","slide":6,"text":"UPMC Magee / Hillman","textPreview":"UPMC Magee / Hillman","textChars":20,"textLines":1,"bbox":[135,206,190,18]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":6,"text":"Strongest public ovarian-specific volume support","textPreview":"Strongest public ovarian-specific volume support","textChars":48,"textLines":1,"bbox":[338,206,220,24]}
+{"kind":"shape","id":"sh/1032lszq","slide":6,"bbox":[80,262,500,48]}
+{"kind":"textbox","id":"sh/u9knih4b","slide":6,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[96,274,28,20]}
+{"kind":"textbox","id":"sh/judg7ads","slide":6,"text":"Moffitt","textPreview":"Moffitt","textChars":7,"textLines":1,"bbox":[135,270,190,18]}
+{"kind":"textbox","id":"sh/c7u54zid","slide":6,"text":"Clean low-competition directional screen","textPreview":"Clean low-competition directional screen","textChars":40,"textLines":1,"bbox":[338,270,220,24]}
+{"kind":"shape","id":"sh/1orytsvu","slide":6,"bbox":[80,326,500,48]}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":6,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[96,338,28,20]}
+{"kind":"textbox","id":"sh/jm1cfa9w","slide":6,"text":"Yale / Smilow","textPreview":"Yale / Smilow","textChars":13,"textLines":1,"bbox":[135,334,190,18]}
+{"kind":"textbox","id":"sh/cvixczed","slide":6,"text":"Ovarian-specific referral base","textPreview":"Ovarian-specific referral base","textChars":30,"textLines":1,"bbox":[338,334,220,24]}
+{"kind":"shape","id":"sh/5gbq1ory","slide":6,"bbox":[80,390,500,48]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":6,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[96,402,28,20]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":6,"text":"UT Southwestern","textPreview":"UT Southwestern","textChars":15,"textLines":1,"bbox":[135,398,190,18]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":6,"text":"Texas logistics plus gyn-oncology scale","textPreview":"Texas logistics plus gyn-oncology scale","textChars":39,"textLines":1,"bbox":[338,398,220,24]}
+{"kind":"shape","id":"sh/yd0z6103","slide":6,"bbox":[80,454,500,48]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":6,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[96,466,28,20]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":6,"text":"Johns Hopkins","textPreview":"Johns Hopkins","textChars":13,"textLines":1,"bbox":[135,462,190,18]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":6,"text":"Large sophisticated gyn-oncology platform","textPreview":"Large sophisticated gyn-oncology platform","textChars":41,"textLines":1,"bbox":[338,462,220,24]}
+{"kind":"shape","id":"sh/y1kre1w7","slide":6,"bbox":[655,168,470,230]}
+{"kind":"shape","id":"sh/5o7qpg3e","slide":6,"bbox":[655,168,8,230]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":6,"text":"Feasibility gates","textPreview":"Feasibility gates","textChars":17,"textLines":1,"bbox":[679,186,426,34]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":6,"text":"For each site: treated PROC patients in the last 12 months, eligible patients under current criteria, active competing trials, prior PROC enrollment, lead PI ownership, and realistic CDA-to-activation timing.","textPreview":"For each site: treated PROC patients in the last 12 months, eligible patients under current criteria, active competing trials, prior PROC...","textChars":208,"textLines":1,"bbox":[679,230,426,152]}
+{"kind":"shape","id":"sh/3ylc7u54","slide":6,"bbox":[655,432,470,160]}
+{"kind":"shape","id":"sh/sji5snel","slide":6,"bbox":[655,432,8,160]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":6,"text":"Community network track","textPreview":"Community network track","textChars":23,"textLines":1,"bbox":[679,450,426,34]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":6,"text":"Run a separate feasibility path for Texas Oncology, Sarah Cannon, Mays, West Cancer Center, and Florida Cancer Specialists. Do not mix network-scale metrics with ovarian-specific site volume.","textPreview":"Run a separate feasibility path for Texas Oncology, Sarah Cannon, Mays, West Cancer Center, and Florida Cancer Specialists. Do not mix ne...","textChars":191,"textLines":1,"bbox":[679,494,426,82]}
+{"kind":"image","id":"im/6dcbulwv","slide":6,"name":"","alt":"Dialectic Therapeutics logo","bbox":[1010,646,210,42]}
+{"kind":"notes","id":"nt/v7y8ft","slide":6,"text":"Source: DT2216 site expansion board package dated April 2, 2026.\nAll public-volume figures should remain labeled by evidence type."}
+{"kind":"slide","id":"sl/x401s9","slide":7,"title":"Partnership should fund evidence, not distract from it","textShapes":11}
+{"kind":"shape","id":"sh/za1gvy90","slide":7,"bbox":[0,0,1280,86]}
+{"kind":"textbox","id":"sh/svu9knih","slide":7,"text":"Partnership should fund evidence, not distract from it","textPreview":"Partnership should fund evidence, not distract from it","textChars":54,"textLines":1,"bbox":[64,22,880,44]}
+{"kind":"textbox","id":"sh/hgn29gr2","slide":7,"text":"The options inventory becomes useful only after it is filtered into a few executable BD paths.","textPreview":"The options inventory becomes useful only after it is filtered into a few executable BD paths.","textChars":94,"textLines":1,"bbox":[66,92,980,34]}
+{"kind":"textbox","id":"sh/zidonyd0","slide":7,"text":"7","textPreview":"7","textChars":1,"textLines":1,"bbox":[1208,662,48,24]}
+{"kind":"shape","id":"sh/s36hcrmh","slide":7,"bbox":[80,160,340,230]}
+{"kind":"shape","id":"sh/hoza1gvy","slide":7,"bbox":[80,160,8,230]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":7,"text":"Primary partner ask","textPreview":"Primary partner ask","textChars":19,"textLines":1,"bbox":[104,178,296,34]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":7,"text":"Co-sponsor or fund a focused DT2216 combination study, with Dialectic providing asset expertise, protocol input, and translational rationale.","textPreview":"Co-sponsor or fund a focused DT2216 combination study, with Dialectic providing asset expertise, protocol input, and translational ration...","textChars":141,"textLines":1,"bbox":[104,222,296,152]}
+{"kind":"shape","id":"sh/zidonyd0","slide":7,"bbox":[470,160,340,230]}
+{"kind":"shape","id":"sh/a1gvy90j","slide":7,"bbox":[470,160,8,230]}
+{"kind":"textbox","id":"sh/hoza1gvy","slide":7,"text":"Lower-risk alternative","textPreview":"Lower-risk alternative","textChars":22,"textLines":1,"bbox":[494,178,296,34]}
+{"kind":"textbox","id":"sh/s36hcrmh","slide":7,"text":"Fund a translational/preclinical combination package under CDA, with pre-agreed gates for a clinical collaboration if data clears threshold.","textPreview":"Fund a translational/preclinical combination package under CDA, with pre-agreed gates for a clinical collaboration if data clears threshold.","textChars":140,"textLines":1,"bbox":[494,222,296,152]}
+{"kind":"shape","id":"sh/za1gvy90","slide":7,"bbox":[860,160,340,230]}
+{"kind":"shape","id":"sh/ap4r65wj","slide":7,"bbox":[860,160,8,230]}
+{"kind":"textbox","id":"sh/hgn29gr2","slide":7,"text":"Capital-process use","textPreview":"Capital-process use","textChars":19,"textLines":1,"bbox":[884,178,296,34]}
+{"kind":"textbox","id":"sh/svu9knih","slide":7,"text":"Use credible pharma/VC discussions to validate the next financing, not to create a long list of speculative outreach targets.","textPreview":"Use credible pharma/VC discussions to validate the next financing, not to create a long list of speculative outreach targets.","textChars":125,"textLines":1,"bbox":[884,222,296,152]}
+{"kind":"textbox","id":"sh/3ylc7u54","slide":7,"text":"Near-term BD discipline","textPreview":"Near-term BD discipline","textChars":23,"textLines":1,"bbox":[84,448,330,30]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":7,"text":"- Prioritize targets that match the ovarian/paclitaxel or apoptosis-resistance thesis.\n- Prepare a CDA-ready data room: Phase 1a paper, active trial plan, site strategy, IP summary, and translational evidence package.\n- Keep broad areas such as KRAS, SERD, ADC/topo-I, PARP, and senolytics as ranked hypotheses, not the main deck.","textPreview":"- Prioritize targets that match the ovarian/paclitaxel or apoptosis-resistance thesis. | - Prepare a CDA-ready data room: Phase 1a paper,...","textChars":330,"textLines":3,"bbox":[88,486,1040,122]}
+{"kind":"image","id":"im/7ed8bat4","slide":7,"name":"","alt":"Dialectic Therapeutics logo","bbox":[1010,646,210,42]}
+{"kind":"notes","id":"nt/x401s9","slide":7,"text":"Source: Menarini conversation recommendations; Investor Presentation Options_v2 review."}
+{"kind":"slide","id":"sl/dxojyb","slide":8,"title":"Use of extension and new capital","textShapes":16}
+{"kind":"shape","id":"sh/o7qpg3ex","slide":8,"bbox":[0,0,1280,86]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":8,"text":"Use of extension and new capital","textPreview":"Use of extension and new capital","textChars":32,"textLines":1,"bbox":[64,22,880,44]}
+{"kind":"textbox","id":"sh/61032lsz","slide":8,"text":"Every dollar should map to a milestone that improves the probability of treatment success or financing success.","textPreview":"Every dollar should map to a milestone that improves the probability of treatment success or financing success.","textChars":111,"textLines":1,"bbox":[66,92,980,34]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":8,"text":"8","textPreview":"8","textChars":1,"textLines":1,"bbox":[1208,662,48,24]}
+{"kind":"shape","id":"sh/vy90je9c","slide":8,"bbox":[90,155,470,92]}
+{"kind":"shape","id":"sh/6dcbulwv","slide":8,"bbox":[90,155,8,92]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":8,"text":"Clinical operations","textPreview":"Clinical operations","textChars":19,"textLines":1,"bbox":[114,173,426,34]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":8,"text":"Keep DT2216 + paclitaxel trial active, clean, and enrollable","textPreview":"Keep DT2216 + paclitaxel trial active, clean, and enrollable","textChars":60,"textLines":1,"bbox":[114,217,426,14]}
+{"kind":"shape","id":"sh/epkzupwb","slide":8,"bbox":[90,280,470,92]}
+{"kind":"shape","id":"sh/7adsji5s","slide":8,"bbox":[90,280,8,92]}
+{"kind":"textbox","id":"sh/wval87ed","slide":8,"text":"Site expansion","textPreview":"Site expansion","textChars":14,"textLines":1,"bbox":[114,298,426,34]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":8,"text":"Activate highest-yield academic and community paths","textPreview":"Activate highest-yield academic and community paths","textChars":51,"textLines":1,"bbox":[114,342,426,14]}
+{"kind":"shape","id":"sh/e1w7mp0b","slide":8,"bbox":[90,405,470,92]}
+{"kind":"shape","id":"sh/7mp0bi9s","slide":8,"bbox":[90,405,8,92]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":8,"text":"Drug supply / CRO","textPreview":"Drug supply / CRO","textChars":17,"textLines":1,"bbox":[114,423,426,34]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":8,"text":"Protect dosing schedule, monitoring, data capture, and vendor continuity","textPreview":"Protect dosing schedule, monitoring, data capture, and vendor continuity","textChars":72,"textLines":1,"bbox":[114,467,426,14]}
+{"kind":"shape","id":"sh/ed8bat47","slide":8,"bbox":[665,155,470,92]}
+{"kind":"shape","id":"sh/7u54zido","slide":8,"bbox":[665,155,8,92]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":8,"text":"Translational package","textPreview":"Translational package","textChars":21,"textLines":1,"bbox":[689,173,426,34]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":8,"text":"Link mechanism, biomarker, safety, and response evidence","textPreview":"Link mechanism, biomarker, safety, and response evidence","textChars":56,"textLines":1,"bbox":[689,217,426,14]}
+{"kind":"shape","id":"sh/d4vmtwra","slide":8,"bbox":[665,280,470,92]}
+{"kind":"shape","id":"sh/oj2t83it","slide":8,"bbox":[665,280,8,92]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":8,"text":"BD / capital process","textPreview":"BD / capital process","textChars":20,"textLines":1,"bbox":[689,298,426,34]}
+{"kind":"textbox","id":"sh/61032lsz","slide":8,"text":"Convert progress into partner and investor diligence","textPreview":"Convert progress into partner and investor diligence","textChars":52,"textLines":1,"bbox":[689,342,426,14]}
+{"kind":"shape","id":"sh/dsji5sne","slide":8,"bbox":[665,405,470,92]}
+{"kind":"shape","id":"sh/o7qpg3ex","slide":8,"bbox":[665,405,8,92]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":8,"text":"Governance cadence","textPreview":"Governance cadence","textChars":18,"textLines":1,"bbox":[689,423,426,34]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":8,"text":"Monthly milestone reporting to noteholders and board","textPreview":"Monthly milestone reporting to noteholders and board","textChars":52,"textLines":1,"bbox":[689,467,426,14]}
+{"kind":"shape","id":"sh/gr2p8nqx","slide":8,"bbox":[90,560,1040,58]}
+{"kind":"textbox","id":"sh/9cvixcze","slide":8,"text":"If a spend item does not advance trial execution, evidence generation, or financing readiness, it should not be part of the extension budget.","textPreview":"If a spend item does not advance trial execution, evidence generation, or financing readiness, it should not be part of the extension bud...","textChars":141,"textLines":1,"bbox":[116,576,990,26]}
+{"kind":"image","id":"im/gbq1oryt","slide":8,"name":"","alt":"Dialectic Therapeutics logo","bbox":[1010,646,210,42]}
+{"kind":"notes","id":"nt/dxojyb","slide":8,"text":"Amounts and maturity dates are intentionally left TBD pending company confirmation.\nThis slide is designed to be populated with the actual note-extension budget."}
+{"kind":"slide","id":"sl/k6i2w4","slide":9,"title":"Milestone plan for noteholders and new investors","textShapes":11}
+{"kind":"shape","id":"sh/9gr2p8nq","slide":9,"bbox":[0,0,1280,86]}
+{"kind":"textbox","id":"sh/2p8nqxs7","slide":9,"text":"Milestone plan for noteholders and new investors","textPreview":"Milestone plan for noteholders and new investors","textChars":48,"textLines":1,"bbox":[64,22,880,44]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":9,"text":"A note extension should buy a defined sequence of progress.","textPreview":"A note extension should buy a defined sequence of progress.","textChars":59,"textLines":1,"bbox":[66,92,980,34]}
+{"kind":"textbox","id":"sh/94fu18jq","slide":9,"text":"9","textPreview":"9","textChars":1,"textLines":1,"bbox":[1208,662,48,24]}
+{"kind":"shape","id":"sh/2hwfyxob","slide":9,"bbox":[80,160,330,300]}
+{"kind":"shape","id":"sh/r2p8nqxs","slide":9,"bbox":[80,160,8,300]}
+{"kind":"textbox","id":"sh/kb6xkf6d","slide":9,"text":"0-90 days","textPreview":"0-90 days","textChars":9,"textLines":1,"bbox":[104,178,286,34]}
+{"kind":"textbox","id":"sh/9w3m94fu","slide":9,"text":"Lock budget, note-extension terms, trial operating dashboard, site feasibility list, data-room index, and partner outreach sequence.","textPreview":"Lock budget, note-extension terms, trial operating dashboard, site feasibility list, data-room index, and partner outreach sequence.","textChars":132,"textLines":1,"bbox":[104,222,286,222]}
+{"kind":"shape","id":"sh/xczed8v6","slide":9,"bbox":[475,160,330,300]}
+{"kind":"shape","id":"sh/8v6psfil","slide":9,"bbox":[475,160,8,300]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":9,"text":"3-6 months","textPreview":"3-6 months","textChars":10,"textLines":1,"bbox":[499,178,286,34]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":9,"text":"Show site activation movement, enrollment funnel, safety/PK/PD reporting, biomarker workplan, and first CDA-enabled BD feedback.","textPreview":"Show site activation movement, enrollment funnel, safety/PK/PD reporting, biomarker workplan, and first CDA-enabled BD feedback.","textChars":128,"textLines":1,"bbox":[499,222,286,222]}
+{"kind":"shape","id":"sh/x4nap4r6","slide":9,"bbox":[870,160,330,300]}
+{"kind":"shape","id":"sh/8jqh0fep","slide":9,"bbox":[870,160,8,300]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":9,"text":"6-12 months","textPreview":"6-12 months","textChars":11,"textLines":1,"bbox":[894,178,286,34]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":9,"text":"Deliver a credible interim package: enrollment progress, tolerability, target degradation, response/readout status, partner feedback, and next financing path.","textPreview":"Deliver a credible interim package: enrollment progress, tolerability, target degradation, response/readout status, partner feedback, and...","textChars":158,"textLines":1,"bbox":[894,222,286,222]}
+{"kind":"textbox","id":"sh/xs72x4na","slide":9,"text":"Reporting cadence","textPreview":"Reporting cadence","textChars":17,"textLines":1,"bbox":[86,518,260,28]}
+{"kind":"textbox","id":"sh/87ed8bat","slide":9,"text":"- Monthly noteholder/board dashboard: cash, trial activity, site activation, safety, enrollment, BD, and blockers.\n- Quarterly scientific update: what was learned, what changed, and what decision it supports.","textPreview":"- Monthly noteholder/board dashboard: cash, trial activity, site activation, safety, enrollment, BD, and blockers. | - Quarterly scientif...","textChars":208,"textLines":2,"bbox":[88,554,1030,88]}
+{"kind":"image","id":"im/d4vmtwra","slide":9,"name":"","alt":"Dialectic Therapeutics logo","bbox":[1010,646,210,42]}
+{"kind":"notes","id":"nt/k6i2w4","slide":9,"text":"This slide should be finalized with actual dates, cash runway, and maturity extension terms."}
+{"kind":"slide","id":"sl/497nl8","slide":10,"title":"The ask: extend notes to reach the next evidence inflection","textShapes":10}
+{"kind":"shape","id":"sh/8jqh0fep","slide":10,"bbox":[0,0,1280,86]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":10,"text":"The ask: extend notes to reach the next evidence inflection","textPreview":"The ask: extend notes to reach the next evidence inflection","textChars":59,"textLines":1,"bbox":[64,22,880,44]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":10,"text":"The financing story is credible only if the company commits to a narrow, measurable plan.","textPreview":"The financing story is credible only if the company commits to a narrow, measurable plan.","textChars":89,"textLines":1,"bbox":[66,92,980,34]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1208,662,48,24]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":10,"text":"Proposed framing for noteholders","textPreview":"Proposed framing for noteholders","textChars":32,"textLines":1,"bbox":[78,150,500,34]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":10,"text":"- Extend existing convertible notes to preserve the DT2216 clinical program through the next evidence-generating period.\n- Raise incremental capital to fund trial execution, site expansion, drug supply, translational work, and capital/BD process.\n- Commit to milestone-based reporting so noteholders can see whether time is converting into clinical and financing progress.","textPreview":"- Extend existing convertible notes to preserve the DT2216 clinical program through the next evidence-generating period. | - Raise increm...","textChars":372,"textLines":3,"bbox":[82,198,640,122]}
+{"kind":"shape","id":"sh/1gvy90je","slide":10,"bbox":[760,160,380,150]}
+{"kind":"shape","id":"sh/8z25kb6x","slide":10,"bbox":[760,160,8,150]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":10,"text":"What success should look like","textPreview":"What success should look like","textChars":29,"textLines":1,"bbox":[784,178,336,34]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":10,"text":"A cleaner evidence package that can support treatment-outcome confidence, partner diligence, and a priced financing discussion.","textPreview":"A cleaner evidence package that can support treatment-outcome confidence, partner diligence, and a priced financing discussion.","textChars":127,"textLines":1,"bbox":[784,222,336,72]}
+{"kind":"shape","id":"sh/sfil0rqd","slide":10,"bbox":[760,340,380,150]}
+{"kind":"shape","id":"sh/h0fepkzu","slide":10,"bbox":[760,340,8,150]}
+{"kind":"textbox","id":"sh/al87ed8b","slide":10,"text":"What must be avoided","textPreview":"What must be avoided","textChars":20,"textLines":1,"bbox":[784,358,336,34]}
+{"kind":"textbox","id":"sh/z61032ls","slide":10,"text":"A diffuse story that asks for time while chasing every possible combo, investor, and indication without prioritization.","textPreview":"A diffuse story that asks for time while chasing every possible combo, investor, and indication without prioritization.","textChars":119,"textLines":1,"bbox":[784,402,336,72]}
+{"kind":"shape","id":"sh/orytsvu9","slide":10,"bbox":[80,570,1060,54]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":10,"text":"Capital should buy proof: safety, enrollment, biomarker, response, partner interest, and a financeable next step.","textPreview":"Capital should buy proof: safety, enrollment, biomarker, response, partner interest, and a financeable next step.","textChars":113,"textLines":1,"bbox":[106,586,1010,22]}
+{"kind":"image","id":"im/8v6psfil","slide":10,"name":"","alt":"Dialectic Therapeutics logo","bbox":[1010,646,210,42]}
+{"kind":"notes","id":"nt/497nl8","slide":10,"text":"Fill in actual ask: maturity extension, conversion mechanics, bridge amount, investor rights, and reporting terms."}
+{"kind":"slide","id":"sl/t5fs92","slide":11,"title":"Appendix: how to use the old options inventory","textShapes":11}
+{"kind":"shape","id":"sh/z25kb6xk","slide":11,"bbox":[0,0,1280,86]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":11,"text":"Appendix: how to use the old options inventory","textPreview":"Appendix: how to use the old options inventory","textChars":46,"textLines":1,"bbox":[64,22,880,44]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":11,"text":"The prior deck is useful as a research backlog, not as the main external story.","textPreview":"The prior deck is useful as a research backlog, not as the main external story.","textChars":79,"textLines":1,"bbox":[66,92,980,34]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1208,662,48,24]}
+{"kind":"shape","id":"sh/ovahoza1","slide":11,"bbox":[80,158,340,220]}
+{"kind":"shape","id":"sh/dg7adsji","slide":11,"bbox":[80,158,8,220]}
+{"kind":"textbox","id":"sh/61032lsz","slide":11,"text":"Main deck now","textPreview":"Main deck now","textChars":13,"textLines":1,"bbox":[104,176,296,34]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":11,"text":"DT2216 mechanism, Phase 1a foundation, ovarian/paclitaxel clinical path, site activation, use of funds, noteholder ask.","textPreview":"DT2216 mechanism, Phase 1a foundation, ovarian/paclitaxel clinical path, site activation, use of funds, noteholder ask.","textChars":119,"textLines":1,"bbox":[104,220,296,142]}
+{"kind":"shape","id":"sh/b2hwfyxo","slide":11,"bbox":[470,158,340,220]}
+{"kind":"shape","id":"sh/mhk3q5o7","slide":11,"bbox":[470,158,8,220]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":11,"text":"Appendix only","textPreview":"Appendix only","textChars":13,"textLines":1,"bbox":[494,176,296,34]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":11,"text":"PI3K/mTOR, PARP, CDK4/6, KRAS/RAS, SERD, ADC/topo-I, Aurora A, and senolytic/longevity opportunity maps.","textPreview":"PI3K/mTOR, PARP, CDK4/6, KRAS/RAS, SERD, ADC/topo-I, Aurora A, and senolytic/longevity opportunity maps.","textChars":104,"textLines":1,"bbox":[494,220,296,142]}
+{"kind":"shape","id":"sh/bq1oryts","slide":11,"bbox":[860,158,340,220]}
+{"kind":"shape","id":"sh/m58z25kb","slide":11,"bbox":[860,158,8,220]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":11,"text":"Remove until proven","textPreview":"Remove until proven","textChars":19,"textLines":1,"bbox":[884,176,296,34]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":11,"text":"HBV/HIV antiviral, CAR-T pretreatment, and anti-aging claims unless the scientific rationale and evidence package are written and sourced.","textPreview":"HBV/HIV antiviral, CAR-T pretreatment, and anti-aging claims unless the scientific rationale and evidence package are written and sourced.","textChars":138,"textLines":1,"bbox":[884,220,296,142]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":11,"text":"Prioritization rule","textPreview":"Prioritization rule","textChars":19,"textLines":1,"bbox":[84,442,280,30]}
+{"kind":"textbox","id":"sh/m1cfa9w3","slide":11,"text":"- A path belongs in the deck only if it has a mechanism, patient population, evidence level, sponsor/investor fit, and next action.\n- Speculative paths should be tracked in a separate BD workbook or appendix, not in the capital ask.","textPreview":"- A path belongs in the deck only if it has a mechanism, patient population, evidence level, sponsor/investor fit, and next action. | - S...","textChars":232,"textLines":2,"bbox":[88,480,1030,88]}
+{"kind":"image","id":"im/7mp0bi9s","slide":11,"name":"","alt":"Dialectic Therapeutics logo","bbox":[1010,646,210,42]}
+{"kind":"notes","id":"nt/t5fs92","slide":11,"text":"Source: Investor Presentation Options_v2 and DT2216 review memo dated July 7, 2026."}

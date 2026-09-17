@@ -1,0 +1,55 @@
+You are reviewing confidential Dialectic Therapeutics materials for Stephen Friedberg. Sober biotech-investor voice. Bottom line first. No marketing adjectives. No em dashes. Cite slide numbers. Do not invent clinical results.
+
+TASK: Compare Dialectic Presentation_09.03.26_vDRAFT (32 slides) to Kris Sarosiek AACR 2026 / Qin et al. bioRxiv 2025. Tell Stephen how to augment the investor presentation.
+
+SEPT 3 DRAFT SLIDES:
+1 Cover dated August 12 2026
+2 Disclaimer
+3 TOC: Overview / BCL-XL science / Preclinical / Ph1 / Ph1b/2 / IP / Pubs
+4 Company overview. Mentions Sarosiek collab, ovarian eradication, Matulonis/Stover/Lu PROC, COG FLC, UAMS/UF IP, patents to 2037
+5 Pipeline
+6 Team/SAB (Hromas, Licht, Brugge, Strauss)
+7 Supporters
+8 Degrader vs inhibitor (platelets, Tregs)
+9 DT2216 specificity
+10 PD in WBC and MOLT4
+11 PK/PD disconnect
+12 vs navitoclax
+13 Tissue-to-plasma asymmetry
+14 CDX/PDX list
+15 Indication map: PROC (BH3: paclitaxel induces BCL-XL dependence; DF83 4 prior lines; dose stop d130; no tumor d236), FLC+irinotecan, CTCL mono, ER+BC+fulvestrant
+16 Qin 2025 in vitro OVCAR3 mitotic-arrest cartoon
+17 DF83 PDX plus astonishment quotes from Matulonis, Brugge, Sarosiek
+18 Cross-cancer paclitaxel synergy + MCL-1 / BCL-XL Ser62 footnote; ADC payloads
+19 FLC PDX Shebl 2022
+20 CTCL MyLa He 2020
+21 ER+ BC unpublished
+22 Phase 1a n=20 RP2D 0.4 mg/kg IV BIW; complete BCL-XL degradation cohort 6; platelets recover; Mahadevan JHO 2025
+23 PROC 1b/2 BOIN + Simon; weekly pac + DT BIW; PBMC PD; tumor apoptotic assays
+24 FLC COG NCT06620302
+25 Timeline through 2027 including SCLC/CTCL Phase 2
+26 Commercial up to $45B TAM, $15k/month
+27 PROC competitive table Elahere etc
+28 AbbVie $10.1B / Genmab $1.8B; claim 3x Elahere market
+29-30 Duplicate IP
+31 Collaboration octopus, Sarosiek on ovarian/endometrial
+32 Pubs include Qin 2025 and Mahadevan 2025
+
+SAROSIEK ASSETS NOT FULLY USED:
+- BH3 profiling HGSOC lines KURAMOCHI OVCAR3 OVCAR4 OVSAHO BCL-XL dependent HRK/BAD p<0.0001
+- Primed / unprimed / refractory; co-IP BIM/BAX/BAK released after DT2216
+- Quote: targeting BCL-XL alone may be effective in some heme malignancies, but combinations are needed for solid tumors
+- Paclitaxel mechanism: mitotic arrest, APC/C-Cdc20 phosphorylates MCL-1, 26S degrades MCL-1, dependence converges on BCL-XL
+- Young platelets less primed (Grozovsky/Fraser/Qin Cell Death and Disease 2026); megakaryocyte VHL-sparing Khan Nat Med 2019
+- DF83 n=5/arm; paclitaxel only days 0/4/8/12; DT 0-130; no tumor day 236; monotherapy modest delay only
+- Alisertib + DT2216 in vitro GBM/NSCLC/breast
+- HGSOC ~22% 5-year advanced survival
+
+RULES FROM PRIOR EVALUATION: Use Sarosiek as mechanistic infrastructure, not as a personal endorser. He is a collaborator. Risks: single preprint, paclitaxel-dependent cure, one PDX, naive BH3 vs platinum-resistant humans, murine 15 mg/kg q4d IP x 130d vs human 0.4 mg/kg IV BIW.
+
+OUTPUT:
+1) One-paragraph verdict
+2) What the Sept 3 draft already captured
+3) Ordered augmentation list with slide numbers (add / rewrite / drop)
+4) Three things to stop doing
+5) Questions for Kris

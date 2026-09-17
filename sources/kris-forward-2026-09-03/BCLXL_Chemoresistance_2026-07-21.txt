@@ -1,0 +1,2093 @@
+                                Submitted Manuscript: Confidential         template updated: February 2022
+
+
+
+
+Title: Therapy-induced mitotic arrest drives an apoptotic vulnerability
+exploitable by BCL-XL degradation to overcome cancer chemoresistance
+Authors:
+Xingping Qin1,2,3, Christopher W. Clark1,2,3, Lissah Johnson1,2,3, Oyku Sumer1,2,3, Adam Presser1,2,3, Mary
+H. C. Florido1,2,3, Yusuke Matoba4,5, Johan Spetz1,2,3, Brendan S. Shay6,7, Weiyi Xu6,7, Atomu
+Yamaguchi1,2,3, Jonathan Choiniere1,2,3, Cameron Fraser1,2,3, Filip Garbicz8,9, Stacey Yu1,2,3, Francesca
+Picucci1,2,3, Yang Yang10, Mengyao Xu11, Peiyi Zhang12, Guangrong Zheng12, Oladapo O. Yeku11, Ronny
+Drapkin13,14, Ruben Carrasco8,15, Joyce Liu16,17, Ursula Matulonis16,17, Joan Brugge6,7, Bo R. Rueda4,5,
+Daohong Zhou10, Elizabeth H. Stover16,17, Kristopher A. Sarosiek1,2,3,16*
+Affiliations:
+1
+  John B. Little Center for Radiation Sciences, Harvard T.H. Chan School of Public Health, Boston, MA
+2
+  Laboratory of Systems Pharmacology, Harvard Program in Therapeutic Science, Department of Systems
+Biology, Harvard Medical School, Boston, MA
+3
+  Molecular and Integrative Physiological Sciences Program, Harvard T.H. Chan School of Public Health;
+Boston MA
+4
+  Vincent Center for Reproductive Biology, Department of Obstetrics and Gynecology, Massachusetts
+General Hospital, Boston, MA
+5
+  Obstetrics, Gynecology and Reproductive Biology, Harvard Medical School, Boston, MA
+6
+  Department of Cell Biology, Harvard Medical School, Boston, MA
+7
+  Ludwig Center at Harvard, Harvard Medical School Boston, Boston, Ma
+8
+  Department of Pathology, Dana-Farber Cancer Institute, Boston, MA
+9
+  Department of Immunology, Medical University of Warsaw, Poland
+10
+   Department of Biochemistry and Structural Biology, University of Texas Health San Antonio, San
+Antonio, TX
+11
+   Massachusetts General Hospital Cancer Center, Massachusetts General Hospital, Boston MA
+12
+   Department of Medicinal Chemistry, College of Pharmacy, University of Florida, Gainesville FL
+13
+   Penn Ovarian Cancer Research Center, Department of Obstetrics and Gynecology, University of
+Pennsylvania Perelman School of Medicine, Philadelphia, PA
+14
+   Basser Center for BRCA, Abramson Cancer Center, University of Pennsylvania Perelman School of
+Medicine, Philadelphia, PA
+15
+   Department of Pathology, Brigham and Women's Hospital, Harvard Medical School, Boston, MA
+16
+   Department of Medical Oncology, Dana-Farber Cancer Institute, Boston MA
+17
+   Department of Medicine, Harvard Medical School, Boston MA
+
+*Corresponding author:       Kristopher A. Sarosiek, Ph.D.
+                             Harvard T.H. Chan School of Public Health
+                             655 Huntington Avenue
+                             Building 2, Room 221
+                             Boston, MA 02115
+                             Tel: 617-432-1104
+                             sarosiek@hsph.harvard.edu
+
+One Sentence Summary: Using BH3 Profiling as well as small molecule and CRISPR
+screening across hundreds of cell lines, we find that solid tumors broadly co-depend on BCL-XL
+and MCL-1 but evade targeting of pro-survival proteins due to HSP27-driven rapid apoptotic
+adaptation, whereas mitotic arrest–inducing therapies indirectly suppress MCL-1 and create a
+BCL-XL–dependent apoptotic vulnerability that can be safely exploited with the platelet-sparing
+BCL-XL PROTAC DT2216 to overcome chemoresistance.
+Abstract:
+Despite therapeutic advances, intrinsic and acquired chemoresistance remain major barriers to durable
+cancer responses. Because most cytotoxic, targeted, and immune-based therapies induce apoptosis,
+therapy resistance is frequently driven by upregulation of pro-survival BCL-2 family proteins. Using BH3
+profiling, CRISPR, and small-molecule screening across hundreds of cancer cell lines and primary
+specimens, we find that nearly all solid tumors depend on both BCL-XL and MCL-1 for survival.
+However, we find that inhibiting either protein alone produces only modest cell death due to rapid
+apoptotic adaptation (RAA) – a compensatory upregulation of the targeted and alternative pro-survival
+proteins driven by HSP27 activation. HSP27 inhibition suppresses RAA and enhances BH3 mimetic-
+induced apoptosis. Further, although dual BCL-XL/MCL-1 targeting triggers synergistic apoptosis across
+solid tumors, including chemoresistant TP53-mutant cancers, this approach is not tolerable in vivo. To
+identify safer strategies, we screened for therapies that indirectly modulate these dependencies and found
+that paclitaxel-induced mitotic arrest selectively depletes MCL-1 while upregulating BCL-XL, driving a
+targetable apoptotic vulnerability due to BCL-XL sequestration of pro-apoptotic BIM, BAX, and BAK.
+This vulnerability is also induced by Aurora A kinase and PLK1 inhibitors and microtubule-targeting
+antibody-drug conjugate payloads, rendering chemoresistant tumors highly sensitive to BCL-XL targeting.
+In chemoresistant ovarian cancer xenograft and PDX models, paclitaxel combined with the platelet-
+sparing BCL-XL PROTAC DT2216 safely eradicates tumors. DT2216 also reduces RAA, demonstrating
+that targeted degradation of pro-survival proteins is superior to conventional inhibition. These findings
+provide a mechanistic and translational framework for safely co-targeting MCL-1 and BCL-XL to
+overcome chemoresistance in solid tumors.
+Main Text:
+INTRODUCTION
+Inherent or acquired treatment resistance continues to be a significant barrier to long-term remission and
+cure across both blood cancers and solid tumors(1). Most anti-cancer agents including cytotoxic and
+targeted therapies act by interrupting essential signaling pathways or causing damage to universal cellular
+structures like DNA and microtubules, generating stress that activates pro-apoptotic proteins and triggers
+apoptosis in sensitive cancer cells(2). Clinical outcomes, however, vary widely, mostly due to differences
+in tumor responses to therapy and the development of chemoresistance. Currently, 80-90% of mortality in
+cancer patients is either directly or indirectly attributed to chemoresistance(3). Resistance can be
+restricted to a specific drug, or different drugs with varying modes of action, which is referred to as
+multidrug resistance (MDR)(4). Since most cancer therapies produce pro-apoptotic signaling in cancer
+cells, the suppression of apoptotic cell death is a major mechanism by which cancer cells can evade the
+cell death that should be triggered by these agents. Indeed, cancer cells frequently develop
+chemoresistance by upregulating pro-survival proteins or downregulating pro-apoptotic effectors,
+allowing them to evade cell death and continue proliferating despite exposure to cytotoxic agents(5).
+Based on this, targeting the apoptotic machinery, for example by inhibiting BCL-2 family proteins or
+mimicking the action of pro-apoptotic factors, offers a promising approach to overcoming
+chemoresistance(6).
+
+Ovarian cancers (OvCa) of epithelial origin comprise a heterogeneous group of malignancies that are
+typically diagnosed at an advanced stage and have low cure rates(7). The most common and clinically
+intractable of these are high-grade serous ovarian carcinomas (HGSOC), which exhibit an alarmingly low
+5-year overall survival (OS) rate of 35-48%(8, 9). This OS rate has not meaningfully improved in the past
+20 years due to a lack of clinically actionable targets, as well as the profound genomic instability that is a
+hallmark of this disease. This instability is driven by near-ubiquitous mutations in TP53 as well as
+deficiencies in homologous recombination and other DNA repair pathways in a significant percentage of
+HGSOC cases(8, 10) – these features, which are also common in other solid cancers(11, 12), contribute to
+the development of chemoresistance if the tumor is not eradicated upon initial treatment. Treatment with
+standard therapy, which includes carboplatin and paclitaxel, most commonly results in a period of
+HGSOC remission of variable length, typically 6 months to several years(1, 13, 14). In 60-80% of
+patients, this period is followed by tumor recurrence, with each subsequent recurrent tumor exhibiting
+increased resistance to chemotherapy and almost no possibility of cure(1, 14). These high rates of relapse
+and mortality demonstrate the urgent need to develop treatments that can more thoroughly eradicate
+HGSOC cells to prevent the development of therapy resistance and increase OS rates. Notably,
+carboplatin and paclitaxel target ubiquitous cell features, including DNA and microtubules, respectively,
+and typically kill OvCa cells via the apoptosis pathway(15–17).
+
+Apoptosis is a regulated form of cell death that is essential for normal human development as well as for
+the removal of damaged or superfluous cells(5, 18–20). The mitochondrial apoptosis pathway is triggered
+when a pro-apoptotic protein (BAX or BAK) is activated by a BH3-only protein (BIM or BID) to trigger
+mitochondrial outer membrane permeabilization (MOMP) and consequent release of cytochrome c from
+mitochondria to activate caspases(20–22). Pro-survival proteins in this family (predominantly BCL-2,
+BCL-XL, and MCL-1) can bind and block the activity of either the pro-apoptotic, pore-forming proteins
+(BAX or BAK) or pro-apoptotic BH3-only activators (BIM, BID, PUMA). For apoptosis to occur, the
+pro-survival proteins must be overwhelmed and BAX/BAK activated.
+
+Importantly, we have previously reported that the state of the apoptosis pathway in cancer cells is an
+important determinant of chemotherapy response: tumors that are primed for apoptosis respond much
+more favorably in the clinic(23–25). Furthermore, we and others have shown that upregulation of pro-
+survival BCL-XL and/or MCL-1(26–29) or loss of pro-apoptotic BAX and BAK(24, 30, 31) are major
+drivers of therapy resistance. These findings, along with those of others(29, 32, 33) suggest that patient
+outcomes can be meaningfully improved by targeting the apoptosis pathway to enhance initial
+chemotherapy responses. BH3 mimetics are recently-developed agents that selectively inhibit specific
+pro-survival proteins including BCL-2 (e.g., ABT-199 [venetoclax]), BCL-XL (e.g., A1331852), or MCL-
+1 (e.g., S63845) or multiple proteins such as BCL-2/BCL-XL/BCL-W (e.g., ABT-263 [navitoclax]).
+Among these inhibitors, only the BCL-2 inhibitor ABT-199 (venetoclax) has been successful in the clinic
+for targeting apoptotic dependencies in hematologic malignancies and approved by the FDA as a
+treatment for chronic lymphocytic leukemia and acute myeloid leukemia(34). The clinical development of
+inhibitors targeting other BCL-2 family pro-survival proteins has stalled due to on-target and dose-
+limiting toxicities in patients. For example, inhibitors of BCL-XL are known to be toxic to platelets due to
+their dependence on BCL-XL for survival(35). This causes dose-limiting thrombocytopenia and increases
+risk of bleeding, which has impeded the clinical development of these agents(36). To overcome this,
+DT2216, a proteolysis-targeting chimera (PROTAC) has been developed that degrades BCL-XL by
+targeting it to the Von Hippel-Lindau (VHL) E3 ligase for degradation instead of simply inhibiting it –
+this is an important modification as platelets express minimal levels of VHL and therefore don’t degrade
+BCL-XL in a manner similar to most nucleated cells(37). This prevents the loss of platelets and increases
+the safety of this novel agent(37, 38), which is currently being evaluated in phase I/II clinical trials
+(clinicaltrials.gov ID NCT04886622, NCT06964009, NCT06620302).
+
+Although there have been promising recent advancements in clinical deployment of these BH3 mimetics,
+it is unknown what apoptotic vulnerabilities exist in HGSOC and other solid cancers and how they may
+be effectively and safely targeted with single agent inhibitors or in combinations. Herein, we report that
+BCL-XL dependence is consistently detected in solid cancer cell lines, yet single target inhibition is only
+mildly effective due to rapid apoptotic adaptation, which can be overcome by co-targeting other pro-
+survival proteins such as the indirect targeting of MCL-1 with paclitaxel. Using this treatment strategy
+primes cancer cells for apoptosis and enhances sensitivity to BCL-XL inhibition, leading to eradication of
+solid tumors in vivo while avoiding toxicities.
+RESULTS
+
+Landscape of BCL-2 family dependencies across cancers
+
+Given that “evasion of apoptosis” is one of the hallmarks of cancer(39) and that overexpression of pro-
+survival BCL-2 family proteins contributes to oncogenesis and chemoresistance, we first sought to
+establish the extent to which these proteins can potentially be targeted for cancer therapy across cancer
+types. RNAseq data across nearly 2,000 cancer cell lines of diverse origins confirmed that most cancers
+highly express at least one pro-survival gene, with the majority expressing multiple members of this
+family (Figure 1A). Several notable differences in expression were evident, including the higher
+expression levels of BCL2, encoding pro-survival BCL-2, being detected in hematologic malignancies
+such as B and T cell leukemias and lymphomas as well as AML and Hodkin’s lymphoma. BCL2 was less
+commonly expressed in solid cancer cell lines with high expression only evident in pancreatic and lung
+endocrine tumors and ocular melanoma. As expected, higher BCL2 expression was positively correlated
+with increased dependence on BCL-2 based on CRISPR knockout and RNAi knockdown experiments
+performed within the Broad Institute’s Cancer Dependency Map (DepMap) project(40) (Figure 1B), as
+well as sensitivity to the BCL-2 inhibitor venetoclax (Figure 1C), although the extent of BCL-2
+dependence across cancer cell lines was very limited.
+
+BCL2A1, encoding A1/BFL1, was narrowly expressed, with the highest expression levels evident in
+anaplastic thyroid cancer, epithelioid sarcoma, fibrosarcoma, Hodkin’s lymphoma, leiomyosarcoma,
+melanoma, mixed cervical carcinoma and mucosal melanoma of the vulva/vagina (Figure 1A). CRISPR
+and RNAi demonstrated only limited essentiality for this gene, with weak correlations to expression
+(Figure S1A). BCL2L2, encoding BCL-W, was broadly expressed but was rarely found to be an essential
+gene (Figure 1A).
+
+BCL2L1, encoding BCL-XL, was consistently expressed among hematologic and solid cancer cell lines
+(Figure 1A). Similarly to BCL2, higher expression of BCL2L1 was positively correlated with higher
+dependence on this gene for survival based on CRISPR and RNAi gene targeting (Figure 1D). Finally,
+while there was only a weak correlation between BCL2L1 expression and sensitivity to the BCL-XL
+inhibitor AZ-3202 (Figure 1E) and no correlation with sensitivity to A1331852 (Figure 1F), a strong
+correlation between CRISPR essentiality and sensitivity to BCL-XL inhibitors was detected (Figure 1G).
+However, across these models, the viability of cells was more strongly affected by gene knockout via
+CRISPR than knockdown via RNAi (Figure 1D) or inhibitor treatment (Figure 1E-F). This finding
+suggests that treatment strategies resulting in complete BCL-XL elimination (CRISPR knockout or
+PROTAC-mediated degradation) may more effectively kill cancer cells than approaches that only
+partially reduce BCL-XL expression (RNAi) or activity (pharmacological inhibitors).
+
+MCL1, encoding MCL-1, was again broadly expressed among both hematologic and solid cancer cell
+lines (Figure 1A), and diverse types of cancer cell lines exhibited a strong decrease in fitness when this
+gene was targeted by CRISPR or RNAi, confirming strong essentiality. We did not detect a correlation
+between MCL1 expression and essentiality (Figure 1H) nor sensitivity to the MCL-1 inhibitor AZD-5991
+(Figure 1I) but again detected a significant correlation between CRISPR essentiality and sensitivity to
+AZD-5991 (Figure 1J) with CRISPR knockout again inducing a stronger reduction in fitness than the
+inhibitor.
+
+These data suggested that the frequent co-expression of BCL2L1 and MCL1 could potentially be driving
+resistance to single-agent inhibitors of these proteins due to their largely overlapping functional roles in
+suppression of apoptosis(41, 42). We tested this possibility by comparing the sensitivity of cancer cell
+lines to single agent versus combined small molecule inhibition of both BCL-XL (A1331852 or AZ-3202)
+and MCL-1 (AZD-5991) (Figure 1A). The sensitivity of cancer cell lines to this combined inhibition was
+striking – this combination potently induced loss of fitness across virtually all cancer types and was
+evident in multiple independently-generated datasets (Figure 1A). The combination treatment produced
+synergistic cell death in the majority of cancer types and was highly effective even in cancer cell lines
+harboring TP53 loss-of-function (LOF) mutations (Figure S1B). There was even a trend toward increased
+sensitivity in TP53 LOF mutants in certain cancers including non-small cell lung cancer, glioma, and
+invasive breast cancer (Figure S1B).
+
+We next sought to directly measure the induction of apoptotic cell death in response to BCL-2, BCL-XL
+and MCL-1 inhibitors to test for synergistic cell death. We treated a panel of 132 cancer cell lines of
+diverse origins with the BCL-2 inhibitor ABT-199, the BCL-XL inhibitor A1331852, the MCL-1 inhibitor
+S63845 or combinations thereof. While we detected only limited apoptotic cell death (as measured by
+Annexin V staining and flow cytometry analysis) in response to ABT-199 (largely in hematologic
+cancers), the BCL-XL inhibitor induced apoptosis in multiple solid cancer types including ovarian, lung,
+renal, breast, colon and liver cancer cell lines but only reached 50% cell death in 12.8% of cell lines
+(Figure 1K). MCL-1 inhibition was similarly active in subsets of multiple solid cancer cell lines, but the
+sensitivity was again highly heterogeneous and only induced over 50% cell death in 13.6% of cell lines.
+
+We next evaluated the responses to combination treatments targeting BCL-2 family proteins. We found
+that combining ABT-199 with A1331852 induced a similar level of apoptosis as the ABT-199 or
+A1331852 alone, suggesting that the additional targeting of BCL-2 in BCL-XL dependent cancers, or vice
+versa, does not enhance apoptosis significantly (Figure 1K). This was also evident from Bliss synergy
+scores, which showed that A1331852 and ABT-199 induced synergistic cell death (Excess Over Bliss
+[EOB] score >20) in only 15.9% of cell lines, mostly in hematologic malignancies (Figure S1C).
+Combining ABT-199 and S63845 produced synergistic cell death in 65.2% of cell lines with an average
+EOB of 39.41, indicating that combining MCL-1 and BCL-2 inhibition would potently induce cell death
+across many cancer types. However, this extent of synergy was only evident at the highest dose of BH3
+mimetics (1 μM), with lower doses of 0.1 μM only producing synergy in 30.3% of cell lines with an
+average EOB of 17.3. In contrast, combination treatment with A1331852 and S63845 induced synergistic
+apoptosis in 88.6% of cell lines (average EOB = 59.4), including highly chemoresistant cancer types such
+as glioblastoma multiforme (GBM), ovarian, pancreas, liver, colon and melanoma (Figure 1K and S1C).
+The synergy was also evident at lower doses including 0.1 μM of each agent (57.6% synergy, average
+EOB of 40.2). Note that knockout of BAX and BAK1 completely eliminated HeLa cell sensitivity to this
+combination treatment, which is consistent with an on-target effect of these agents (Figure 1K).
+
+Taken together, these data demonstrate that concurrent inhibition of BCL-XL and MCL-1 synergistically
+induces apoptosis across a broad range of cancer types, including those that are highly chemoresistant.
+This is in agreement with some previous studies showing that this combination can effectively treat
+otherwise intractable malignancies including GBM(43). However, we and others have recently shown that
+concurrent inhibition of BCL-XL and MCL-1 is not tolerated in vivo due to severe toxicity in the liver,
+lungs and vasculature(44, 45).
+
+Epithelial ovarian cancer cell lines are dependent on BCL-XL for survival
+
+We next sought to better understand responses to single-agent BH3 mimetics and the mechanisms that
+drive resistance. We chose to focus our investigation on HGSOC due to several factors including the high
+mortality rate of this disease and our in vitro analysis showing consistent, yet modest sensitivity to single-
+agent BH3 mimetics, especially A1331852 targeting BCL-XL (Figure 1K). We first measured apoptotic
+priming (proximity to the apoptotic threshold) and dependence on pro-survival proteins by performing
+BH3 profiling on a panel of ten well-validated HGSOC cell lines, each with mutant p53(46). All of the
+cell lines initiated mitochondrial apoptosis (as indicated by release of cytochrome c) in response to high
+doses (100 μM) of BIM and BID BH3 peptides (Figure 2A and S2A). These peptides are able to inhibit
+all pro-survival BCL-2 family proteins and also activate BAX and BAK directly(24, 47). Differences
+between these cell lines were evident at lower doses – the most primed of the cell lines were OVCAR8,
+OVCAR3 and OVKATE cells. Moderately primed cell lines included JHOM-1, KURAMOCHI, OAW28,
+OV90, OVCAR4 and TYK-nu cells. OVSAHO cells were least primed, as evidenced by their limited
+release of cytochrome c in response to the highest doses of pro-apoptotic BIM and BID BH3 peptides.
+These differences were consistent with the responses to the PUMA BH3 peptide, which can also inhibit
+all pro-survival proteins but cannot directly activate BAX and BAK(48) – OVSAHO cells were again the
+most resistant to this pro-apoptotic BH3 peptide. These results indicated that most HGSOC cell lines
+maintain sensitivity to pro-apoptotic signals and would be expected to trigger this form of cell death in
+response to stress or damage that produces pro-apoptotic signaling.
+
+Given that HGSOC cell lines were primed for apoptosis, we next sought to determine if these cell lines
+exhibit dependence on pro-survival proteins from the BCL-2 family. Using BH3 peptides that selectively
+inhibit each of these BCL-2 family pro-survival proteins(48), we detected consistent dependence on the
+pro-survival protein BCL-XL in all OvCa cell lines except JHOM-1, OVSAHO and TYK-nu (Figure 2B
+and S2A). This was evident based on the sensitivity (cytochrome c release) of most OvCa cell lines to the
+BAD BH3 peptide that selectively inhibits BCL-2, BCL-XL and BCL-W, as well as high sensitivity to the
+HRK BH3 peptide, which selectively inhibits BCL-XL(48). There was relatively low sensitivity to the
+MCL-1 inhibiting peptide MS1, demonstrating that this dependence is relatively weak and less
+consistently evident.
+
+To further evaluate dependencies on pro-survival proteins, we tested OvCa cell line sensitivity to a
+broader panel of BH3 mimetics that selectively inhibit certain pro-survival proteins. Consistent with the
+BH3 profiling results and earlier chemosensitivity analyses, we detected that many HGSOC cell lines
+exhibited a loss of viability in response to BH3 mimetics that inhibit BCL-XL including ABT-263 and
+A1331852 as well as DT2216, a BCL-XL selective PROTAC/degrader, but not the selective BCL-2
+inhibitor ABT-199 or the selective MCL-1 inhibitor S63845 (except OVCAR4 cells) (Figure 2C).
+Furthermore, flow cytometric analysis of cells stained with the phosphatidylserine (PS) binding agent
+Annexin V (AxV) and DNA binding agent propidium iodide (PI) indicated that cells were undergoing
+apoptosis (Figure S2B). This is demonstrated by cells becoming positive for AxV prior to becoming
+positive for PI since the latter agent only enters cells with a disrupted plasma membrane, which occurs
+after externalization of PS in cells undergoing caspase-mediated apoptosis(49). When comparing the BH3
+profiling with mimetic sensitivity analysis, Spearman’s rho correlation testing indicated that
+mitochondrial sensitivity to the BAD BH3 peptide correlated with cellular sensitivity to agents targeting
+BCL-XL including ABT-263 and DT2216 (Figure 2D). This confirms that BH3 profiling can detect
+dependence on pro-survival proteins in OvCa cells, as has been shown previously in other settings(23,
+50–53), and indicates that BCL-XL is a potentially targetable dependency in HGSOC.
+
+We next tested the extent to which these dependencies would be evident in an even broader set of OvCa
+cell lines. We compared the reduction of fitness across 58 OvCa cell lines in which each of the five major
+pro-survival genes are knocked out via CRISPR, again from the DepMap initiative(40). None of the 58
+cell lines were dependent on BCL2, BCL2A1 (encoding A1) or BCL2L2 (encoding BCL-W) for
+maintaining fitness (Figure 2E). Four of the cell lines (6.9%) exhibited a loss of fitness in response to
+knockout of MCL1, indicating that this gene is considered essential in a small subset of OvCa cell lines.
+In contrast to the lack of widespread dependence on other pro-survival proteins, knockout of BCL2L1
+(encoding BCL-XL) resulted in a loss of fitness in 28 of 58 (48.3%) lines, indicating that this gene is
+essential for survival for about half of all OvCa cell lines (Figure 2E). The high dependence on this pro-
+survival protein in the CRISPR screen was consistent with the high expression of BCL2L1 transcripts
+across OvCa cell lines (Figure 2F). Furthermore, a comparison of the effects on fitness in OvCa cell lines
+undergoing RNAi-mediated knockdown of pro-survival genes confirmed that only BCL2L1 is an essential
+gene in the OvCa cell lines tested (Figure 2G). Consistent with the higher expression of BCL2L1 in OvCa
+being an indicator of potential dependence, we found that mRNA expression of this gene is correlated
+with its essentiality (Figure 2H). Interestingly, high expression of MCL1 transcripts was associated with
+reduced essentiality of BCL2L1 (Figure 2I), suggesting that MCL-1 can potentially compensate for the
+loss of BCL-XL, which is consistent with our pan-cancer data showing that dual inhibition of these
+proteins is necessary for robust cell death.
+
+Epithelial ovarian cancers undergo rapid apoptotic adaptation in response to BCL-XL inhibition
+
+Our results thus far indicate that OvCa cell lines express BCL2L1 at relatively high levels and are broadly
+dependent on BCL-XL when it is targeted via CRISPR (Figure 2E). However, despite their potency and
+selectivity, single-agent inhibitors of BCL-XL induced only modest levels of apoptosis (Figure 2C). To
+gain insight into what may be preventing stronger apoptosis induction, we evaluated expression of BCL-2
+family proteins in response to these agents. We focused on ABT-263 and DT2216 since these are both
+being evaluated in the clinic. These agents have similar structures with only one major alteration: DT2216
+adds a VHL ligand to the ABT-263 structure to drive VHL-mediated BCL-XL degradation instead of
+competitive inhibition(37). This alteration was introduced to avoid the on-target thrombocytopenia
+induced by ABT-263 in patients since platelets express very limited levels of VHL and do not degrade
+BCL-XL when treated with DT2216(37). We first confirmed that the BCL-XL degrading agent DT2216
+rapidly and selectively reduces expression of BCL-XL (Figure 2J) and triggers caspase-mediated,
+apoptotic cell death, which can be prevented by the pan-caspase inhibitor QVD-OPH (Figure S2C) or by
+knocking out the apoptosis effectors BAX and BAK (Figure S2D). Surprisingly, we also detected a mild
+yet consistent increase in expression levels of pro-survival MCL-1 protein in DT2216-treated cells,
+especially at the 4- and 8-hour time points (Figure 2J), as well as BCL-2 and BCL-W, albeit less
+consistently. This indicates that changes in expression levels of BCL-2 family proteins favoring cell
+survival occur in response to BCL-XL targeting – a phenomenon we refer to as “rapid apoptotic
+adaptation” (RAA). We directly compared this adaptation between ABT-263 and DT2216 and found that
+while mild upregulation of MCL-1 was evident in response to both agents, treatment with ABT-263 also
+caused upregulation of BCL-XL, which would also block induction of apoptosis (Figure 2K). This
+upregulation of BCL-XL was completely absent in DT2216 treated cells, presumably due to the ongoing
+degradation facilitated by this agent. This suggests that the degree of RAA is inherently limited by agents
+that degrade pro-survival proteins instead of inhibiting them. Furthermore, BH3 profiling of OvCa cells
+treated with ABT-263 or DT2216 demonstrated that although both agents increased apoptotic priming,
+ABT-263 treated cells exhibited a reduction in apoptotic priming and dependence on MCL-1 after 48
+hours whereas DT2216 cells did not (Figure S2E-F). The enhanced apoptosis-promoting activity of
+DT2216 compared with ABT-263 was also evident in response to low-dose treatment with these agents
+for even longer periods (Figure S2G-H).
+
+Quantitative PCR (qPCR) analysis on DT2216- and ABT-263-treated cells showed a lack of changes in
+transcription of genes including BCL2, BCL2L1, MCL1 and BCL2L2, suggesting that the RAA is
+potentially driven by altered translation or degradation of these pro-survival proteins (Figure S2I). To
+gain insight into the molecular signaling that facilitates these changes, we performed reverse phase
+protein array (RPPA) analysis on cells treated with a low dose of DT2216 to evaluate the expression of
+over 500 proteins and their phosphorylation states(54). The RPPA analysis demonstrated that heat shock
+protein 27 (HSP27) was being phosphorylated in response to DT2216 treatment (Figure S2J). HSP27 is a
+molecular chaperone that has been previously found to stall apoptosis execution by binding and
+inactivating caspase 3 or cytochrome c(55, 56). We tested this directly in our DT2216 treated cells and
+detected an upregulation of HSP27 and also its phosphorylation at Ser82, an indicator of its active
+response to stress(57) upon DT2216 treatment (Figure 2L). HSP27 activity can be inhibited by the small
+molecule J2, which prevents its normal activation and binding interactions(58). In agreement with the
+involvement of HSP27 in the RAA induced by BH3 mimetics, pretreatment of HGSOC cells with J2
+eliminated the upregulation of pro-survival proteins in response to ABT-263 and DT2216 (Figure 2M).
+Furthermore, J2 enhanced the apoptosis induced by these BH3 mimetics in OVCAR3, OVCAR4 and
+OVCAR8 cells but not OV90 (Figure 2N). Notably, subsequent analysis of HSP27 expression in these
+cell lines showed that this protein is widely expressed in HGSOC cell lines but not present in OV90 cells
+(Figure 2O), which explains the lack of sensitization to BH3 mimetics by J2 in this cell line. These data
+indicate that targeting this protein may forestall RAA and enhance the apoptosis induced by inhibitors of
+pro-survival BCL-2 family proteins.
+
+Paclitaxel treatment indirectly targets MCL-1, synergizes with BCL-XL inhibition
+
+Armed with our new understanding of mechanisms of resistance to BH3 mimetic treatment, we next
+sought to uncover potential treatment strategies to exploit the synergy of dual targeting of BCL-XL and
+MCL-1 while avoiding the toxicity. Due to the short half-life of the MCL-1 protein, we hypothesized that
+certain cytotoxic or targeted chemotherapeutic agents may be able to reduce expression of MCL-1 and, in
+so doing, indirectly inhibit this protein, which may potentially be better tolerated in vivo when combined
+with direct BCL-XL inhibition. We again chose to perform these experiments in HGSOC cell lines due to
+their limited sensitivity to single agent inhibitors and synergistic sensitivity to combined inhibition, which
+reflected the majority of solid cancer cell lines in our analysis.
+
+We therefore treated the OVCAR3 cell line, which is a well-characterized model of chemoresistant and
+p53-mutant HGSOC(46), with a range of cytotoxic and targeted chemotherapeutic agents at doses that
+were 1/50th of their Cmax in patients(44). We measured expression levels of MCL-1 and found that only
+one agent led to a decrease in MCL-1 levels: paclitaxel (Figure 3A). Paclitaxel is a commonly used
+therapy in OvCa patients that induces cancer cell apoptosis by hyper-stabilizing microtubules and causing
+prolonged mitotic arrest(59). Dynamic BH3 profiling of OVCAR3 cells treated with the standard of care
+agents, carboplatin and paclitaxel showed that both of these agents increase apoptotic priming, indicating
+that treated cells are experiencing apoptotic stress (Figure 3B). However, treatment with sensitizer BH3
+peptides demonstrated that dependence on BCL-XL is strongly enhanced by treatment with paclitaxel but
+not carboplatin (Figure 3C). Interestingly, we also saw evidence of increased MCL-1 dependence in
+OVCAR3 cells upon paclitaxel treatment, which is also consistent with the reduced but not completely
+eliminated expression of this protein in paclitaxel-treated cells (Figure 3A).
+
+Based on these results, we reasoned that combination treatment with paclitaxel and BCL-XL inhibitors
+would be particularly effective at inducing apoptosis in cancer cells. As we had anticipated, we detected
+increased rates of apoptosis in OvCa cell lines treated with paclitaxel in combination with multiple BCL-
+XL inhibitors including the BCL-2/BCL-W/BCL-XL inhibitor ABT-263 (navitoclax), the BCL-XL
+inhibitor A1331852, the BCL-XL PROTAC degrader DT2216 but not BH3 mimetics targeting solely
+BCL-2 (ABT-199 [venetoclax]) or MCL-1 (S63845) (Figure 3D). The cell death induced by this
+combination was found to be strongly synergistic across a wide range of doses of DT2216 and paclitaxel
+across multiple HGSOC cell lines (Figure S3A-B). Two- and three-drug combination chemosensitivity
+and synergy analyses showed that while DT2216 was more synergistic with paclitaxel than carboplatin,
+there was evidence of synergy across either of those combinations (Figure S3B), suggesting that DT2216
+would also synergistically enhance carboplatin-induced cell death. Interestingly, we also detected
+antagonism between paclitaxel and carboplatin (Figure S3B), which has been reported previously(60).
+However, we found that DT2216 treatment was able to overcome this antagonism (as evidenced by the
+responses from treatment with DT2216 with paclitaxel at 10nM and carboplatin at 100μM, paclitaxel at
+30nM and carboplatin at 25, 50 or 100 μM) (Figure S3B). Furthermore, the strongest overall induction of
+apoptosis was evident when all three agents were combined. Together, these data suggest that DT2216
+may be effectively combined with both paclitaxel and carboplatin and may reverse the antagonism that
+these agents have when used in combination.
+We next confirmed that the cell death induced by DT2216 plus paclitaxel was apoptosis by showing its
+inhibition with the pan-caspase inhibitor QVD-OPH (Figure S3C-F). In addition, colony formation assays
+showed that while single agent treatment with paclitaxel or DT2216 slightly reduced OVCAR3 colony
+growth, combined treatment with both agents completely abrogated the outgrowth of colonies across
+multiple HGSOC cell lines (Figure 3E, S3G). This was also evident with the potent BCL-XL inhibitor
+A1331852 in combination with paclitaxel and, to a lesser extent, ABT-263 but not in combinations with
+selective MCL-1 (S63845) or BCL-2 (ABT-199) inhibitors (Figure 3E). We also found that combined
+BCL-XL and MCL-1 inhibition prevented long-term colony outgrowth (Figure S3G), confirming that
+simultaneous targeting of these two proteins is sufficient to eliminate HGSOC cells while targeting them
+alone is not.
+
+Since we had detected that concurrent targeting of MCL-1 and BCL-XL induced apoptosis across major
+solid cancer cell lines, we sought to test the extent to which the indirect targeting of MCL-1 via paclitaxel
+treatment could synergize with BCL-XL inhibition in other cancer types. Treatment of 55 cancer cell lines
+across 12 different cancer types showed that paclitaxel synergized with the BCL-XL degrader DT2216 in
+the vast majority of cases, as detected with Annexin V staining (Figure 3F). In fact, all 55 cell lines,
+including those with WT as well as mutant TP53, exhibited synergy in at least one dose combination with
+an average excess over Bliss of 10.7 and a range of -19.1 to 68.0 (Figure S3H).
+
+To further investigate how broadly active this combination therapy may be, we evaluated the degree of
+synergy that is induced by combination treatment with paclitaxel and ABT-263 in breast, colon and
+pancreas cancer cell lines within the Genomics of Drug Sensitivity in Cancer (GDSC) database.
+Synergistic cell death was induced by this combination treatment in 49% of the 52 breast cancer cell lines
+tested (Figure 3G, S3I) and this was one of the most synergistic of the 1,275 drug combinations tested.
+Remarkably, the only agents that exhibited stronger synergy with ABT-263 than paclitaxel were the
+aurora A kinase inhibitor alisertib(61) (63% of cell lines exhibiting synergy), ROCK inhibitor
+GSK269962A(62) (50%), and pan-Aurora inhibitors Tozasertib(63) (58%), and ZM447439(64) (55%) –
+each of these agents has been shown to induce cell cycle arrest in G2/M phase and thus have a similar
+mechanism of apoptosis induction as paclitaxel. This indicates that regardless of how it is induced,
+prolonged mitotic arrest is expected to consistently lead to depletion of MCL-1 and sensitization to BCL-
+XL inhibition.
+
+Extending this analysis to colon cancer, we again found that ABT-263 synergizes with several of the 26
+agents used in the GDSC Anchor(65) combination screen but the strongest synergy was detected with
+vinorelbine (36% of 45 cell lines) (Figure 3H, S3I) – similarly to paclitaxel, which was not one of the
+compounds in this screen, this vinca alkaloid induces apoptosis primarily by disrupting microtubules and
+triggering mitotic arrest(66). Finally, combination screening in pancreas cancer cell lines showed that
+ABT-263 synergized most often with paclitaxel (71% of 29 cell lines) (Figure 3I, S3I).
+
+We then compared the extent of synergy that is evident specifically with navitoclax across the full range
+of combination treatments in the three cancer types. We found that navitoclax most consistently induces
+synergistic cell death when used in combination with agents that target mitosis (Figure 3J), which
+includes AURKA, AURKB and AURKC inhibitors as well as microtubule stabilizers and destabilizers
+(Figure S3I). These data indicate that treatment with paclitaxel or other agents that induce mitotic arrest
+consistently synergizes with BCL-XL inhibition – this may therefore be a broadly active therapeutic
+combination.
+
+To gain insight into the mechanisms that are responsible for this synergistic apoptosis, we evaluated
+expression of BCL-2 family proteins in OVCAR3 cells treated with paclitaxel ± DT2216. Consistent with
+our previous results, we found that protein expression levels of BCL-XL were reduced in a dose-
+dependent manner by DT2216 (Figure 3K). We also detected a consistent increase in MCL-1 expression
+in OVCAR3 cells treated with DT2216 at three different concentrations (Figure 3K), reflecting RAA.
+This was also evident in the other cell lines treated with DT2216 (Figure 3L), reflecting RAA. In contrast,
+paclitaxel treatment consistently decreased MCL-1 protein expression, which was not driven by
+transcriptional changes (Figure S4A) and would be expected to cause the increased priming and BCL-XL
+dependence that we detected (Figure 3A, 3K-L). Interestingly, we also detected an increase in BCL-XL
+expression and a second, higher-weight protein band in the immunoblot for BCL-XL in cells treated with
+paclitaxel (Figure 3K-L), which we reasoned may be indicative of a phosphorylation event. BCL-XL
+phosphorylation at Ser62 has been previously found to inactivate the pro-survival activity of this protein
+and is likely also contributing to the increased priming and BCL-XL dependence we detected in
+paclitaxel-treated cells(67). Using a phospho-specific antibody (antibody specificity confirmed using
+siRNA-mediated knockdown in Figure S4B), we detected phosphorylation of BCL-XL at Ser62 in
+paclitaxel-treated OVCAR3 cells (Figure 3A, 3L) but not in cells treated with other agents (Figure 3A),
+confirming that this inactivating event is occurring in response to microtubule targeting with this agent.
+Notably, we also detected decreased HSP27 expression in cells treated with paclitaxel (Figure 2L),
+suggesting that paclitaxel treatment also enhances BCL-XL inhibitor-induced apoptosis by preventing
+HSP27-enabled RAA – this effect on HSP27 may enhance sensitivity to other combination treatment
+agents as well.
+
+We next sought to test whether the enhancement of apoptosis in DT2216-treated cells is due to on-target
+BCL-XL inhibition by knocking down BCL2L1 (encoding BCL-XL) in OVCAR3 cells (Figure S4B) and
+testing cell sensitivity to BH3 mimetics as well as paclitaxel. siRNA knockdown of BCL2L1 induced
+apoptosis compared with non-targeting siRNA and eliminated cellular sensitivity to subsequent treatment
+with BCL-XL inhibitors including DT2216 (Figure S4C). Interestingly, we also detected increased
+sensitivity to the MCL-1 inhibitor S63845 in cells transfected with BCL2L1 siRNA (Figure S4C), which
+aligns with our experiments showing that co-targeting MCL-1 and BCL-XL leads to increased apoptosis
+compared with either agent alone. Finally, BCL2L1 knockdown sensitized cells to paclitaxel treatment
+similarly to BCL-XL inhibition with no increased apoptosis from additional treatment with DT2216
+(Figure S4C).
+
+Finally, we tested the extent to which DT2216 would synergize with other agents that can trigger mitotic
+arrest beyond paclitaxel. To test this, we measured the sensitivity of a panel of GBM, NSCLC, breast and
+ovarian cancer cell lines to combination treatment with DT2216 and the AURKA inhibitor Alisertib(67)
+(Figure 4A and S5A), the PLK1 inhibitor BI-2536(68) (Figure 4B and S5B), and the microtubule-
+targeting agents vincristine(69) (Figure 4C and S5C) and docetaxel(70) (Figure 4D and S5D) using
+Annexin V staining and flow cytometry after 72 hour treatment. Combination treatments were more
+effective than single agents and exhibited synergy across each of these common cancer types as
+determined by excess over Bliss analysis (Figure S5A-D). These data confirmed that the apoptosis
+induced by agents that cause mitotic arrest can be enhanced by BCL-XL inhibition and DT2216 treatment
+in particular and suggest that combining DT2216 with these and other mitotic arrest-promoting agents in
+other cancer types would be broadly effective.
+
+Antibody-drug conjugates (ADCs) are targeted cytotoxic agents that bind tumor-associated surface
+antigens, undergo endocytic internalization, and release intracellular payloads that induce apoptotic cell
+death(68). More than half of FDA-approved ADCs use microtubule-disrupting payloads, including DM4,
+MMAE, and MMAF, and suppression of apoptosis is a prominent mechanism of resistance to this class of
+agents(68). We therefore tested whether BH3 mimetics or DT2216 could potentiate apoptosis induced by
+ADC payloads. Across a concentration range of MMAF, BCL-XL inhibition or degradation, but not
+MCL-1 or BCL-2 inhibition, enhanced apoptosis (Figure 4E) in a synergistic manner (Figure S5E).
+DT2216 similarly synergized with other microtubule-targeting ADC payloads tested (Fig. 4F and Fig.
+S5F), suggesting that BCL-XL degradation may enhance ADC payload-induced apoptosis and overcome
+apoptotic resistance to ADC therapy.
+BCL-XL restrains BAX, BAK and BIM in HGSOC cells
+
+The consistent synergy between mitotic arrest-inducing agents and DT2216 prompted us to investigate
+the binding interactions that lead to induction of apoptosis in response to these combination treatments.
+By immunoprecipitating BCL-XL and blotting for BCL-2 family proteins in OVCAR3 cells without any
+treatment, we detected active binding of pro-apoptotic proteins including BIM, BAK and BAX, indicating
+active sequestration of multiple proteins that are critical for initiation of apoptosis (Figure 5A). In cells
+treated with paclitaxel, BCL-XL continued to bind these pro-apoptotic proteins while levels of MCL-1
+were reduced, contributing to increased BCL-XL dependence. Low-dose DT2216 treatment led to BCL-
+XL degradation, which freed the majority of bound BIM, BAK and BAX. Combination treatment further
+exacerbated these changes, with only minimal BIM remaining bound to BCL-XL and BAX and BAK
+being released to carry out apoptosis initiation. Immunoprecipitation of MCL-1 under these same
+conditions clarified the mechanism of apoptosis induction. In untreated cells, MCL-1 actively bound BIM
+and BAK but not BAX (Figure 5B). Treatment with paclitaxel reduced the expression of MCL-1 while
+the remaining protein continued to bind BIM and BAK, again contributing to increased priming and
+dependence on both BCL-XL and MCL-1. Treatment with DT2216 alone forced MCL-1 to bind and
+sequester additional BIM that was freed from the degraded BCL-XL. Combination treatment causes a
+reduction in MCL-1 levels along with reduced ability for BCL-XL to sequester the freed pro-apoptotic
+signals, thus triggering apoptosis.
+
+Prolonged mitotic arrest is associated with increased BCL-XL dependence
+
+Since paclitaxel is known to disrupt microtubule dynamics and cause mitotic arrest in cancer cells, we
+next sought to compare the levels of apoptotic priming and dependencies in cycling versus arrested cells.
+We first confirmed that paclitaxel treatment causes mitotic arrest of OvCa cells (Figure S6A) and then
+subjected the paclitaxel-treated cells to BH3 profiling. Notably, we detected a major difference in priming
+between cell populations: in the presence of paclitaxel, non-mitotic cells exhibited lower levels of priming
+than untreated cells while those cells that were undergoing mitosis were much more primed (Figure 5C).
+We also detected reduced BCL-XL dependence in the non-mitotic cells while those cells that were
+arrested in mitosis were much more dependent on BCL-XL and, to a lesser extent, MCL-1 (Figure 5D).
+Immunoblotting analysis uncovered the likely molecular mechanism driving these changes: expression of
+MCL-1 is nearly absent in cells that are arrested in mitosis as a result of paclitaxel treatment while BCL-
+XL levels are largely maintained (Figure 5E). Taken together, these data indicate that prolonged mitotic
+arrest is responsible for driving reduced MCL-1 expression and convergence of pro-survival dependencies
+onto BCL-XL, setting the stage for potent induction of apoptosis in response to BCL-XL inhibition.
+
+Ovarian patient tumors express BCL-XL, especially HGSOC
+
+Since we found that high expression of BCL2L1 transcripts is correlated with BCL-XL dependence, we
+asked whether BCL-XL protein was detectable in patient tumors. Using publicly available databases, we
+found that BCL-XL is expressed specifically in tumor cells within a majority of OvCa patient tumors
+available for analysis, including 6/6 HGSOC (Figure S6B-C). Half of HGSOC tumors expressed BCL-XL
+in over 75% of tumor cells with the remaining tumors expressing this protein in 25-75% of tumor cells
+(Figure S6B, S6D). In all cases where BCL-XL was expressed in tumor cells, including in mucinous,
+endometroid and serous OvCa, expression of the protein was found to be cytoplasmic or membranous
+(Figure S6B, S6E), consistent with the pro-survival effect that this protein has while interacting with other
+BCL-2 family proteins on the outer mitochondrial membrane.
+
+We also sought to compare expression levels of BCL-2 family genes in primary HGSOC and how they
+are altered by neoadjuvant therapy to understand how tumors evolve under therapeutic pressure. Analysis
+of an existing gene expression dataset from 20 patients with advanced stage (IIIC or IV) HGSOC prior to
+and after receiving neoadjuvant chemotherapy(69) showed that pro-survival gene expression largely
+mirrored the OvCa cell line data (Figure 2F) with BCL2L1, BCL2L2 and MCL1 being consistently
+expressed at high levels (Figure S6F-G). Pro-apoptotic genes including BAD and BCL2L11 (BIM) were
+consistently detected, as were the critical pore-forming proteins BAX and BAK1 (Figure S6G).
+Interestingly, neoadjuvant therapy, which consisted of carboplatin and paclitaxel, did not significantly
+alter the expression of BCL-2 family genes in tumor cells except for MCL1, which was upregulated post
+neoadjuvant chemotherapy (Figure S6F-G). We also did not detect any significant associations between
+expression of specific BCL-2 family genes with outcomes in response to neoadjuvant chemotherapy
+(Figure S6H). Taken together, these data indicate that BCL-XL is a consistently expressed and targetable
+apoptotic dependency in HGSOC. The increase in MCL1 detected in post-therapy specimens may result
+in increased resistance to BCL-XL inhibition, suggesting that treatment-naïve HGSOC tumors will be
+most susceptible to BCL-XL inhibition.
+
+Ovarian primary tumors are dependent on BCL-XL for survival
+
+Cancer cell lines can accumulate alterations during in vitro culture that limit their effectiveness as disease
+models(46, 70, 71). To address this, we performed BH3 profiling, which does not require any ex vivo
+culture, and chemosensitivity analysis on a panel of freshly-collected tumors including eleven HGSOC
+tumor specimens and one low-grade serous ovarian carcinoma (LGSOC) specimen from patients at
+different phases of treatment (Table S1). OvCa cells from each of the twelve specimens were responsive
+to pro-apoptotic BH3 peptides even at low or moderate concentrations (BIM BH3 peptide at 1 μM and 10
+μM, for example), indicating that cells from these tumors can readily initiate apoptosis in response to low
+or moderate levels of pro-apoptotic signaling (Figure 5F). Even tumor specimens from patients with
+recurrent disease continued to be primed for apoptosis – this suggests that targeting the apoptosis pathway
+could be effective even in patients relapsing after initial therapy. Notably, the LGSOC specimen was
+among the least sensitive to the pro-apoptotic peptides, indicating that this tumor exhibits lower
+dependence on pro-survival proteins (Figure 5F). LGSOC tumors typically have lower proliferation rates
+than HGSOC, lack TP53 mutations and exhibit more frequent mutations in KRAS, BRAF, NRAS or
+ERBB2 genes to stimulate MAPK signaling(72, 73).
+
+Next, we evaluated responses to the sensitizer peptides that can indicate dependence on individual BCL-2
+family pro-survival proteins. We detected 10% or greater cytochrome c release in response to the BAD
+BH3 peptide (100 μM) that inhibits BCL-2, BCL-W and BCL-XL in 11 of 12 OvCa tumor specimens
+compared to DMSO treatment (average difference: 22.3%; range: 4.01 – 68.2%) (Figure 5G). We
+detected BCL-XL dependence using the HRK BH3 peptide (>10% cytochrome c release compared to
+DMSO) also in 11 of 12 tumors, including treatment naïve, neoadjuvant and recurrent patients (average
+difference: 28.0%; range: 9.2 – 66.0%). The only tumor that did not show >10% cytochrome c release in
+response to the HRK BH3 peptide was the LGSOC specimen – although this suggests that low-grade
+serous tumors may exhibit less BCL-XL dependence, additional specimens would need to be analyzed to
+determine if this was a generalizable finding. Finally, we also detected dependence on MCL-1 in ten of
+twelve specimens (Figure 5G) based on responses to the MS1 peptide (30 μM) (average difference:
+29.8%, range: 7.4 – 54.2%).
+
+Consistent with the HGSOC cell line data, using dynamic BH3 profiling on HGSOC specimen DF4379
+that contained sufficient cell numbers for this analysis, we found that paclitaxel treatment increased
+primary OvCa cell dependence on BCL-XL, as indicated by increased cytochrome c release in response to
+the BAD and HRK BH3 peptides (Figure 5H-I).
+
+Ex vivo chemosensitivity analysis of the freshly-collected primary tumors was consistent with BH3
+profiling data and indicated that BCL-XL inhibition or degradation with single-agent treatment with
+A1331852, ABT-263 or DT2216 induced modest levels of apoptosis (Figure 5J), as did inhibition of
+MCL-1 with S63845 in certain tumors. We also confirmed that combination treatment with paclitaxel and
+BCL-XL inhibitors more potently induced apoptosis in DF4379 (Figure 5K), consistent with the dynamic
+BH3 profiling results (Figure 5H-I).
+
+We next evaluated BCL-2 family protein changes in HGSOC primary tumors in response to paclitaxel
+and DT2216 treatment ex vivo. We confirmed that DT2216 treatment led to the rapid and preferential
+degradation of BCL-XL in primary HSGOC tumor cells (Figure 5L), which was further enhanced in the
+presence of paclitaxel. We also noted an increase in MCL-1 expression in response to DT2216 treatment,
+indicating that RAA also occurs in primary tumor cells. Similar effects, including the rapid degradation of
+BCL-XL, by DT2216 and paclitaxel-mediated phosphorylation of this protein were observed in the
+DF5053 specimen (Figure 5M). Interestingly, paclitaxel treatment did not induce detectable
+downregulation of MCL-1 in primary specimens, which is likely due to the very limited ex vivo
+proliferation that primary tumor cells undergo ex vivo that limits paclitaxel effectiveness, as previously
+reported(74).
+
+Ovarian patient-derived organoids are dependent on BCL-XL for survival after therapy-induced
+apoptotic stress
+
+Patient-derived organoids (PDOs) provide a platform for assessment of tumor cell sensitivity to therapy in
+tumor cells grown as spheroids, which more accurately reflects the morphology of patient tumors and can
+be more predictive of in vivo therapy efficacy(75). We tested the sensitivity of five HGSOC PDO models
+that reflect different treatment histories, from treatment-naïve to recurrent (Table S2), to combination
+therapy including paclitaxel and DT2216 and assessed death by quantifying apoptosis via AxV/7AAD
+staining. The treatment-naïve PDO, 18-47, was mildly sensitive to paclitaxel treatment and exhibited
+more sensitivity to low-dose treatment with DT2216 (Figure 6A-B). Impressively, the combination
+treatment was most effective and induced more apoptosis than would be expected based on additivity
+alone (Figure 6A-B). The neoadjuvant treated PDO, 17-116, exhibited very limited sensitivity to either of
+the agents alone but again the combination treatment resulted in enhanced apoptosis. The two heavily
+pretreated, recurrent samples exhibited some divergence in sensitivity: 17-39 exhibited no sensitivity to
+DT2216 alone but, when DT2216 was combined with paclitaxel, there was enhancement of apoptosis.
+Finally, the 17-121 specimen exhibited very limited sensitivity to paclitaxel while being sensitive to
+single-agent DT2216 and even more sensitive to combination treatment. These tests of apoptotic cell
+death were consistent with results obtained via ATP measurement (Figure 6C). Overall, these data
+demonstrated that HGSOC cells, when incubated in tumor-like organoids, continued to exhibit
+dependence on BCL-XL, especially in combination with paclitaxel treatment.
+
+Ovarian PDX models are dependent on BCL-XL, sensitive to DT2216
+
+Short-term ex vivo culture of OvCa PDX models allows for rapid evaluation of therapeutic efficacy
+across a diverse range of HGSOC models that exhibit immunohistological and molecular fidelity to the
+original patient tumor(76). We collected ascites from eight luciferized ovarian cancer PDX models (Table
+3) generated from patients with varying clinical and genetic characteristics including prior treatment
+history (ranging from treatment-naïve to 7 prior lines of therapy), BRCA status (WT as well as BRCA1
+mutant), and HGSOC-associated mutations (e.g., TP53, PTEN, CDKN2A) that were growing in immuno-
+compromised mice. These OvCa cells were cultured in vitro for two days and then treated with DT2216
+and paclitaxel. Four days later, cell viability was evaluated by adding luciferin and measuring
+luminescence. We noted that even heavily pretreated PDX models (e.g., DF14 and DF68 – 5 prior lines of
+therapy; DF181 – 7 prior lines) were highly sensitive to DT2216 treatment alone (Figure 6D). This
+suggests that HGSOC cells can be dependent on BCL-XL regardless of prior treatment status, which is in
+agreement with our HGSOC patient tumor data (Figure 5G). The results in DF68 and DF181 were
+particularly noteworthy given their resistance to paclitaxel treatment, presumably due to their extensive
+prior treatment with this agent. Five of the PDX models (63%) exhibited sensitivity to single agent
+DT2216, as defined by 33% or greater loss of viability in response to DT2216 treatment at 0.71 μM. We
+also noted that half (4/8) of the PDX models were consistently more sensitive to DT2216 than paclitaxel
+at equivalent doses. Finally, we detected synergy between DT2216 and paclitaxel treatment in 7/8 PDX
+models (Figure 6D, S7A-B).
+
+Ovarian xenograft tumors are eradicated with combination treatment targeting BCL-XL and
+microtubules
+
+We next set out to test the efficacy and safety of combination therapy targeting microtubules with
+paclitaxel and BCL-XL inhibition/degradation in vivo. The on-target and dose-limiting thrombocytopenia
+induced by small molecule inhibitors of BCL-XL has prohibited the clinical utilization of these
+agents(77). To reduce the likelihood of this issue precluding the clinical evaluation of the synergistic anti-
+OvCa activity of BCL-XL inhibition in combination with paclitaxel, we compared the sensitivity of mouse
+and human platelets to BH3 mimetics targeting BCL-2 family proteins in vitro. We found that mouse
+platelets were largely insensitive to inhibitors of BCL-2 or MCL-1, as indicated by stable platelet counts
+after 48 hours of treatment, but were highly sensitive to inhibitors of BCL-XL except the BCL-XL
+PROTAC DT2216, which did not significantly affect mouse platelet viability (Figure 7A). Human
+platelets exhibited a similar sensitivity pattern to BH3 mimetics but were highly sensitive (>90%
+reduction in platelet counts) to even low doses of conventional BCL-XL inhibitors (Figure 7B). However,
+DT2216 was significantly less toxic to human platelets than conventional BCL-XL inhibitors ABT-263
+and A1331852 and was therefore chosen for in vivo studies.
+
+To evaluate the in vivo efficacy of the combination therapy we identified, we first established xenografts
+of the OVCAR3 cell line, which has been a well-validated model of aggressive HGSOC(78), in
+immunocompromised NSG (NOD.Cg-Prkdcscid Il2rgtm1Wjl/SzJ) mice. Once tumors reached a size of about
+65-100 mm3, we administered paclitaxel at 15 mg/kg every four days via intraperitoneal injection for the
+first 12 days, with a total dose of 60 mg/kg per animal, DT2216 at 15 mg/kg every four days, or a
+combination of these treatments. These tumors were largely insensitive to paclitaxel treatment, which
+only slowed tumor growth (Figure 7C-D) – this is consistent with OVCAR3 resistance to this agent in
+vitro (Figure 3D). DT2216 was more effective as a single agent therapy and reduced tumor growth further
+but did not induce tumor remissions (Figure 7C-D). Impressively, the combination treatment caused near-
+complete tumor regression with only small nodules remaining (Figure 7C-D). Although the animals were
+tolerating the DT2216 treatment well, we ceased treatment with DT2216 at day 40 to determine if tumors,
+which showed no evidence of growth during continued DT2216 treatment, would relapse. Notably, no
+regrowth was detected during the 40-day monitoring period, indicating that the tumor cells had all been
+eradicated or incapacitated by the combination treatment (Figure 7C).
+
+To monitor for signs of toxicity, we measured animal weight every other day and performed complete
+blood counts every four days. We detected, on average, less than 10% body weight loss in animals treated
+with any of the agents including the combination (Figure 7E). Due to the on-target thrombocytopenia that
+is caused by inhibition of BCL-XL in patients, we closely monitored platelet counts and found that
+DT2216 caused only a detectable reduction in platelet levels after the first dose (Figure 7F). Platelet
+levels recovered to a normal range for all subsequent time points despite continuous DT2216 dosing. In
+this experiment, while the paclitaxel did not induce any reduction in platelet counts, the combination
+treatment of DT2216 with paclitaxel did delay platelet count recovery, which was achieved when DT2216
+treatment concluded on day 32.
+
+Further, in animals treated with DT2216, we performed BH3 profiling of tumors at time of euthanasia to
+understand how this treatment affects apoptosis sensitivity in tumor cells. Despite treatment having
+ceased over 30 days prior to tumor collection, we detected higher levels of apoptotic priming in DT2216
+treated tumors compared with vehicle treated controls (Figure 7G). Further, we detected reduced
+dependence on BCL-XL in these tumors and, surprisingly, enhanced dependence on MCL-1 (Figure 7H),
+suggesting that DT2216 treated tumors had adapted to BCL-XL inhibition by upregulating MCL-1, which
+can be attenuated by paclitaxel, as evidenced by the responses to combination treatment.
+
+We then utilized a second HGSOC cell line xenograft model to evaluate responses to a reduced frequency
+regimen of paclitaxel with DT2216 to determine if DT2216 could enhance sensitivity to weekly
+paclitaxel, which is a common treatment schedule in patients(1). We used the OVCAR8 cells, which are
+known to grow aggressively in vivo with HGSOC histology(78). As expected, the tumors did not respond
+favorably to paclitaxel treatment and actually exhibited a stronger delay in growth when treated with
+DT2216 compared with paclitaxel (Figure 7I), yet there was no tumor regression in response to either of
+these treatments. In contrast, the combination therapy was able to induce tumor regression (Figure 7J),
+with growth not resuming until the cessation of paclitaxel administration, and improved overall survival
+(Figure 7K). This combination was well tolerated and did not induce weight loss (Figure 7L) nor
+abnormally low platelet levels (Figure 7M) despite continued treatment with DT2216 until humane
+endpoint was reached.
+
+DT2216 eradicates chemoresistant HGSOC patient-derived xenograft (PDX) tumors in
+combination with paclitaxel
+
+Finally, we sought to test the activity of paclitaxel and DT2216 in OvCa PDX tumors, which are expected
+to more faithfully recapitulate patient tumors than cell line-based xenografts. We first generated in vivo
+tumors from five previously-established OvCa PDX models originating from patients that were treatment-
+naïve or treated with multiple lines of therapy (Table S3) to assess their levels of priming and BCL-XL
+dependence. BH3 profiling of PDX tumor cells indicated that 4/5 of the PDX models were primed for
+apoptosis, again indicated by the high degree of cytochrome c release in response to even moderate (10
+μM) or low (1 μM) doses of pro-apoptotic BIM and BID BH3 peptides (Figure 8A). Interestingly, the
+PDX model that was derived from the patient with the highest number of prior lines of chemotherapy
+(DF68 – 5 prior lines of therapy) was also the least primed. We also detected significant release of
+cytochrome c in response to the BAD and HRK BH3 peptides in 3/5 PDX models, indicating dependence
+on BCL-XL (Figure 8B).
+
+Although the DF20 PDX model was the most highly primed and most dependent on BCL-XL, this model
+was not chosen for in vivo studies since it was derived from a patient that was treatment naïve(79). We
+intended to test the combination therapy in a recurrent model since recurrent disease is the context in
+which most early phase clinical trials are conducted. We therefore performed dynamic BH3 profiling on
+the recurrent DF83 model and detected significant increases in apoptotic priming (Figure 8C) and BCL-
+XL dependence (Figure 8D) when cells were treated with paclitaxel. We found that the DF83 tumor cells
+expressed BCL-XL, albeit at lower levels than other models that had been treated with fewer lines of
+chemotherapy (Figure 8E). Based on these characteristics, we chose the DF83 model for in vivo efficacy
+studies.
+
+We established growth of DF83 PDX tumors and initiated a similar treatment regimen as used for
+OVCAR3 xenografts. Consistent with the prior treatment of these cells with chemotherapy, paclitaxel
+treatment only slowed tumor growth in vivo (Figure 8F). DT2216 also had a modest impact on tumor
+growth, consistent with potential RAA driving resistance to single-agent treatment. Strikingly, the
+combination of paclitaxel and DT2216 induced rapid tumor regressions and eradicated the tumors
+completely (Figure 8F-G). We again ceased DT2216 treatment to allow for potential regrowth, this time
+at day 138 when most of the remaining tumors had reached the humane endpoint. Despite cessation of
+therapy, tumors showed no evidence of regrowth during the additional 100-day monitoring period (Figure
+8G-H).
+
+BH3 profiling of tumors collected at the humane endpoint that were treated with paclitaxel exhibited
+increased apoptotic priming (Figure S8A) and BCL-XL dependence (Figure S8B), which supported the
+increased sensitivity of the cells to DT2216. In addition, immunoblot analysis of DT2216 treated tumors
+uncovered an increase in expression of MCL-1 as well as BCL-2 (Figure 8I), suggesting that RAA was
+occurring in response to DT2216 and driving resistance despite clearly evident reduction in expression of
+BCL-XL. The upregulation of both BCL-2 and MCL-1 in these tumors is likely responsible for the lack of
+increased priming or dependence on BCL-XL or MCL-1 in tumors treated with only DT2216 as measured
+by BH3 profiling at time of euthanasia (Figure S8A-B).
+
+Toxicity assessment showed that these therapies were well tolerated, with no loss of body weight and
+only transient reduction in platelet counts (Figure 8J-K). Pathological examination of tissue samples from
+mice treated with vehicle, DT2216, paclitaxel, or a combination of both drugs revealed no detectable
+signs of drug toxicity in the spleen, lung, liver, kidney, or heart (Figure S8C). To gain further insight into
+the resiliency of platelets to DT2216 treatment, we BH3 profiled platelets in mice each day between
+treatments with DT2216. Interestingly, we detected reduced priming in platelets 1 and 2 days after dosing
+DT2216 as compared with vehicle-treated mice (Figure 8M) and also reduced dependence on BCL-XL
+(Figure 8N). Interestingly, platelet dependence on MCL-1 was found to be elevated during this same
+period (Figure 8N). Over the course of the next three days, these measures returned to baseline levels
+comparable to vehicle treated mice. Since previous studies found that BCL-XL inhibitor treatment leads to
+platelet loss and a compensatory increase in platelet production from megakaryocytes(80), these results
+are consistent with platelets recently released into circulation being less primed for apoptosis and less
+dependent on BCL-XL but more dependent on MCL-1. We also detected increased MCL-1 dependence in
+PBMCs collected from mice treated with this DT2216 time course (Figure S8D-E), indicating that
+degradation of BCL-XL is also occurring in PBMCs and that this may be a potential pharmacodynamic
+biomarker for on-target activity of this agent.
+
+In a separate cohort of DF83 PDX-bearing mice, we performed tumor cell analysis after short term (48
+hour) treatment to examine drug-induced effects. Annexin V staining showed an enhancement of
+apoptosis induction in EPCAM+ DF83 tumor cells in combination treated mice as compared to single
+agents (Figure 8L). We also detected on-target degradation of BCL-XL upon DT2216 treatment and
+decreased MCL-1 expression with paclitaxel treatment (Figure 8O), as well as increased MCL-1
+dependence in PDX tumors treated with DT2216, confirming on-target activity and shifting apoptotic
+dependencies under treatment pressure in vivo (Figure S8F-G).
+
+Furthermore, formalin-fixed paraffin-embedded (FFPE) sections of the tumors collected after short term
+treatment were also analyzed via immunofluorescence staining, which showed that BCL-XL expression is
+increased in DF83 PDX tumor cells by paclitaxel treatment (Figure S8H). Consistent with the western
+blotting data, DT2216 treatment alone or in combination with paclitaxel reduced BCL-XL expression
+levels in EPCAM+ ovarian tumor cells (Figure S8H). Cleaved caspase 3 staining, indicating activation of
+this executioner caspase, showed that the combination treatment resulted in extensive apoptosis of ovarian
+tumor cells (Figure S8I). Taken together, these data indicate that combination treatment is most effective
+at inducing the changes in BCL-2 family protein expression and interactions that are required for
+meaningful HGSOC tumor regressions.
+
+Finally, we evaluated the reduced-intensity (weekly paclitaxel) therapy in a model of disseminated
+HGSOC disease by establishing luciferized DF83 PDX cells in the peritoneal cavities of
+immunocompromised mice, which more closely matches the common growth of HGSOC as ascites in
+women(81). When tumor bioluminescence reached 105 photons, we initiated therapy and monitored
+responses. Single agent DT2216 or paclitaxel were both able to reduce tumor burden and extend median
+survival, yet the combination therapy produced faster and more durable regressions of tumors (Figure 8P-
+S). This treatment was again well tolerated despite continued treatment with DT2216 until humane
+endpoint (disease burden equivalent to 108 photons) was reached (Figure 8T, S8J). Importantly, tumors
+treated with combination therapy exhibited bioluminescent signals at or below background levels at day
+40, which was not achieved with either single agent treatment (Figure 8Q-R). The deeper and more
+durable regressions in combination treated animals led to a 35-day extension of median survival versus
+paclitaxel alone (Figure 8S) and demonstrated the efficacy of this therapy even in the setting of
+disseminated disease and high tumor burden at initiation of therapy.
+
+
+DISCUSSION
+
+Despite the increasing and well-founded interest in developing targeted therapies for a wide range of
+malignancies, cytotoxic chemotherapies have been proven to be highly effective and eradicated cancers in
+millions of patients, including some women with HGSOC(8). These chemotherapeutics, which include
+the HGSOC first-line therapies carboplatin and paclitaxel, target ubiquitous cell features, including DNA
+and microtubules, and typically kill cancer cells via the apoptosis pathway(17, 23, 82). This provides a
+strong rationale for the identification of apoptosis-promoting agents that can be used in combination with
+cytotoxic chemotherapies to enhance the chemosensitivity of cancer cells while maintaining a tolerable
+safety profile. Indeed, herein we have reported that BCL-XL PROTAC degrader DT2216 can be safely
+combined with paclitaxel to induce extensive cancer cell apoptosis in vitro and in vivo. In fact, this
+combination consistently eradicates HGSOC cell line and PDX tumors in vivo – a striking result given the
+inherent aggressiveness and chemoresistance of these models. Importantly, DT2216 induces only
+transient and moderate thrombocytopenia and no other detectable signs of toxicity, which suggests that
+this agent will be better tolerated by patients than conventional inhibitors of BCL-XL. The lack of
+additional toxicity is consistent with our previous work showing that parenchymal cells within most adult
+healthy tissues are resistant to apoptosis due to low expression of pro-apoptotic BAX and BAK(83),
+rendering them resistant to BCL-XL inhibition(44). We believe this is the first clinically viable
+combination strategy to effectively treat drug resistant OvCa by simultaneously targeting two of the most
+important pro-survival proteins selectively in tumor cells but not in normal tissues, i.e. direct degradation
+of BCL-XL with DT2216 and indirect inhibition of MCL-1 with paclitaxel-induced mitotic arrest. This
+unique combination allows us to overcome the on-target toxicities caused by simultaneously targeting
+BCL-XL and MCL-1 using direct small molecule inhibitors with or without conventional chemotherapy as
+shown in many previous studies. These toxicities include BCL-XL inhibitor-induced dose-limiting
+thrombocytopenia(36, 84) and MCL-1 inhibitor-induced cardiotoxicity(85). Further, combined direct
+inhibition of BCL-XL and MCL-1 leads to severe and widespread tissue toxicity due to vascular
+endothelial cell apoptosis due to their high apoptotic priming and dependence on these pro-survival
+proteins for survival(44). These on-target and dose-limiting toxicities have stalled the clinical
+development of these otherwise promising inhibitors. The lack of vascular toxicity in our in vivo models
+is likely driven by the lack of active proliferation in vascular endothelial cells when angiogenesis is not
+stimulated(86) – this protects these cells from paclitaxel-induced mitotic arrest and downregulation of
+MCL-1. Our combination strategy avoids these toxicities and also produced a remarkable synergistic
+induction of apoptosis in OvCa cells, resulting in complete eradications of tumors and cures in both
+HGSOC cell line and patient-derived xenograft models without any detectable toxicities. These results are
+particularly notable given the inherent therapy resistance of the heavily pretreated PDX models that we
+have used for our studies(87). Our pre-clinical studies supported the initiation of a phase Ib study using
+DT2216 plus weekly paclitaxel to treat relapsed/refractory ovarian cancer patients (clinicaltrials.gov ID
+NCT06964009). We expect additional trials to be launched for other cancer types in the near future,
+especially since paclitaxel is a standard of care agent in other solid cancers including breast and non-small
+cell lung cancer (NSCLC)(88).
+
+Our studies demonstrate the existence of endogenous and therapy-enhanced dependence of ovarian
+cancers on the pro-survival protein BCL-XL and provide critical guidance for targeting this protein safely
+and effectively using the DT2216 PROTAC. We show, for the first time, that HGSOC cells undergo RAA
+in response to treatment with BH3 mimetics targeting BCL-XL, resulting in higher expression of
+resistance-promoting BCL-2 or MCL-1. This is consistent with the selection for overexpression of
+untargeted pro-survival proteins reported with BH3 mimetics in other cancer types(89, 90). Importantly,
+this adaptation also involved upregulation of BCL-XL in response to ABT-263 but not DT2216 – this
+demonstrates that proteasome-mediated degradation of BCL-XL with DT2216 may reduce the likelihood
+of therapy resistance arising compared with ABT-263. It is important to note that across multiple
+experimental models, DT2216 proved to be more effective at inducing apoptosis than ABT-263.
+Nevertheless, the apoptotic adaptation in HGSOC suggests that single-agent treatment with BCL-XL
+targeting agents including DT2216 is unlikely to lead to durable responses in patients with HGSOC and
+likely other solid cancer types. We found that paclitaxel helped prevent apoptotic adaptation via several
+different mechanisms, each leading to a sensitization to DT2216. First, paclitaxel treatment led to
+decreased MCL-1 levels, as was evident in the OVCAR3 and OVCAR4 cell lines as well as tumors and
+DF83 PDX model. This was especially evident in cells that are arrested in mitosis – these cells exhibit a
+near-complete absence of MCL-1 expression and are particularly vulnerable to BCL-XL inhibition. This
+decrease in MCL-1 within mitotically arrested cells likely forestalled the development of resistance to
+DT2216, leading to the enhanced responses we observed, and is consistent with previous reports showing
+MCL-1 phosphorylation and degradation during prolonged mitotic arrest(91–93). Second, paclitaxel
+treatment also resulted in phosphorylation of BCL-XL across most HGSOC cells, as evidenced by the
+appearance of the higher molecular weight band in the western blots and confirmed with the
+phosphorylation-specific antibody. This phosphorylation of BCL-XL at Ser-62 has been previously
+reported to prevent BCL-XL binding to BAX(67), which would result in a further reduction of anti-
+apoptotic activity of total BCL-XL. There was no observed difference in DT2216-induced degradation of
+phosphorylated versus non-phosphorylated BCL-XL. Our immunoprecipitation analysis confirmed that
+paclitaxel and DT2216 treatment frees pro-apoptotic proteins BIM, BAX and BAK from being bound by
+BCL-XL, enabling rapid and complete commitment to apoptotic cell death. Finally, paclitaxel also
+downregulated HSP27, which would further facilitate the commitment to apoptosis. In vitro, these effects
+led to synergistic induction of apoptosis in HGSOC cells. In vivo, these effects enhanced tumor control in
+the combination treated mice compared with single agents, leading to the eradication of xenograft tumors
+in the recurrent and chemoresistant HGSOC DF83 PDX model as well as other xenograft models. As
+mentioned, our results provided the preclinical evidence for the initiation of a clinical trial evaluating
+DT2216 in combination with paclitaxel for patients with recurrent HGSOC. This trial will also test the
+extent to which BH3 profiling can predict patient outcomes since we demonstrated that BCL-XL
+dependence can be reliably detected with this assay. Given the rising interest in using functional precision
+medicine to guide treatment decisions(94, 95), our results are expected to inform the use of these
+technologies in the clinic.
+
+We have previously reported that HGSOC tumors are sensitive to pro-apoptotic stimuli(23), helping to set
+the stage for successful deployment of DT2216 in combination with paclitaxel in this disease. It is
+important to note that the near-ubiquitous nature of TP53 mutations in HGSOC impair the chemo- and
+radio-sensitivity of these cancers but because BH3 mimetics engage the apoptosis pathway downstream
+of p53 signaling, these agents can maintain high levels of efficacy despite lack of p53 signaling. Indeed,
+we found that a diverse array of primary tumors, PDX and PDO models were sensitive to BCL-XL
+inhibition, suggesting that the activity of this agent will be broad, including in treatment-naïve as well as
+heavily pretreated patients. Also, since many of the targeted anti-cancer agents currently in development
+will also produce pro-apoptotic signaling in OvCa cells, we expect BH3 mimetics targeting BCL-XL to
+have an enduring impact on the clinical care of these patients. Finally, although our validation in vitro and
+in vivo studies focused on HGSOC, we expect DT2216 to be highly effective in other subtypes of OvCa
+and the many other solid cancer types that we and others have identified as BCL-XL dependent including
+cancers of the lung(96), pancreas(97), colon(98), breast(99), kidney(100) and others(101). Importantly,
+our data indicate that targeting BCL-XL will be effective even in tumors with mutant TP53, which are
+resistant to many other classes of anti-cancer agents that induce DNA damage and rely on intact p53
+signaling to trigger apoptosis.
+
+Our comprehensive pan-cancer analysis of BCL-2 family dependencies provides critical insights into the
+therapeutic potential of targeting the apoptosis pathway across diverse malignancies. By analyzing nearly
+2,000 cancer cell lines from publicly available databases and validating findings through direct apoptosis
+measurements in 132 cell lines, we clarify both the opportunities and limitations inherent in apoptotic
+targeting strategies. The striking finding that simultaneous BCL-XL and MCL-1 inhibition induced
+synergistic apoptosis in 88.6% of cancer cell lines, including notoriously chemoresistant types such as
+glioblastoma, pancreatic, and ovarian cancers, demonstrates the broad therapeutic potential of dual
+apoptotic targeting. Importantly, our validation studies using Annexin V staining to directly measure
+apoptosis, rather than inferring cell death from reduced representation of barcoded cell lines in pooled
+screens, provides definitive evidence that these combination effects represent true apoptotic cell death
+rather than cytostatic effects that can potentially complicate interpretation of large-scale pooled screens.
+Our data further extend this principle beyond direct MCL-1/BCL-XL co-inhibition by showing that
+DT2216 and BCL-XL inhibition more broadly synergistically enhance apoptosis induced by multiple
+mitotic arrest–inducing therapies, including Aurora A kinase inhibitors, PLK1 inhibitors, and
+microtubule-targeting agents, many of which are commonly used in the clinic for a wide range of
+malignancies. This also has important translational relevance for ADCs, which represent a rapidly
+expanding therapeutic class with 15 FDA-approved agents and over 50 in late-stage clinical development
+(68) – most of these deliver microtubule-disrupting payloads that we found induce apoptosis
+synergistically when combined with BCL-XL inhibition. Across these clinically relevant modalities,
+apoptotic resistance represents a shared mechanism of chemoresistance, and our findings suggest that
+BCL-XL targeting with agents such as DT2216 can safely lower the apoptotic threshold to potentiate
+mitotic arrest–induced tumor cell killing.
+
+Our analysis also uncovers why single-agent BH3 mimetics have shown limited clinical success in solid
+tumors despite their efficacy in hematologic malignancies. The functional redundancy between BCL-XL
+and MCL-1, evidenced by their co-expression patterns and compensatory upregulation following single-
+agent treatment, explains the modest single-agent activities observed across most solid cancer types. This
+compensatory mechanism, which we term "rapid apoptotic adaptation," represents a fundamental barrier
+to apoptotic targeting that has been underappreciated in previous studies. Our identification of HSP27 as a
+key mediator of rapid apoptotic adaptation provides important mechanistic insights with broad therapeutic
+implications beyond solid tumors. HSP27 phosphorylation at Ser82 in response to BCL-XL inhibition
+represents a previously unrecognized resistance mechanism that enables cancer cells to rapidly upregulate
+compensatory pro-survival proteins, thereby blunting the apoptotic response to BH3 mimetics. The ability
+of the HSP27 inhibitor J2(58) to prevent this adaptive response and enhance apoptosis induced by both
+ABT-263 and DT2216 suggests that targeting this chaperone protein could significantly improve the
+efficacy of single-agent BH3 mimetics. This finding may be particularly relevant for hematologic
+malignancies such as chronic lymphocytic leukemia (CLL) and acute myeloid leukemia (AML), where
+venetoclax has shown remarkable initial responses but acquired resistance frequently develops through
+upregulation of alternative pro-survival proteins like MCL-1 and BCL-XL(102). Co-targeting HSP27
+alongside established BH3 mimetics could potentially prevent or delay the emergence of resistance in
+these diseases.
+
+Our BH3 profiling analysis of platelets after treatment with DT2216 provides novel insights into the
+regulation of apoptosis in these cells in a preclinical therapeutic setting. Specifically, we found that
+dosing mice with DT2216 led to decreased apoptotic priming and decreased, but still detectable, BCL-XL
+dependence in circulating platelets one and two days after treatment, returning to baseline (equivalent to
+vehicle-treated animals) on the third day. These data, combined with our detection of short-term decreases
+in platelet counts after DT2216 administration, suggest that newly-produced platelets that are recently
+released into circulation are more resistant to apoptosis. This can be due to lower or higher expression of
+pro-apoptotic or pro-survival proteins, respectively. We also detected dependence on MCL-1 in these
+newly-formed platelets, which was not detected in vehicle-treated animals. Taken together, these data
+suggest that MCL-1 expression is higher in newly-formed platelets, which protects them from BCL-XL
+targeted therapies to some extent. Given that megakaryocytes in the bone marrow express both BCL-XL
+and MCL-1(103), the mitochondria-containing platelets they shed into circulation likely contain high
+expression levels of both these proteins. However, due to the short half-life of MCL-1(104), this protein is
+expected to be rapidly lost in circulating platelets, resulting in sole dependence on BCL-XL. Thus, the
+ability of DT2216 therapy to avoid chronic thrombocytopenia is predicated upon both the lower VHL
+expression of platelets and also the dosing schedule of this agent, which maintains degradation and thus
+inhibition of BCL-XL in tumor cells with twice weekly administration while allowing apoptosis-resistant,
+MCL-1 expressing, newly formed platelets to be released into circulation. These findings also help
+explain why lead-in dosing with ABT-263 is able to reduce the severity of thrombocytopenia to some
+extent in patients, but not enough to avoid thrombocytopenia that can limit dosing(36). Based on our data,
+we expect DT2216 treated patients to potentially experience transient thrombocytopenia that is then
+stabilized after new platelet production is enhanced. Interestingly, thrombopoietin agonists such as
+Eltrombopag or romiplostim that stimulate production of new, apoptosis-resistant platelets(105) may help
+prevent even transient thrombocytopenia in DT2216 treated patients.
+
+Although our findings provide a strong mechanistic and translational rationale for combining paclitaxel
+with DT2216, several limitations should be considered. First, while the combination produced striking
+tumor regressions and eradications in HGSOC cell line xenografts and PDX models, these studies remain
+preclinical and may not fully recapitulate the complexity, heterogeneity, pharmacokinetics, and treatment
+history of human cancer. In addition, our mechanistic studies identify paclitaxel-induced mitotic arrest,
+MCL-1 loss, BCL-XL dependence, and suppression of rapid apoptotic adaptation as key contributors to
+synergy, but additional determinants of response and resistance are likely to emerge, including potential
+tumor-specific differences in mitotic arrest duration, apoptotic priming, drug efflux, and expression of
+other pro-survival proteins. Finally, although our pan-cancer analyses suggest broad BCL-XL/MCL-1 co-
+dependence across solid tumors, our most extensive functional and in vivo validation was performed in
+HGSOC models; the efficacy and optimal combination partners for DT2216 in other cancer types remain
+to be established. Thus, ongoing and future clinical studies will be essential to define the safety,
+tolerability, biomarkers, and therapeutic activity of this strategy in patients.
+
+Overall, our findings have important clinical implications and suggest that targeting single pro-survival
+proteins for solid cancer therapy will not be sufficient. Instead, indirectly targeting MCL-1 with mitotic-
+arrest inducing agents such as paclitaxel in combination with DT2216-mediated BCL-XL degradation is a
+novel therapeutic strategy that is immediately clinically actionable and has the potential to be broadly
+effective across solid caners while also circumventing the vascular toxicity that prohibits direct dual
+inhibition of both BCL-XL and MCL-1. This work establishes a framework for rational combination
+design in apoptotic targeting and suggests that the true therapeutic potential of this pathway lies in
+carefully designed direct and indirect combination strategies that can simultaneously target the BCL-XL-
+MCL-1 axis rather than single-agent approaches.
+
+
+MATERIALS AND METHODS
+Ethics approval and consent to participate
+This project and all described experiments were conducted in accordance with the guidelines and
+regulations of the Committee on Microbiological Safety at the Harvard T.H. Chan School of Public
+Health under approved COMS Protocol # 17-245 and complies with all ethical and safety regulations
+mandated by said institution. Animal studies were conducted in accordance with the guidelines and
+regulations of the Institutional Animal Care and Use Committee (IACUC) at the Harvard T.H. Chan
+School of Public Health under approved IACUC Protocol #IS00001059. Ovarian tumor and ascites
+collection from human donors was conducted in accordance with the guidelines and regulations of the
+Institutional Review Board at the Dana-Farber Cancer Institute under approved IRB Protocol # 02-051
+after obtaining a written statement of informed consent. Blood collection from human donors was
+conducted in accordance with the guidelines and regulations of the Institutional Review Board at the
+Harvard T.H. Chan School of Public Health under approved IRB Protocol # IRB23-1756 after obtaining a
+written statement of informed consent.
+
+Cell and organoid culture
+
+OVCAR4, KURAMOCHI, OVSAHO, OVKATE, and JHOM-1 ovarian cancer cell lines were cultured in
+RPMI 1640 medium (Thermo Fisher Scientific) supplemented with 10% fetal bovine serum (FBS; Life
+Technologies) and 1% penicillin-streptomycin (Life Technologies). OVCAR3 cells were maintained in
+RPMI medium supplemented with 20% FBS and 1% penicillin-streptomycin. OV-90, OAW28, OVCAR8
+and TYK-nu ovarian cancer cell lines were cultured in DMEM medium (Thermo Fisher Scientific)
+supplemented with 10% fetal bovine serum and 1% penicillin-streptomycin. All cell lines were routinely
+tested to confirm mycoplasma. High-grade serous ovarian cancer (HGSOC) primary tumors and patient-
+derived xenograft models were grown in RPMI supplemented with 10% FBS and 1% penicillin-
+streptomycin. The patient-derived organoids (PDO) were maintained as previously described(106).
+Human and mouse peripheral blood mononuclear cells (PBMCs) were maintained in RPMI medium with
+10% FBS and 1% penicillin-streptomycin. Human and mouse platelets were kept in Hank’s Balanced Salt
+Solution (HBSS) on a rocker at room temperature. All research involving patient samples was conducted
+in accordance with a Dana-Farber/Harvard Cancer Center Institutional Review Board-approved protocol,
+with written informed consent obtained from all participants.
+
+BH3 profiling
+
+BH3 profiling was performed using flow cytometry according to established protocols(48, 107). Briefly,
+cultured cells were treated with trypsin (Gibco), collected and centrifuged at 200 g for 5 minutes. The cell
+pellet was resuspended in Mannitol Experimental Buffer (MEB), which consists of 10 mM HEPES (pH
+7.5), 150 mM mannitol, 50 mM KCl, 0.02 mM EGTA, 0.02 mM EDTA, 0.1% BSA, and 5 mM succinate.
+The resuspended cells were subsequently added to wells of prepared plates containing the indicated
+peptide conditions and 0.001% digitonin. Alamethicin (25 μM) was used as positive controls, while
+DMSO was used as negative controls. After incubation for 60 minutes at 28°C, cells were fixed with 8%
+paraformaldehyde for 15 minutes, and then neutralized with N2 buffer (1.7 M Tris base, 1.25 M glycine,
+pH 9.1). Cells were stained overnight with DAPI (1:1000, Abcam) and anti-Cytochrome c-Alexa Fluor
+647 (1:2000, clone 6H2.B4, Biolegend) in a Tween20-based intracellular stain buffer (0.2% Tween20, 1%
+BSA). Cytochrome c release in response to BH3 peptide treatment was measured using an Attune NxT
+flow cytometer equipped with an autosampler (Thermo Fisher Scientific).
+
+In vitro drug treatments and Annexin V (AxV) / Propidium iodide (PI) viability assay
+
+Cells were initially plated at a density of 104 cells per well in 100 μL of culture media in flat-bottom 96-
+well plates (Denville). Following plating, cells were treated with various drugs at the specified
+concentrations: ABT-199 (1, 0.1, 0.01 μM), ABT-263 (1, 0.1, 0.01 μM), A-1331852 (1, 0.1, 0.01 μM),
+S63845 (1, 0.1, 0.01 μM), DT2216 (1, 0.1, 0.01 μM), ABT-737 (1, 0.1, 0.01 μM), Carboplatin (25, 100,
+250 μM), Paclitaxel (0.3, 1, 3, 10, 30, 100, 300 nM), and QVD-OPH (10 μM). Combination treatments
+were administered simultaneously. DMSO (1%) was used as negative control. After 24, 48 or 72 hours of
+treatment under standard tissue culture conditions, the medium was collected and transferred to a fresh
+96-well V-bottom plate (Sigma Aldrich). 25 μL of 0.0025% Trypsin (Gibco) was added to each well on
+the original plate and incubated for 5 minutes, trypsinized cells were then transferred to the V-bottom
+plate containing the collected medium. Cell staining was performed using viability markers Annexin V
+(AxV) and propidium iodide (PI) according to the following protocol. A staining solution was prepared
+using 10x Annexin Binding Buffer (100 mM HEPES free acid, 40 mM KCL, 1.4 M NaCl, 7.5 mM
+MgCl2, 25 mM CaCl2, pH 7.4, sterile filtered) mixed with AlexaFluor® 488-conjugated AxV and PI
+(Abcam) at a dilution of 1:500. The staining solution was added to the cells at a final dilution of 1:10 and
+incubated for 30 minutes on ice in the dark. AxV/PI positivity was then measured using an Attune NxT
+flow cytometer equipped with an autosampler (Thermo Fisher Scientific).
+
+siRNA transfection
+
+OVCAR3 cells were seeded in 6-cm dishes at approximately 60% confluence in complete growth
+medium and transfected the next day with BCL2L1 siRNA (Horizon Discovery, L-003458-00-0010) or a
+non-targeting control siRNA (Horizon Discovery, D-001810-05) using Lipofectamine RNAiMAX
+(Thermo Fisher Scientific, 13778030) according to the manufacturer’s instructions. Cells were harvested
+72 h post-transfection, then divided into two fractions: one collected for immunoblot analysis to assess
+protein expression, and the other seeded into flat-bottom 96-well plates (Denville) at a density of 1 × 10⁴
+cells per well in 100 μL of culture medium, treated the next day with the indicated drugs at specified
+concentrations, and assessed for viability 72 h later using Annexin V/propidium iodide (Annexin V/PI)
+staining.
+
+Organoid CTG synergy assay
+
+A total of 104 cells were seeded per well in a 96-well plate within a 10 μL Matrigel dome and treated with
+DT2216 and paclitaxel (PTX) for one week. The media containing the drugs was refreshed every other
+day. PTX concentrations ranged from 0 to 30 nM (0, 1.5, 3, 10, 30 nM), while DT2216 concentrations
+ranged from 0 to 1000 nM (0, 10, 30, 100, 300, 1000 nM). Synergy between the two drugs was evaluated
+using the SynergyFinder web application (https://synergyfinder.fimm.fi/) with calculations based on the
+Zero-interaction model, where a synergy scores above 10 indicates a synergistic interaction. For the
+apoptosis assay, 45,000 cells were seeded per well in a 48-well plate in a 15 μL Matrigel dome and
+similarly incubated with PTX at 1.5 nM and DT2216 at 10 nM for one week, with media changes every
+other day. Apoptosis was then assessed using FITC-Annexin V and 7-AAD by flow cytometry.
+
+Western blot analysis
+
+Cells were seeded in 6-well plates and treated with drugs when they reached approximately 70%
+confluency. Cells were
+harvested by washing twice with cold PBS and lysed in Radio Immuno Precipitation Assay (RIPA) buffer
+(New England
+Biolabs) containing protease and phosphatase inhibitor (Thermo Fisher Scientific, 78446). Lysates were
+centrifuged, and
+supernatants were collected. Protein concentration was determined using loading was measured by
+Pierce™ Microplate
+BCA Protein Assay Kit (Thermo Fisher Scientific). Protein samples (5 μg) were resolved on 4% to 12%
+SDS-PAGE gels
+and subsequently transferred to PVDF membranes. Membranes were blocked in 5% milk and incubated
+with primary
+antibodies at 4°C overnight. After washing with PBST, membranes were incubated with the appropriate
+secondary
+antibodies for 2 hours at room temperature. Following further washes, membranes were incubated with
+SuperSignal West
+Femto Stable Peroxide & Luminol/Enhancer (Thermo Fisher Scientific) and developed using the ECL
+Detection System
+(Thermo Fisher Scientific). The following antibodies were used: BCL-2 (CST, 3498, RRID:
+AB_1903907, 1:500), BCL-
+XL (CST, 2764, RRID: AB_2228008, 1:1000), Phospho-BCL-XL (S62) (Invitrogen, 44-428G, RRID:
+AB_2533650,
+1:1000), MCL-1 (CST, 94296, RRID: AB_2722740, 1:1000), PUMA (CST, 98672, RRID: AB_3096180,
+1:1000),
+BIM (CTS, 2933, RRID: AB_1030947, 1:1000), BAX (CST, 2772, RRID: AB_10695870, 1:1000), BAK
+NT (Millipore 06-536, RRID: AB_310159, 1:1000); BID (CST, 2002, RRID: AB_10692485, 1:1000),
+BAD (ROCKLAND, 200-401-Z19, RRID: AB_2612247, 1:1000), BCL-W (CST, 2724, RRID:
+AB_10691557, 1:1000), Noxa (CST, 14766, RRID: AB_2798602, 1:1000), Phospho-Histone H3 (Ser10)
+(CST, 9701, RRID: AB_331535, 1:1000), HSP27 (CST, 95357, RRID: AB_2800246, 1:1000), Phospho-
+HSP27 (Ser82) (CST, 9709, RRID: AB_11217429, 1:1000), GAPDH (CST, 5174, RRID:
+AB_10622025). Anti-rabbit IgG (H1L) HRP conjugate (Thermo, 31460, RRID: AB_228341, 1:4000),
+and Anti-mouse IgG (H1L) HRP conjugate (Promega, W4021, RRID: AB_430834, 1:7000).
+
+Real time PCR
+
+OVCAR3 cells were plated in 12-well plates and treated with drugs when they reached approximately
+70% confluency. After treatment, total RNA was isolated using the RNeasy Mini Kit (QIAGEN, 74104)
+according to the manufacturer’s instructions. cDNA was synthesized from 1 μg of RNA using the High-
+Capacity cDNA Reverse Transcription Kit (Applied Biosystems, 4368814). Quantitative PCR was
+performed with the PowerUp SYBR Green Master Mix (Applied Biosystems, A25742) following the
+manufacturer’s instructions. Primers for gene detection were synthesized by Azenta Life Sciences, and
+their sequences (5′–3′) were as follows: BCL2 (BCL-2) F: ATCGCCCTGTGGATGACTGAGT R:
+GCCAGGAGAAATCAAACAGAGGC. BCL2L1 (BCL-XL) F: GCCACTTACCTGAATGACCACC R:
+AACCAGCGGTTGAAGCGTTCCT. MCL1 (MCL-1) F: CCAAGAAAGCTGCATCGAACCAT R:
+CAGCACATTCCTGATGCCACCT. BCL2L2 (BCL-W) F: CAAGGAGATGGAACCACTGGTG R:
+CCGTATAGAGCTGTGAACTCCG. GAPDH (GAPDH) F: GCACCGTCAAGGCTGAGAAC R:
+TGGTGAAGACGCCAGTGGA. Relative expression of target genes was normalized to GAPDH
+expression. Data were analyzed using the ΔΔCT method.
+
+Reverse Phase Protein Array (RPPA) analysis
+
+1,800,000 OVCAR3 cells were seeded across 6 wells of a TC-sterile 6-well plate (Greiner). Following
+overnight incubation under standard cell culture conditions, each plate of cells was treated with either
+DMSO (vehicle control), 0.1 µM DT2216, 25nM paclitaxel or with the combination of both agents. 24 h
+later, cells were harvested by trypsinisation and rinsed three times with PBS, pelleted and stored at -80°C
+before sending to M.D. Anderson Functional Proteomics RPPA Core on dry ice for analysis. Details of
+RPPA processing can be found at https://www.mdanderson.org/research/research-resources/core-
+facilities/functional-proteomics-rppa-core.html. Linear (L4) data was used to compare protein expression
+between samples. Dataset can be accessed at https://figshare.com/s/d45e5637c7a1e3eb9c67.
+
+Time lapse microscopy
+OVCAR4 cells were seeded in a 96-well flat plate (CORNING, 3603) at a density of 3,000 cells per well.
+The following day, cells were stained with Tetramethylrhodamine, Ethyl Ester, Perchlorate (TMRE,
+T669) at a 1:100 dilution from a 10 µM stock solution, and CellEvent™ Caspase-3/7 Green Detection
+Reagent at (C10433) at a 1:100 dilution. After a 30-minute incubation at 37°C in a humidified incubator
+with 5% CO₂, cells were treated with paclitaxel at 100 nM. The plate was then transferred to the Cellcyte
+live-cell imaging system (Discover Echo), and time-lapse images and videos were captured using red and
+green fluorescence channels to visualize mitochondrial membrane potential changes and caspase-3/7
+activation, respectively.
+
+Mitotic shake-off
+
+OVCAR3 cells were plated in a T175 cm² flask with 5.0 × 10⁶ cells per flask. The following day, the cells
+were treated with DMSO or paclitaxel (20 nM) for 24 hours to induce mitotic arrest. After the incubation,
+the medium was gently aspirated, and the cells were washed once with PBS to remove residual paclitaxel
+and serum. Fresh RPMI medium was added, and the flask was placed on a shaker set to 300 rpm for 5
+minutes to collect loosely attached cells (shake-off). Detached mitotic cells were collected into a clean
+centrifuge tube. The attached cells were then detached by adding trypsin. After neutralizing the trypsin
+with RPMI medium containing serum, the non-mitotic cells were collected. Both mitotic and non-mitotic
+cells were counted using a hemocytometer or an automated cell counter. The mitotic and non-mitotic
+fractions were then used for BH3 profiling and Western blot analysis as required.
+
+Protein immunoprecipitation
+
+Cells were seeded in 6-well plates and treated with drugs when they reached approximately 70%
+confluency. After treatment, the cells were harvested by washing twice with cold PBS and then lysed on
+ice using in Tris Lysis Buffer (R60TX-3) containing a Protease Inhibitor Cocktail (Meso Scale
+Diagnostics, R70AA-1). The lysates were centrifuged, and the supernatants were collected. Protein
+concentration was determined using the Pierce™ Microplate BCA Protein Assay Kit (Thermo Fisher
+Scientific). Based on the protein concentration, 200-600 μg of protein was aliquoted and adjusted to a
+final volume of 250 μL with Tris Lysis Buffer for “Input” group. For immunoprecipitation, 200-600 μg of
+protein was combined with Tris Lysis Buffer to a total volume of 120 μL, followed by the addition of 50
+μL of diluted antibody and 50 μL of Pierce Protein A/G Magnetic Beads (Thermo Fisher). Mouse anti-
+human BCL-XL antibodies (EMD Millipore MAB3121) were used for BCL-XL immunoprecipitation, and
+Mouse anti-human MCL-1 antibodies (BD Pharmingen 559027) were used for MCL-1
+immunoprecipitation. The mixtures were incubated overnight on a rocker in the cold room to allow
+binding. Following incubation, the immunoprecipitated complexes were separated using magnetic
+separation, and the beads were washed three times with Tris Lysis Buffer on ice. Proteins were eluted by
+heating the samples at 95°C for 10 minutes in Tris Lysis Buffer with LDS Sample Buffer 4X (Invitrogen).
+A representative aliquot of the normalized whole-cell lysate was saved for Western blot analysis.
+
+Mouse xenograft studies
+
+For the flank xenograft models, cell suspensions of OVCAR3, OVCAR8, or DF83 cells were prepared in
+a 1:1 mixture of Matrigel and PBS. A total of 1 × 106 cells were injected subcutaneously into the flanks of
+8-16 week old female immunodeficient NOD-scid IL2Rgammanull (NSG) mice (Jackson Laboratories
+strain #005557) and allowed to grow to approximately 65-100 mm3, at which point treatment was
+commenced (on average, the time period before initiation of treatment was 14 days for the OVCAR3, 18
+days for OVCAR8, and 17 days for DF83 flank xenograft models). For the intraperitoneal injection (IP)
+xenograft models, luciferase expressing DF83 (DF83-Luc) cells were injected into the intraperitoneal
+cavities of 8-16 week old female NSG mice. When tumor bioluminescence reached 105 photons, we
+initiated therapy and monitored responses (on average, the time period before initiation of treatment was
+24 days for this DF83 intraperitoneal model). DF83-Luc tumor bearing mice were imaged at post-
+implantation weekly by intraperitoneal injection with D-luciferin (Thermo Fisher Scientific, 50-209-
+8110) and were euthanized when luminescence signals reached 108 photons or mice became moribund in
+accordance with IACUC regulations. Mice in each xenograft model were then randomly assigned to
+different treatment groups. The paclitaxel cohort received intraperitoneal injection of 15 mg/kg every four
+days for four doses. The DT2216 cohort received intraperitoneal injection of 15 mg/kg every four days.
+The combination cohort received both paclitaxel and DT2216, while the vehicle cohort received
+corresponding vehicles. Tumor growth and body weight were monitored every other day using electronic
+calipers, and tumor volume was calculated using the formula for volume of an ellipsoid (V = 4/3 × π ×
+Length/2 × (Width/2)2). Blood samples were collected via tail vein every four days or every week in
+different xenograft models, and whole blood cell counts were performed using the Hemavet 950 analyzer
+(Drew Scientific). Mice were euthanized when tumors reached the predetermined endpoint of a volume of
+1,767 mm3 (equivalent to an ellipsoid volume reflecting a xenograft of 15 mm length and width). For
+each treatment, single-animal and average tumor sizes are represented in charts and averages included
+tumor size reached at humane endpoint in subsequent average calculations. Tumors and healthy tissues
+were collected for further analysis. Healthy tissues were rinsed with Hank's Balanced Salt Solution and
+placed into 4% paraformaldehyde (Electron Microscopy Sciences) for 24 hours. Sections were then
+stained with hematoxylin and eosin stain, and microphotographs of the sections were captured using a
+Leica DM2000 microscope equipped with a 40X objective.
+
+Human CA125/MUC16 ELISA analysis
+
+The blood from DF83-Luc IP xenograft models were collected and centrifuged at 1000 × g for 15
+minutes, and the resulting serum was collected and stored for CA125/MUC16 ELISA analysis. Serum
+CA125/MUC16 levels were quantified using a Human CA125/MUC16 ELISA kit (R&D Systems,)
+according to the manufacturer’s protocol. Serum samples were diluted 1:24 using the provided calibrator
+diluent and added in duplicate to the wells of a supplied plate. Plates were incubated for 2 hours at room
+temperature on a microplate shaker, followed by washes and the addition of Human CA125 Conjugate.
+After 2-hour incubation at room temperature on a microplate shaker, wells were washed again and
+incubated with substrate solution for 30 minutes, protected from light. The reaction was stopped by
+adding the provided stop solution, and absorbance was measured at 450 nm with 540 nm correction using
+a SpectraMax iD3 Microplate Reader. CA125 concentrations were calculated by generating a standard
+curve based on the supplied standards.
+
+BH3 profiling of patient tumor specimens and murine xenograft tumors
+
+Tissue samples were initially minced into approximately 1mm3 pieces using scalpels and then subjected to
+enzymatic dissociation with collagenase/dispase for 30 minutes at 37°C. The resulting cell suspensions
+were then filtered through a 100 mm filter to obtain single-cell preparations, which were then centrifuged
+at 200g for 5 minutes at 4°C to pellet the cells. The cell pellet was resuspended and cultured in
+RPMI1640 supplemented with 10% FBS and 1% penicillin-streptomycin for 24 hours in the absence or
+presence of the specified drugs. Following culture, cells were collected and stained with specific
+antibodies: anti-human EpCAM for primary patient and xenograft samples, anti-human or anti-mouse
+CD61 for platelets, and anti-human or anti-mouse CD45 for PBMCs. Subsequently, Flow cytometry
+based BH3 profiling was then performed. PBMCs were isolated using anti-human CD45 staining in
+primary patient and anti-mouse CD45 for xenograft samples, and the remaining cell identity stains were
+analyzed on CD45 negative-gated cells.
+
+Paraffin-embedding of tissues
+NSG mice bearing subcutaneous DF83 PDX tumors were treated with either vehicle, paclitaxel, DT2216
+or paclitaxel + DT2216 and tumors were collected 48 hours later and fixed in 4% paraformaldehyde
+(Electron Microscopy Sciences) diluted in 1X PBS (Boston Bioproducts Inc.) overnight, or longer, then
+transferred to 70% ethanol for ≥1 hour and stored at 4 °C. Samples were dehydrated through graded
+ethanol (95% for 45 min and 30 min; 100% for 45 min and 30 min), cleared in xylene (45 min, 1 h,
+30 min), and paraffin-infiltrated at 60 °C for 3 × 1 h. Embedding was performed using standard
+procedures. Reagents: VWR; Polyfin (19280-01); Superfrost Plus slides (48311-703).
+
+Immunofluorescence staining of xenograft tumors
+
+Sections were first warmed to 60°C in a vacuum incubator (Isotemp Vacuum Oven, Thermo Fisher
+Scientific) overnight and then washed twice in Histo-Clear (Electron Microscopy Sciences), and
+gradually redehydrated in ethanol (100%, 100%, 70%, 50%) followed by 1X PBS. Antigen retrieval was
+performed with 1X eBioscience™ IHC Antigen Retrieval Solution-High pH containing 10 mM Tris, 1
+mM EDTA solution, pH 9.0 (Invitrogen). Sections were placed in a 3% bleach solution [4 ml of 30%
+H2O2 (Sigma-Aldrich) and 0.8 ml of 1 M NaOH (Sigma-Aldrich) in 35.2 ml of PBS (Boston Bioproducts
+Inc.)], sandwiched between two 15,000 lux lights (AMZCOOL), and subjected to photobleaching for 1
+hour. Sections were washed three times with 1X PBS for 5 minutes each and permeabilized in 0.5% PBS-
+T (Triton X-100–based, CST) for 15 minutes at room temperature twice. After washing with 1X PBS
+three times for 5 minutes each, sections were blocked with blocking buffer [10% goat serum (Gibco), 2%
+Bovine Serum Albumin (BSA-Jackson ImmunoResearch Laboratories ,Inc.), 0.1% Triton-X-100 (CST)
+in 1X Tris Buffered Saline with Tween 20 (CST)] for 45 minutes. Primary antibody against BCL-
+XL (CST, 2764, 1:100), and Cleaved Caspase 3 (CST, 9661, 1:400) were diluted in a blocking buffer with
+an overnight incubation at 4°C. Fluorophore-conjugated, species-specific secondary antibody conjugated
+to either Alexa Fluor 488 (Invitrogen, A11032) or Alexa Fluor 568 (Invitrogen, A11036) was incubated
+for 1 hour at room temperature at 1:1000 dilution in the blocking buffer. Sections were then incubated
+with primary antibody targeting human EpCAM conjugated with Alexa Fluor 647 (SantaCruz, sc-25308
+AF647) at 1:100 dilution and DAPI at 1:200 dilution for 1 hour at room temperature. Sections were
+mounted with SlowFade™ Glass Soft-Set Antifade Mountant (Invitrogen, S36917). Images were
+captured with a Zeiss Axio-Observer Z1 inverted fluorescent microscope equipped with an Apotome.2
+structured illumination optical sectioning device and an Axiocam 712 color camera. One animal per
+treatment condition was used, and three 10× images were captured per animal (i.e., 3 images total per
+treatment condition).
+
+Isolation of PBMCs and platelets
+
+Peripheral blood was collected from human donors in compliance with an IRB-approved protocol at
+Harvard University, using lavender-top tubes containing EDTA. The peripheral blood was diluted with an
+equal volume phosphate-buffered saline (PBS) and then carefully layered over Ficoll-Paque (GE
+Healthcare). After centrifugation at 177 g for 20 minutes at room temperature with low brake settings, the
+supernatant enriched with platelets was transferred to a new tube. Prostaglandin E1 (PGE1) was added to
+achieve a final dilution of 1:10,000 from a 10mM stock solution. The solution was then centrifuged at
+1000 g for 5 minutes at room temperature. The resulting pellet, which contained platelets, was
+resuspended with HBSS and counted. The interface layer, containing PBMCs interface, was carefully
+aspirated and washed with PBS before counting. The isolated PBMCs and platelets were subsequently
+used for BH3 profiling and chemosensitivity assay.
+
+Colony formation assay
+
+OVCAR3, OVCAR8, KURAMOCHI, and OVKATE cells were seeded 600 cells per well into 24-well
+plates. Cells were then treated with the indicated conditions the following day. After 24 hours of
+exposure, the medium was replaced with fresh medium, and the cells were incubated for additional two
+weeks under standard culture conditions. At the end of the incubation period, the medium was removed,
+and the cells were washed with PBS. The cells were subsequently stained with 0.05% crystal violet
+solution for 30 minutes. Following staining, the crystal violet solution was removed, and the cells were
+washed twice with PBS. Stained colonies were imaged using the ECL Detection System (Thermo Fisher
+Scientific, 32209).
+
+ProteinAtlas.org
+
+Using the Human Protein Atlas online database(108), we investigated BCL-XL expression in tumor cells
+within different OvCa primary tumor specimens using the antibody HPA035734.
+
+PDX models
+
+With the exception of DF09 and DF20, which were derived from therapy-naïve patients, the primary
+ovarian tumors used for the generation of the PDX models were isolated from women with advanced high
+grade serous ovarian cancer that have been treated with multiple chemotherapies. The establishment of
+these models, their clinical and genomic characteristics (e.g., BRCA mutations) have been previously
+described(76). mCherry–Luciferase was transduced into dissociated tumor cells in vitro with a lentiviral
+vector and then placed under puromycin selection for 5–7 days before expansion in vivo (up to six
+passages) to generate viably frozen stocks. PDX models tested negative for mycoplasma contamination
+and were authenticated by genomic comparison with the original tumor.
+
+PDX ex vivo dose-response analyses
+
+Frozen PDX ascites cells were thawed and allowed to recover for two days in a 1:1:1 ratio of Medium
+199 (11150067, Life Tech), RPMI-1640 (11875119, Thermo Fisher) and DMEM/F12 (11330057,
+Thermo Fisher), supplemented with 2% HI-FBS (Corning), 1% (v/v) Penicillin-Streptomycin (Sigma-
+Aldrich), 1% (v/v) Insulin-Transferrin-Selenium (354352, Corning), 0.5 ng/ml of 17 beta-estradiol (US
+Biological), 0.2 pg/mL of triiodothyronine (Sigma-Aldrich), 0.025 ug/mL all-trans retinoic acid
+(Beantown Chemical), 20 ug/mL of insulin (Sigma-Aldrich), 0.5 ng/mL of EGF (Peprotech), 0.5 mg/mL
+hydrocortisone (Sigma-Aldrich) and 25 ng/mL of Cholera Toxin (Calbiochem). Cells were then seeded
+into 384-well white plates (3570, Corning) in a 1:1 ratio of MCDB105 (117-500, Westnet), M199
+medium (11150067, Life Tech) supplemented with 2% HI-FBS and 1% (v/v) Penicillin-Streptomycin.
+After 4 hours of recovery in the incubator, cells in 384 well-plates were treated with indicated dose ranges
+of DT2216 and paclitaxel using a HP D300 drug printer. Dose combination studies were performed with a
+dose of DT2216 starting from 10 μM followed by log10 based serial dilution for nine dose ranges (0.05 -
+10 μM), and the same log10 based serial dilution for paclitaxel (0.05 - 10 μM) for five dose ranges.
+DMSO was used as vehicle control. After 96 hours of drug treatment, cell viability was measured by
+luciferase assay with a PerkinElmer Envision plate reader (384-L1 aperture). Briefly, 20 μL of 1mg/mL
+D-Luciferin (LUCK-1G, GoldBio) in DPBS was added to each well of the 384-well plates, and then
+plates were shaken for 1 minute and incubated for 1 minute before reading. To determine growth rate, a
+parallel plate was read on the day of drug addition to calculate the luciferase signal before treatment (Day
+0).
+
+Anchor combination screens of breast, colon and pancreas cancer cell lines analysis
+
+Drug screening on cancer cell lines was performed by the Wellcome Sanger Institute as previously
+described(109). Briefly, cell lines from commercial sources were authenticated by SNP and STR
+profiling and cultured in appropriate media with routine mycoplasma testing. High-throughput
+combination screening involved optimized seeding of cell lines in 1,536-well plates, compound dosing,
+and viability quantification using CellTiter-Glo (Promega). Dose–response curves were fit with a two-
+parameter sigmoid model and synergy was assessed using Bliss independence scoring with shifts in IC50
+and Emax used to define synergistic interactions according to established thresholds.
+
+Pan-cancer apoptotic dependency analysis
+
+All data files were compiled from publicly available data sources. Comma separated tables (.csv) were
+analyzed in VSCode with Python 3.12.4 with the programs numpy and pandas. Cell line data was
+transformed to remove all capitalization, hyphens, spacing, and lineage metadata to ensure compatibility
+across data reporting methods (Code 1). The code ran through each dataset, collecting unique values for
+cell line names. A unique cell line was then populated with as much available metadata as possible when
+a matching cell line name was found. This data included primary disease classification, tissue lineage,
+cancer subtype, BCL2 family protein expression (DepMap), gene essentially (DepMAP: CRISPR and
+RNAi), TP53 mutation status including likelihood of loss-of-function (LOF), and drug dose-response
+(GDSC, PRISM: AUC, GDSC2: MaxE) values. Median values for gene expression, essentiality, and drug
+dose-response were reported except for AUC values for the combination treatment of AZD-5991 and
+A1331852, for which the minimum value was reported to similarly match the results of the MaxE values.
+If there were multiple values for the same cell line, the median value was computed for the master table.
+(Code 2). Heatmaps were generated using pandas, numpy, pathlib, matplotlib.pyplot, matplotlib. gridspec,
+and pathlib. Each subplot represents a different database, and legends were generated to study each
+dataset. Data excluded from the plots includes: non-cancerous cell lines, cell lines marked as “other,” and
+cell lines with missing or insufficient data (cell lines excluded: "Other", "Unknown", "Acute Leukemias
+of Ambiguous Lineage", "Muscle", "Hair", "Embryonal", "Chordoma", "Gastrointestinal Stromal
+Tumor", "Dermatofibrosarcoma Protuberans", "Alveolar Soft Part Sarcoma", "Desmoid/ Aggressive
+Fibromatosis", "CIC-DUX4 Sarcoma", "Clear Cell Sarcoma", "Gastrointestinal Neuroendocrine Tumors",
+"Giant Cell Tumor of Bone", "Myxofibrosarcoma", "Wilms' Tumor", "Breast Neoplasm, NOS", "Extra
+Gonadal Germ Cell Tumor", "Glassy Cell Carcinoma of the Cervix", "Head and Neck Squamous Cell
+Carcinoma", "Myelodysplastic Syndromes", "Head and Neck Carcinoma, Other", "Nerve Sheath Tumor",
+"Ovarian Germ Cell Tumor", "Retinoblastoma", "Salivary Carcinoma", "Small Bowel Cancer", "Prostate
+Small Cell Carcinoma" (Code 3). Generative AI statement: ChatGPT o4-mini-high was utilized to
+overcome challenges with figure aesthetics and syntax errors, all other aspects of the code were derived of
+the authors’ reasoning and design.
+
+Statistical analysis
+
+Significance was tested by student’s t test, One-Way or Two-Way ANOVA with Holm-Sidak’s correction
+for multiple hypothesis testing using GraphPad PRISM software.
+
+SUPPLEMENTARY MATERIALS
+
+Supplementary Figures:
+
+Figure S1 (Related to Figure 1)
+Figure S2 (Related to Figure 2)
+Figure S3 (Related to Figure 3)
+Figure S4 (Related to Figure 3)
+Figure S5 (Related to Figure 3)
+Figure S6 (Related to Figure 5)
+Figure S7 (Related to Figure 6)
+Figure S8 (Related to Figure 8)
+Supplementary Tables:
+
+Table S1: Ovarian cancer patient tumors.
+Table S2: Ovarian cancer patient-derived organoids.
+Table S3: Ovarian cancer PDX models.
+
+
+References and Notes
+
+1.    R. Agarwal, S. B. Kaye, Ovarian cancer: strategies for overcoming resistance to chemotherapy.
+      Nat. Rev. Cancer 3, 502–16 (2003).
+2.    A. Strasser, D. L. Vaux, Cell Death in the Origin and Treatment of Cancer. Mol. Cell 78, 1045–
+      1054 (2020).
+3.    Battling Chemoresistance in Cancer: Root Causes and Strategies to Uproot Them.
+      https://www.mdpi.com/1422-0067/22/17/9451.
+4.    G. Szakács, J. K. Paterson, J. A. Ludwig, C. Booth-Genthe, M. M. Gottesman, Targeting
+      multidrug resistance in cancer. Nat. Rev. Drug Discov. 5, 219–234 (2006).
+5.    K. J. Campbell, S. W. G. Tait, Targeting BCL-2 regulated apoptosis in cancer. 1–11 (2018).
+6.    A. R. D. Delbridge, S. Grabow, A. Strasser, D. L. Vaux, Thirty years of BCL-2: translating cell
+      death discoveries into novel cancer therapies. Nat. Rev. Cancer 16, 99–109 (2016).
+7.    B. C. Schmid, M. K. Oehler, New perspectives in ovarian cancer treatment. Maturitas 77, 128–36
+      (2014).
+8.    Z. C. Wang, N. J. Birkbak, A. C. Culhane, R. Drapkin, A. Fatima, R. Tian, M. Schwede, K. Alsop,
+      K. E. Daniels, H. Piao, J. Liu, D. Etemadmoghadam, A. Miron, H. B. Salvesen, G. Mitchell, A.
+      Defazio, J. Quackenbush, R. S. Berkowitz, J. D. Iglehart, D. D. L. Bowtell, U. a Matulonis,
+      Profiles of Genomic Instability in High-Grade Serous Ovarian Cancer Predict Treatment Outcome.
+      Clin. Cancer Res. Off. J. Am. Assoc. Cancer Res. 18, 5806–5815 (2012).
+9.    R. G. W. Verhaak, P. Tamayo, J. Yang, D. Hubbard, H. Zhang, C. J. Creighton, S. Fereday, M.
+      Lawrence, S. L. Carter, C. H. Mermel, A. D. Kostic, D. Etemadmoghadam, G. Saksena, K.
+      Cibulskis, S. Duraisamy, K. Levanon, C. Sougnez, A. Tsherniak, S. Gomez, R. Onofrio, S.
+      Gabriel, L. Chin, N. Zhang, P. T. Spellman, Y. Zhang, R. Akbani, K. A. Hoadley, A. Kahn, M.
+      Köbel, D. Huntsman, R. A. Soslow, A. Defazio, M. J. Birrer, J. W. Gray, J. N. Weinstein, D. D.
+      Bowtell, R. Drapkin, J. P. Mesirov, G. Getz, D. A. Levine, Prognostically relevant gene signatures
+      of high-grade serous ovarian carcinoma. 123, 517–525 (2013).
+10.   T. Cancer Genome Atlas Research Network, D. Bell, A. Berchuck, M. Birrer, J. Chien, D. W.
+      Cramer, F. Dao, R. Dhir, P. Disaia, H. Gabra, P. Glenn, A. K. Godwin, J. Gross, L. Hartmann, M.
+      Huang, D. G. Huntsman, M. Iacocca, M. Imielinski, S. Kalloger, B. Y. Karlan, D. A. Levine, G. B.
+      Mills, C. Morrison, D. Mutch, N. Olvera, S. Orsulic, K. Park, N. Petrelli, B. Rabeno, J. S. Rader,
+      B. I. Sikic, K. Smith-Mccune, A. K. Sood, D. Bowtell, R. Penny, J. R. Testa, K. Chang, H. H.
+      Dinh, J. A. Drummond, G. Fowler, P. Gunaratne, A. C. Hawes, C. L. Kovar, L. R. Lewis, M. B.
+      Morgan, I. F. Newsham, J. Santibanez, J. G. Reid, L. R. Trevino, Y. Q. Wu, M. Wang, D. M.
+      Muzny, D. A. Wheeler, R. A. Gibbs, G. Getz, M. S. Lawrence, K. Cibulskis, A. Y. Sivachenko, C.
+      Sougnez, D. Voet, J. Wilkinson, T. Bloom, K. Ardlie, T. Fennell, J. Baldwin, S. Gabriel, E. S.
+      Lander, L. Ding, R. S. Fulton, D. C. Koboldt, M. D. McLellan, T. Wylie, J. Walker, M.
+      O’Laughlin, D. J. Dooling, L. Fulton, R. Abbott, N. D. Dees, Q. Zhang, C. Kandoth, M. Wendl,
+      W. Schierding, D. Shen, C. C. Harris, H. Schmidt, J. Kalicki, K. D. Delehaunty, C. C. Fronick, R.
+      Demeter, L. Cook, J. W. Wallis, L. Lin, V. J. Magrini, J. S. Hodges, J. M. Eldred, S. M. Smith, C.
+      S. Pohl, F. Vandin, B. J. Raphael, G. M. Weinstock, E. R. Mardis, R. K. Wilson, M. Meyerson, W.
+      Winckler, R. G. W. Verhaak, S. L. Carter, C. H. Mermel, G. Saksena, H. Nguyen, R. C. Onofrio,
+      D. Hubbard, S. Gupta, A. Crenshaw, A. H. Ramos, L. Chin, A. Protopopov, J. Zhang, T. M. Kim,
+      I. Perna, Y. Xiao, H. Zhang, G. Ren, N. Sathiamoorthy, R. W. Park, E. Lee, P. J. Park, R.
+      Kucherlapati, D. M. Absher, L. Waite, G. Sherlock, J. D. Brooks, J. Z. Li, J. Xu, R. M. Myers, P.
+      W. Laird, L. Cope, J. G. Herman, H. Shen, D. J. Weisenberger, H. Noushmehr, F. Pan, T. Triche,
+      B. P. Berman, D. J. Van Den Berg, J. Buckley, S. B. Baylin, P. T. Spellman, E. Purdom, P.
+      Neuvial, H. Bengtsson, L. R. Jakkula, S. Durinck, J. Han, S. Dorton, H. Marr, Y. G. Choi, V.
+      Wang, N. J. Wang, J. Ngai, J. G. Conboy, B. Parvin, H. S. Feiler, T. P. Speed, J. W. Gray, N. D.
+      Socci, Y. Liang, B. S. Taylor, N. Schultz, L. Borsu, A. E. Lash, C. Brennan, A. Viale, C. Sander,
+      M. Ladanyi, K. A. Hoadley, S. Meng, Y. Du, Y. Shi, L. Li, Y. J. Turman, D. Zang, E. B. Helms, S.
+      Balu, X. Zhou, J. Wu, M. D. Topal, D. N. Hayes, C. M. Perou, C. J. Wu, S. Shukla, A. Y.
+      Sivachenko, R. Jing, Y. Liu, M. Noble, H. Carter, D. Kim, R. Karchin, J. E. Korkola, L. M. Heiser,
+      R. J. Cho, Z. Hu, E. Cerami, A. Olshen, B. Reva, Y. Antipin, R. Shen, P. Mankoo, R. Sheridan, G.
+      Ciriello, W. K. Chang, J. A. Bernanke, D. Haussler, C. C. Benz, J. M. Stuart, S. C. Benz, J. Z.
+      Sanborn, C. J. Vaske, J. Zhu, C. Szeto, G. K. Scott, C. Yau, M. D. Wilkerson, N. Zhang, R.
+      Akbani, K. A. Baggerly, W. K. Yung, J. N. Weinstein, T. Shelton, D. Grimm, M. Hatfield, S.
+      Morris, P. Yena, P. Rhodes, M. Sherman, J. Paulauskis, S. Millis, A. Kahn, J. M. Greene, R. Sfeir,
+      M. A. Jensen, J. Chen, J. Whitmore, S. Alonso, J. Jordan, A. Chu, A. Barker, C. Compton, G.
+      Eley, M. Ferguson, P. Fielding, D. S. Gerhard, R. Myles, C. Schaefer, K. R. Mills Shaw, J.
+      Vaught, J. B. Vockley, P. J. Good, M. S. Guyer, B. Ozenberger, J. Peterson, E. Thomson,
+      Integrated genomic analyses of ovarian carcinoma. Nature 474, 609–15 (2011).
+11.   A. Janic, L. J. Valente, M. J. Wakefield, L. D. Stefano, L. Milla, S. Wilcox, H. Yang, L. Tai, C. J.
+      Vandenberg, A. J. Kueh, S. Mizutani, M. S. Brennan, R. L. Schenk, L. M. Lindqvist, A. T.
+      Papenfuss, L. O. Connor, A. Strasser, M. J. Herold, DNA repair processes are critical mediators of
+      p53-dependent tumor suppression. doi: 10.1038/s41591-018-0043-5 (2018).
+12.   B. J. Aubrey, G. L. Kelly, A. Janic, M. J. Herold, A. Strasser, How does p53 induce apoptosis and
+      how does this relate to p53-mediated tumour suppression? Cell Death Differ. 25, 104–113 (2018).
+13.   X. B. Stickles, R. M. Wenham, N. Chen, W. Fulp, D.-T. Chen, C. L. Cubitt, J. Gonzalez-Bosquet,
+      S. M. Apte, H. S. Chon, D. C. Marchion, E. Bicaku, J. M. Lancaster, P. L. Judson, Y. Xiong, A.
+      Hakam, In vitro analysis of ovarian cancer response to cisplatin, carboplatin and paclitaxel
+      identifies common pathways that are also associated with overall patient survival. Br. J. Cancer
+      106, 1967–1975 (2012).
+14.   P.-E. Colombo, M. Fabbro, C. Theillet, F. Bibeau, P. Rouanet, I. Ray-Coquard, Sensitivity and
+      resistance to treatment in the primary management of epithelial ovarian cancer. Crit. Rev. Oncol.
+      Hematol. 89, 207–16 (2014).
+15.   S. Fulda, K.-M. Debatin, Extrinsic versus intrinsic apoptosis pathways in anticancer
+      chemotherapy. Oncogene 25, 4798–811 (2006).
+16.   R. W. Johnstone, A. A. Ruefli, S. W. Lowe, E. M. Victoria, Apoptosis : A Link between Cancer
+      Genetics and Chemotherapy Defects in apoptosis underpin both tumorigenesis and. 108, 153–164
+      (2002).
+17.   K. A. Sarosiek, T. Ni Chonghaile, A. Letai, Mitochondria: gatekeepers of response to
+      chemotherapy. Trends Cell Biol., 1–8 (2013).
+18.   P. Meier, a Finch, G. Evan, Apoptosis in development. Nature 407, 796–801 (2000).
+19.   S. Elmore, Apoptosis: a review of programmed cell death. Toxicol. Pathol. 35, 495–516 (2007).
+20.   J. Lopez, S. W. G. Tait, Mitochondrial apoptosis: Killing cancer using the enemy within. Br. J.
+      Cancer 112, 957–962 (2015).
+21.   J. K. Brunelle, A. Letai, Control of mitochondrial apoptosis by the Bcl-2 family. J. Cell Sci. 122,
+      437–441 (2009).
+22.   D. R. Green, H. Walczak, Apoptosis therapy : driving cancers down the road to ruin. Nat. Med. 19,
+      131–133 (2013).
+23.   T. Ni Chonghaile, K. A. Sarosiek, T.-T. Vo, J. A. Ryan, A. Tammareddi, V. D. G. Moore, J. Deng,
+      K. C. Anderson, P. Richardson, Y.-T. Tai, C. S. Mitsiades, U. A. Matulonis, R. Drapkin, R. Stone,
+      D. J. Deangelo, D. J. McConkey, S. E. Sallan, L. Silverman, M. S. Hirsch, D. R. Carrasco, A.
+      Letai, Pretreatment mitochondrial priming correlates with clinical response to cytotoxic
+      chemotherapy. Science 334, 1129–1133 (2011).
+24.   K. A. Sarosiek, X. Chi, J. A. Bachman, J. J. Sims, J. Montero, L. Patel, A. Flanagan, D. W.
+      Andrews, P. Sorger, A. Letai, BID preferentially activates BAK while BIM preferentially activates
+      BAX, affecting chemotherapy response. Mol. Cell 51, 751–765 (2013).
+25.   J. Montero, K. A. Sarosiek, J. D. DeAngelo, O. Maertens, J. Ryan, D. Ercan, H. Piao, N. S.
+      Horowitz, R. S. Berkowitz, U. Matulonis, P. A. Jänne, P. C. Amrein, K. Cichowski, R. Drapkin, A.
+      Letai, Drug-Induced Death Signaling Strategy Rapidly Predicts Cancer Response to
+      Chemotherapy. Cell 160, 977–989 (2015).
+26.   M. N. Abed, M. I. Abdullah, A. Richardson, Antagonism of Bcl-XL is necessary for synergy
+      between carboplatin and BH3 mimetics in ovarian cancer cells. J. Ovarian Res. 9, 25 (2016).
+27.   F. V. Peale, W. J. Fairbrother, M. Wong, L. D. Belmont, J. Zha, P. Yue, N. Tan, Navitoclax (ABT-
+      263) Reduces Bcl-xL-Mediated Chemoresistance in Ovarian Cancer Models. Mol. Cancer Ther.
+      11, 1026–1035 (2012).
+28.   E. H. Stover, M. B. Baco, O. Cohen, Y. Y. Li, E. L. Christie, M. Bagul, A. Goodale, Y. Lee, S.
+      Pantel, M. G. Rees, G. Wei, A. G. Presser, M. K. Gelbard, W. Zhang, I. K. Zervantonakis, P. D.
+      Bhola, J. Ryan, J. L. Guerriero, J. Montero, F. J. Liang, A. D. Cherniack, F. Piccioni, U. A.
+      Matulonis, D. D. L. Bowtell, K. A. Sarosiek, A. Letai, L. A. Garraway, C. M. Johannessen, M.
+      Meyerson, Pooled genomic screens identify anti-apoptotic genes as targetable mediators of
+      chemotherapy resistance in ovarian cancer. Mol. Cancer Res. 17, 2281–2293 (2019).
+29.   T. Yokoyama, E. C. Kohn, E. Brill, J. Lee, Apoptosis is augmented in high-grade serous ovarian
+      cancer by the combined inhibition of Bcl-2 / Bcl-xL and PARP. 1064–1074 (2017).
+30.   Y. T. Tai, S. Lee, E. Niloff, C. Weisman, T. Strobel, S. A. Cannistra, BAX protein expression and
+      clinical outcome in epithelial ovarian cancer. J. Clin. Oncol. Off. J. Am. Soc. Clin. Oncol. 16,
+      2583–90 (1998).
+31.   L. F. Al-Alem, A. T. Baker, U. M. Pandya, E. L. Eisenhauer, B. R. Rueda, Understanding and
+      targeting apoptotic pathways in ovarian cancer. Cancers 11 (2019).
+32.   K. M. Hajra, L. Tan, J. R. Liu, “Defective apoptosis underlies chemoresistance in Ovarian Cancer”
+      in Ovarian Cancer (Springer New York, New York, NY, 2002;
+      http://www.ncbi.nlm.nih.gov/pubmed/18546629)vol. 622, pp. 197–208.
+33.   Y. Chen, C. Ren, L. Yang, M. Nai, Y. Xu, F. Zhang, Y. Liu, MicroRNA let‑7d‑5p rescues ovarian
+      cancer cell apoptosis and restores chemosensitivity by regulating the p53 signaling pathway via
+      HMGA1. Int. J. Oncol., doi: 10.3892/ijo.2019.4731 (2019).
+34.   D. Merino, G. L. Kelly, G. Lessene, A. H. Wei, A. W. Roberts, A. Strasser, BH3-Mimetic Drugs:
+      Blazing the Trail for New Cancer Medicines. Cancer Cell 34, 879–891 (2018).
+35.   K. D. Mason, M. R. Carpinelli, J. I. Fletcher, J. E. Collinge, A. A. Hilton, S. Ellis, P. N. Kelly, P.
+      G. Ekert, D. Metcalf, A. W. Roberts, D. C. S. Huang, B. T. Kile, Programmed Anuclear Cell
+      Death Delimits Platelet Life Span. Cell 128, 1173–1186 (2007).
+36.   A. W. Roberts, W. Wilson, L. Gandhi, O. A. O’Connor, C. M. Rudin, J. R. Brown, H. Xiong, Y.
+      Chiu, S. Enschede, A. P. Krivoshik, Ongoing phase I studies of ABT-263: Mitigating Bcl-XL
+      induced thrombocytopenia with lead-in and continuous dosing. J. Clin. Oncol. 27, 3505–3505
+      (2009).
+37.   S. Khan, X. Zhang, D. Lv, Q. Zhang, Y. He, P. Zhang, X. Liu, D. Thummuri, Y. Yuan, J. S.
+      Wiegand, J. Pei, A. Sharma, C. R. Mccurdy, V. M. Kuruvilla, A. A. Ferrando, Y. Kim, A.
+      Rogojina, P. J. Houghton, G. Huang, R. Hromas, M. Konopleva, G. Zheng, D. Zhou, A selective
+      BCL-XL PROTAC degrader achieves safe and potent antitumor activity. Nat. Med. 25, 1938–1947
+      (2020).
+38.   Y. He, R. Koch, V. Budamagunta, P. Zhang, X. Zhang, S. Khan, D. Thummuri, Y. T. Ortiz, X.
+      Zhang, D. Lv, J. S. Wiegand, W. Li, A. C. Palmer, G. Zheng, D. M. Weinstock, D. Zhou,
+      DT2216—a Bcl-xL-specific degrader is highly active against Bcl-xL-dependent T cell
+      lymphomas. J. Hematol. Oncol.J Hematol Oncol 13, 95 (2020).
+39.   D. Hanahan, R. Weinberg, The hallmarks of cancer. cell 100, 57–70 (2000).
+40.   J. M. Dempster, J. Rossen, M. Kazachkova, J. Pan, G. Kugener, D. E. Root, A. Tsherniak,
+      Extracting Biological Insights from the Project Achilles Genome-Scale CRISPR Screens in Cancer
+      Cell Lines. bioRxiv [Preprint] (2019). https://doi.org/10.1101/720243.
+41.   K. A. Sarosiek, A. Letai, Directly targeting the mitochondrial pathway of apoptosis for cancer
+      therapy with BH3 mimetics: recent successes, current challenges and future promise. FEBS J. 283,
+      3523–3533 (2016).
+42.   S. W. G. Tait, D. R. Green, Mitochondria and cell death: outer membrane permeabilization and
+      beyond. Nat. Rev. Mol. Cell Biol. 11, 621–32 (2010).
+43.   A. L. Koessinger, C. Cloix, D. Koessinger, D. H. Heiland, F. J. Bock, K. Strathdee, K. Kinch, L.
+      Martínez-Escardó, N. R. Paul, C. Nixon, G. Malviya, M. R. Jackson, K. J. Campbell, K.
+      Stevenson, S. Davis, Y. Elmasry, A. Ahmed, J. O’Prey, G. Ichim, O. Schnell, W. Stewart, K.
+      Blyth, K. M. Ryan, A. J. Chalmers, J. C. Norman, S. W. G. Tait, Increased apoptotic sensitivity of
+      glioblastoma enables therapeutic targeting by BH3-mimetics. Cell Death Differ. 29, 2089–2104
+      (2022).
+44.   J. K. E. Spetz, M. H. C. Florido, C. S. Fraser, X. Qin, J. Choiniere, S. J. Yu, R. Singh, M. Friesen,
+      L. L. Rubin, J.-E. Salem, J. J. Moslehi, K. A. Sarosiek, Heightened apoptotic priming of vascular
+      cells across tissues and life span predisposes them to cancer therapy-induced toxicities. Sci. Adv. 8,
+      eabn6579 (2022).
+45.   C. E. Weeden, C. Ah-Cann, A. Z. Holik, J. Pasquet, J.-M. Garnier, D. Merino, G. Lessene, M.-L.
+      Asselin-Labat, Dual inhibition of BCL-XL and MCL-1 is required to induce tumour regression in
+      lung squamous cell carcinomas sensitive to FGFR inhibition. Oncogene 37, 4475–4488 (2018).
+46.   S. Domcke, R. Sinha, D. A. Levine, C. Sander, N. Schultz, Evaluating cell lines as tumour models
+      by comparison of genomic profiles. Nat. Commun. 4, 1–10 (2013).
+47.   A. Letai, M. C. Bassik, L. D. Walensky, M. D. Sorcinelli, S. Weiler, S. J. Korsmeyer, Distinct
+      BH3 domains either sensitize or activate mitochondrial apoptosis, serving as prototype cancer
+      therapeutics. Cancer Cell 2, 183–92 (2002).
+48.   C. Fraser, J. Ryan, K. Sarosiek, “BH3 Profiling: A Functional Assay to Measure Apoptotic
+      Priming and Dependencies” in Methods in Molecular Biology (2019)vol. 1877, pp. 61–76.
+49.   S. J. Martin, D. M. Finucane, G. P. Amarante-Mendes, G. A. O’Brien, D. R. Green,
+      Phosphatidylserine Externalization during CD95-induced Apoptosis of Cells and Cytoplasts
+      Requires ICE/CED-3 Protease Activity *. J. Biol. Chem. 271, 28753–28756 (1996).
+50.   T.-T. Vo, J. Ryan, R. Carrasco, D. Neuberg, D. J. Rossi, R. M. Stone, D. J. Deangelo, M. G.
+      Frattini, A. Letai, Relative mitochondrial priming of myeloblasts and normal HSCs determines
+      chemotherapeutic success in AML. Cell 151, 344–355 (2012).
+51.   M. S. Davids, J. Deng, J. Ryan, S. M. Fernandes, J. R. Brown, A. G. Letai, Mitochondrial
+      Apoptotic Priming Is Associated with Clinical Response to the Bcl-2 Antagonist ABT-199 in
+      Chronic Lymphocytic Leukemia. Blood 124 (2014).
+52.   C. S. Fraser, J. K. E. Spetz, X. Qin, A. Presser, J. Choiniere, C. Li, S. Yu, F. Blevins, A. N. Hata,
+      J. W. Miller, G. A. Bradshaw, M. Kalocsay, V. Sanchorawala, S. Sarosiek, K. A. Sarosiek,
+      Exploiting endogenous and therapy-induced apoptotic vulnerabilities in immunoglobulin light
+      chain amyloidosis with BH3 mimetics. Nat. Commun. 13, 5789 (2022).
+53.   Z. Inde, B. A. Croker, C. Yapp, G. N. Joshi, J. Spetz, C. Fraser, X. Qin, L. Xu, B. Deskin, E.
+      Ghelfi, G. Webb, A. F. Carlin, Y. P. Zhu, S. L. Leibel, A. F. Garretson, A. E. Clark, J. M. Duran,
+      V. Pretorius, L. E. Crotty-Alexander, C. Li, J. C. Lee, C. Sodhi, D. J. Hackam, X. Sun, A. N. Hata,
+      L. Kobzik, J. Miller, J. A. Park, D. Brownfield, H. Jia, K. A. Sarosiek, Age-dependent regulation
+      of SARS-CoV-2 cell entry genes and cell death programs correlates with COVID-19 severity. Sci.
+      Adv. 7, 1–18 (2021).
+54.   R. Akbani, P. K. S. Ng, H. M. J. Werner, M. Shahmoradgoli, F. Zhang, Z. Ju, W. Liu, J.-Y. Yang,
+      K. Yoshihara, J. Li, S. Ling, E. G. Seviour, P. T. Ram, J. D. Minna, L. Diao, P. Tong, J. V.
+      Heymach, S. M. Hill, F. Dondelinger, N. Städler, L. a Byers, F. Meric-Bernstam, J. N. Weinstein,
+      B. M. Broom, R. G. W. Verhaak, H. Liang, S. Mukherjee, Y. Lu, G. B. Mills, A pan-cancer
+      proteomic perspective on The Cancer Genome Atlas. Nat. Commun. 5, 3887 (2014).
+55.   O. H. Voss, S. Batra, S. J. Kolattukudy, M. E. Gonzalez-Mejia, J. B. Smith, A. I. Doseff, Binding
+      of Caspase-3 Prodomain to Heat Shock Protein 27 Regulates Monocyte Apoptosis by Inhibiting
+      Caspase-3 Proteolytic Activation *. J. Biol. Chem. 282, 25088–25099 (2007).
+56.   M. Lampros, N. Vlachos, S. Voulgaris, G. A. Alexiou, The Role of Hsp27 in Chemotherapy
+      Resistance. Biomedicines 10, 897 (2022).
+57.   X. Bi, M. Zhang, J. Zhou, X. Yan, L. Cheng, L. Luo, C. Huang, Z. Yin, Phosphorylated Hsp27
+      promotes adriamycin resistance in breast cancer cells through regulating dual phosphorylation of
+      c-Myc. Cell. Signal. 112, 110913 (2023).
+58.   S.-Y. Hwang, S. Y. Kwak, Y. Kwon, Y.-S. Lee, Y. Na, Synthesis and biological effect of chrom-4-
+      one derivatives as functional inhibitors of heat shock protein 27. Eur. J. Med. Chem. 139, 892–900
+      (2017).
+59.   M. L. Flores, C. Castilla, R. Ávila, M. Ruiz-Borrego, C. Sáez, M. A. Japón, Paclitaxel sensitivity
+      of breast cancer cells requires efficient mitotic arrest and disruption of Bcl-xL/Bak interaction.
+      Breast Cancer Res. Treat. 133, 917–928 (2012).
+60.   X. Xiong, M. Sui, W. Fan, A. S. Kraft, Cell-cycle dependent antagonistic interactions between
+      paclitaxel and carboplatin in combination therapy. Cancer Biol. Ther. 6, 1067–1073 (2007).
+61.   S. Palani, M. Patel, J. Huck, M. Zhang, S. K. Balani, J. Yang, S. Chen, J. Mettetal, M. Manfredi,
+      W. C. Shyu, J. A. Ecsedy, A. Chakravarty, Preclinical pharmacokinetic/pharmacodynamic/efficacy
+      relationships for alisertib, an investigational small-molecule inhibitor of Aurora A kinase. Cancer
+      Chemother. Pharmacol. 72, 1255–1264 (2013).
+62.   T. Pan, S. Wang, H. Feng, J. Xu, M. Zhang, Y. Yao, K. Xu, M. Niu, Preclinical evaluation of the
+      ROCK1 inhibitor, GSK269962A, in acute myeloid leukemia. Front. Pharmacol. 13 (2022).
+63.   J. Fuentes-Antrás, P. L. Bedard, D. W. Cescon, Seize the engine: Emerging cell cycle targets in
+      breast cancer. Clin. Transl. Med. 14, e1544 (2024).
+64.   E. Walsby, V. Walsh, C. Pepper, A. Burnett, K. Mills, Effects of the aurora kinase inhibitors
+      AZD1152-HQPA and ZM447439 on growth arrest and polyploidy in acute myeloid leukemia cell
+      lines and primary blasts. HAEMATOLOGICA 95, 662–669 (2008).
+65.   P. Jaaks, E. A. Coker, D. J. Vis, O. Edwards, E. F. Carpenter, S. M. Leto, L. Dwane, F. Sassi, H.
+      Lightfoot, S. Barthorpe, D. van der Meer, W. Yang, A. Beck, T. Mironenko, C. Hall, J. Hall, I.
+      Mali, L. Richardson, C. Tolley, J. Morris, F. Thomas, E. Lleshi, N. Aben, C. H. Benes, A. Bertotti,
+      L. Trusolino, L. Wessels, M. J. Garnett, Effective drug combinations in breast, colon and
+      pancreatic cancer cells. Nature 603, 166–173 (2022).
+66.   A. Capasso, Vinorelbine in Cancer Therapy. Curr. Drug Targets 13, 1065–1071 (2012).
+67.   M. Upreti, E. N. Galitovskaya, R. Chu, A. J. Tackett, D. T. Terrano, S. Granell, T. C. Chambers,
+      Identification of the Major Phosphorylation Site in Bcl-xL Induced by Microtubule Inhibitors and
+      Analysis of Its Functional Significance. J. Biol. Chem. 283, 35517–35525 (2008).
+68.   L. Conilh, V. Metrangolo, S. Crescioli, J. M. Reichert, C. Dumontet, Navigating the clinical
+      progress of antibody-drug conjugates: Emerging opportunities and remaining challenges. Cell 189,
+      2791–2820 (2026).
+69.   M. Javellana, M. A. Eckert, J. Heide, K. Zawieracz, M. Weigert, S. Ashley, E. Stock, D. Chapel,
+      L. Huang, S. D. Yamada, A. A. Ahmed, R. R. Lastra, M. Chen, E. Lengyel, Neoadjuvant
+      Chemotherapy Induces Genomic and Transcriptomic Changes in Ovarian Cancer. Cancer Res. 82,
+      169–176 (2022).
+70.   J.-P. Gillet, S. Varma, M. M. Gottesman, The clinical relevance of cancer cell lines. J. Natl.
+      Cancer Inst. 105 (2013).
+71.   M. Ghandi, F. W. Huang, J. Jané-Valbuena, G. V. Kryukov, C. C. Lo, E. R. McDonald, J.
+      Barretina, E. T. Gelfand, C. M. Bielski, H. Li, K. Hu, A. Y. Andreev-Drakhlin, J. Kim, J. M. Hess,
+      B. J. Haas, F. Aguet, B. A. Weir, M. V. Rothberg, B. R. Paolella, M. S. Lawrence, R. Akbani, Y.
+      Lu, H. L. Tiv, P. C. Gokhale, A. de Weck, A. A. Mansour, C. Oh, J. Shih, K. Hadi, Y. Rosen, J.
+      Bistline, K. Venkatesan, A. Reddy, D. Sonkin, M. Liu, J. Lehar, J. M. Korn, D. A. Porter, M. D.
+      Jones, J. Golji, G. Caponigro, J. E. Taylor, C. M. Dunning, A. L. Creech, A. C. Warren, J. M.
+      McFarland, M. Zamanighomi, A. Kauffmann, N. Stransky, M. Imielinski, Y. E. Maruvka, A. D.
+      Cherniack, A. Tsherniak, F. Vazquez, J. D. Jaffe, A. A. Lane, D. M. Weinstock, C. M.
+      Johannessen, M. P. Morrissey, F. Stegmeier, R. Schlegel, W. C. Hahn, G. Getz, G. B. Mills, J. S.
+      Boehm, T. R. Golub, L. A. Garraway, W. R. Sellers, Next-generation characterization of the
+      Cancer Cell Line Encyclopedia. Nature 569, 503–508 (2019).
+72.   R. Vang, I.-M. Shih, R. J. Kurman, OVARIAN LOW-GRADE AND HIGH-GRADE SEROUS
+      CARCINOMA: Pathogenesis, Clinicopathologic and Molecular Biologic Features, and Diagnostic
+      Problems. Adv. Anat. Pathol. 16, 267–282 (2009).
+73.   B. Slomovitz, C. Gourley, M. S. Carey, A. Malpica, I.-M. Shih, D. Huntsman, A. N. Fader, R. N.
+      Grisham, M. Schlumbrecht, C. C. Sun, J. Ludemann, G. A. Cooney, R. Coleman, A. K. Sood, H.
+      Mahdi, K. K. Wong, A. Covens, D. M. O’Malley, F. Lecuru, L. P. Cobb, T. A. Caputo, T. May,
+      M. Huang, J. Siemon, M. L. Fernández, I. Ray-Coquard, D. M. Gershenson, Low-grade serous
+      ovarian cancer: State of the science. Gynecol. Oncol. 156, 715–725 (2020).
+74.   A. Urbaniak, S. Piña-Oviedo, Y. Yuan, A. Huczyński, T. C. Chambers, Limitations of an ex vivo
+      breast cancer model for studying the mechanism of action of the anticancer drug paclitaxel. Eur. J.
+      Pharmacol. 891, 173780 (2021).
+75.   S. J. Hill, B. Decker, E. A. Roberts, N. S. Horowitz, M. G. Muto, M. J. Worley Jr, C. M. Feltmate,
+      M. R. Nucci, E. M. Swisher, H. Nguyen, Prediction of DNA repair inhibitor response in short-term
+      patient-derived ovarian cancer organoids. Cancer Discov. 8, 1404–1421 (2018).
+76.   Liu J.F., Palakurthi S., Zeng Q., Zhou S., Ivanova E., H. W., Z. I.K., S. L.M., S. Y., P. C.C., Z. M.,
+      A. V., P. E., P. H., N. M., F. S., W. G.M., E. J., K. P.T., V. V.E., P. C., M. G.B., L. D.M., B. J.S.,
+      M. U.A., Establishment of patient-derived tumor xenograft models of epithelial ovarian cancer for
+      preclinical evaluation of novel therapeutics. Clin. Cancer Res. 23, 1263–1273 (2017).
+77.   A. R. Shoemaker, M. J. Mitten, J. Adickes, A. Oleksijew, H. Zhang, J. Bauch, K. Marsh, D. J.
+      Frost, D. Madar, C. Tse, S. W. Fesik, S. H. Rosenberg, S. W. Elmore, The Bcl-2 Family Inhibitor
+      ABT-263 Shows Significant but Reversible Thrombocytopenia in Mice. Blood 108, 1107 (2006).
+78.   A. K. Mitra, D. A. Davis, S. Tomar, L. Roy, H. Gurler, J. Xie, D. D. Lantvit, H. Cardenas, F. Fang,
+      Y. Liu, E. Loughran, J. Yang, M. Sharon Stack, R. E. Emerson, K. D. Cowden Dahl, M. V
+      Barbolina, K. P. Nephew, D. Matei, J. E. Burdette, In vivo tumor growth of high-grade serous
+      ovarian cancer cell lines. Gynecol. Oncol. 138, 372–7 (2015).
+79.   J. F. Liu, S. Palakurthi, Q. Zeng, S. Zhou, E. Ivanova, W. Huang, I. K. Zervantonakis, L. M.
+      Selfors, Y. Shen, C. C. Pritchard, M. Zheng, V. Adleff, E. Papp, H. Piao, M. Novak, S.
+      Fotheringham, G. M. Wulf, J. English, P. T. Kirschmeier, V. E. Velculescu, C. Paweletz, G. B.
+      Mills, D. M. Livingston, J. S. Brugge, U. A. Matulonis, R. Drapkin, Establishment of Patient-
+      Derived Tumor Xenograft Models of Epithelial Ovarian Cancer for Preclinical Evaluation of
+      Novel Therapeutics (2017)vol. 23.
+80.   L. Gandhi, D. R. Camidge, M. R. De Oliveira, P. Bonomi, D. Gandara, D. Khaira, C. L. Hann, E.
+      M. McKeegan, E. Litvinovich, P. M. Hemken, C. Dive, S. H. Enschede, C. Nolan, Y. L. Chiu, T.
+      Busman, H. Xiong, A. P. Krivoshik, R. Humerickhouse, G. I. Shapiro, C. M. Rudin, Phase I study
+      of navitoclax (ABT-263), a novel bcl-2 family inhibitor, in patients with small-cell lung cancer
+      and other solid tumors. J. Clin. Oncol. 29, 909–916 (2011).
+81.   E. Kipps, D. S. Tan, S. B. Kaye, Meeting the challenge of ascites in ovarian cancer: new avenues
+      for therapy and research. Nat. Rev. Cancer 13, 273–282 (2013).
+82.   R. W. Johnstone, A. A. Ruefli, S. W. Lowe, Apoptosis: A link between cancer genetics and
+      chemotherapy. Cell 108, 153–164 (2002).
+83.   K. A. Sarosiek, C. Fraser, N. Muthalagu, P. D. Bhola, W. Chang, S. K. McBrayer, A. Cantlon, S.
+      Fisch, G. Golomb-Mello, J. A. Ryan, J. Deng, B. Jian, C. Corbett, M. Goldenberg, J. R. Madsen,
+      R. Liao, D. Walsh, J. Sedivy, D. J. Murphy, D. R. Carrasco, S. Robinson, J. Moslehi, A. Letai,
+      Developmental Regulation of Mitochondrial Apoptosis by c-Myc Governs Age- and Tissue-
+      Specific Sensitivity to Cancer Therapeutics. Cancer Cell, 1–15 (2016).
+84.   J. D. Leverson, D. C. Phillips, M. J. Mitten, E. R. Boghaert, D. Diaz, S. K. Tahir, L. D. Belmont,
+      P. Nimmer, Y. Xiao, X. M. Ma, K. N. Lowes, P. Kovar, J. Chen, S. Jin, M. Smith, J. Xue, H.
+      Zhang, A. Oleksijew, T. J. Magoc, K. S. Vaidya, D. H. Albert, J. M. Tarrant, N. La, L. Wang, Z.-
+      F. Tao, M. D. Wendt, D. Sampath, S. H. Rosenberg, C. Tse, D. C. S. Huang, W. J. Fairbrother, S.
+      W. Elmore, A. J. Souers, Exploiting selective BCL-2 family inhibitors to dissect cell survival
+      dependencies and define improved strategies for cancer therapy. Sci. Transl. Med. 7, 279ra40
+      (2015).
+85.   P. Desai, S. Lonial, A. Cashen, M. Kamdar, I. Flinn, S. O’Brien, J. S. Garcia, N. Korde, J.
+      Moslehi, M. Wey, P. Cheung, S. Sharma, D. Olabode, H. Chen, F. Ali Syed, M. Liu, J. Saeh, M.
+      Andrade-Campos, T. M. Kadia, J. S. Blachly, A Phase 1 First-in-Human Study of the MCL-1
+      Inhibitor AZD5991 in Patients with Relapsed/Refractory Hematologic Malignancies. Clin. Cancer
+      Res. 30, 4844–4855 (2024).
+86.   Y. Li, Z. Liu, X. Han, F. Liang, Q. Zhang, X. Huang, X. Shi, H. Huo, M. Han, X. Liu, H. Zhu, L.
+      He, L. Shen, X. Hu, J. Wang, Q.-D. Wang, N. Smart, B. Zhou, B. He, Dynamics of Endothelial
+      Cell Generation and Turnover in Arteries During Homeostasis and Diseases. Circulation 149,
+      135–154 (2024).
+87.   I. K. Zervantonakis, C. Iavarone, H.-Y. Chen, L. M. Selfors, S. Palakurthi, J. F. Liu, R. Drapkin,
+      U. Matulonis, J. D. Leverson, D. Sampath, G. B. Mills, J. S. Brugge, Systems analysis of apoptotic
+      priming in ovarian cancer identifies vulnerabilities and predictors of drug response. Nat. Commun.
+      8, 365 (2017).
+88.   J. Sharifi-Rad, C. Quispe, J. K. Patra, Y. D. Singh, M. K. Panda, G. Das, C. O. Adetunji, O. S.
+      Michael, O. Sytar, L. Polito, J. Živković, N. Cruz-Martins, M. Klimek-Szczykutowicz, H. Ekiert,
+      M. I. Choudhary, S. A. Ayatollahi, B. Tynybekov, F. Kobarfard, A. C. Muntean, I. Grozea, S. D.
+      Daştan, M. Butnariu, A. Szopa, D. Calina, Paclitaxel: Application in Modern Oncology and
+      Nanomedicine-Based Cancer Therapy. Oxid. Med. Cell. Longev. 2021, 3687700 (2021).
+89.   G. S. Choudhary, S. Al-harbi, S. Mazumder, B. T. Hill, M. R. Smith, J. Bodo, E. D. Hsi, A.
+      Almasan, MCL-1 and BCL-xL-dependent resistance to the BCL-2 inhibitor ABT-199 can be
+      overcome by preventing PI3K/AKT/mTOR activation in lymphoid malignancies. Cell Death Dis.
+      6, e1593 (2015).
+90.   H. E. Ramsey, M. A. Fischer, T. Lee, A. E. Gorska, M. P. Arrate, L. Fuller, K. L. Boyd, S. A.
+      Strickland, J. Sensintaffar, L. J. Hogdal, G. D. Ayers, E. T. Olejniczak, S. W. Fesik, M. R. Savona,
+      A Novel MCL-1 Inhibitor Combined with Venetoclax Rescues Venetoclax Resistant Acute
+      Myelogenous Leukemia. Cancer Discov., CD-18-0140 (2018).
+91.   R. Chu, D. T. Terrano, T. C. Chambers, Cdk1/cyclin B plays a key role in mitotic arrest-induced
+      apoptosis by phosphorylation of Mcl-1, promoting its degradation and freeing Bak from
+      sequestration. Biochem. Pharmacol. 83, 199–206 (2012).
+92.   I. E. Wertz, S. Kusam, C. Lam, T. Okamoto, W. Sandoval, D. J. Anderson, E. Helgason, J. A.
+      Ernst, M. Eby, J. Liu, L. D. Belmont, J. S. Kaminker, K. M. O’Rourke, K. Pujara, P. B. Kohli, A.
+      R. Johnson, M. L. Chiu, J. R. Lill, P. K. Jackson, W. J. Fairbrother, S. Seshagiri, M. J. C. Ludlam,
+      K. G. Leong, E. C. Dueber, H. Maecker, D. C. S. Huang, V. M. Dixit, Sensitivity to antitubulin
+      chemotherapeutics is regulated by MCL1 and FBW7. Nature 471, 110–114 (2011).
+93.   M. E. Harley, L. A. Allan, H. S. Sanderson, P. R. Clarke, Phosphorylation of Mcl‐1 by CDK1–
+      cyclin B1 initiates its Cdc20‐dependent destruction during mitotic arrest. EMBO J. 29, 2407–2420
+      (2010).
+94.   A. Letai, P. Bhola, A. L. Welm, Functional precision oncology: Testing tumors with drugs to
+      identify vulnerabilities and novel combinations. Cancer Cell 40, 26–35 (2022).
+95.    A. Letai, Functional precision cancer medicine—moving beyond pure genomics. Nat. Med. 23,
+       1028–1035 (2017).
+96.    D. Park, A. T. Magis, R. Li, T. K. Owonikoko, G. L. Sica, S. Y. Sun, S. S. Ramalingam, F. R.
+       Khuri, W. J. Curran, X. Deng, Novel small-molecule inhibitors of Bcl-XL to treat lung cancer.
+       Cancer Res. 73, 5485–5496 (2013).
+97.    K. Ikezawa, H. Hikita, M. Shigekawa, K. Iwahashi, H. Eguchi, R. Sakamori, T. Tatsumi, T.
+       Takehara, Increased Bcl-xL Expression in Pancreatic Neoplasia Promotes Carcinogenesis by
+       Inhibiting Senescence and Apoptosis. Cell. Mol. Gastroenterol. Hepatol. 4, 185-200.e1 (2017).
+98.    P. D. Dunne, H. G. Coleman, P. Bankhead, M. Alderdice, R. T. Gray, S. McQuaid, V. Bingham,
+       M. B. Loughrey, J. A. James, A. M. B. McCorry, A. Gilmore, C. Holohan, D. Klingbiel, S. Tejpar,
+       P. G. Johnston, D. G. McArt, F. Di Nicolantonio, D. B. Longley, M. Lawler, Bcl-xL as a poor
+       prognostic biomarker and predictor of response to adjuvant chemotherapy specifically in BRAF-
+       mutant stage II and III colon cancer. Oncotarget 9, 13834–13847 (2018).
+99.    C. Alcon, J. Gómez Tejeda Zañudo, R. Albert, N. Wagle, M. Scaltriti, A. Letai, J. Samitier, J.
+       Montero, ER+ Breast Cancer Strongly Depends on MCL-1 and BCL-xL Anti-Apoptotic Proteins.
+       Cells 10, 1659 (2021).
+100.   T. Grubb, S. Maganti, J. M. Krill-Burger, C. Fraser, L. Stransky, T. Radivoyevitch, K. A. Sarosiek,
+       F. Vazquez, W. G. Kaelin, A. A. Chakraborty, A Mesenchymal Tumor Cell State Confers
+       Increased Dependency on the BCL-XL Antiapoptotic Protein in Kidney Cancer. Clin. Cancer Res.
+       Off. J. Am. Assoc. Cancer Res. 28, 4689–4701 (2022).
+101.   S. T. Diepstraten, M. A. Anderson, P. E. Czabotar, G. Lessene, A. Strasser, G. L. Kelly, The
+       manipulation of apoptosis for cancer therapy using BH3-mimetic drugs. Nat. Rev. Cancer 22, 45–
+       64 (2022).
+102.   P. Bose, V. Gandhi, M. Konopleva, Pathways and mechanisms of venetoclax resistance. Leuk.
+       Lymphoma 58, 2026–2039 (2017).
+103.   M. Debrincat, E. Josefsson, C. James, K. Henley, S. Ellis, M. Lebois, K. Betterman, R. Lane, K.
+       Rogers, M. White, A. Roberts, N. Harvey, D. Metcalf, B. Kile, Mcl-1 and Bcl-x(L) coordinately
+       regulate megakaryocyte survival. Blood 119, 5850–8 (2012).
+104.   J. T. Opferman, Unraveling MCL-1 degradation. Cell Death Differ. 13 (2006).
+105.   R. Grozovsky, C. S. Fraser, X. Qin, J. Spetz, K. A. Sarosiek, Platelet aging and desialylation
+       increase apoptotic priming and BCL-XL dependence. Cell Death Dis. 17, 13 (2026).
+106.   Y. Matoba, D. T. Zarrella, V. Pooladanda, M. Azimi Mohammadabadi, E. Kim, S. Kumar, M. Xu,
+       X. Qin, L. J. Ray, K. M. Devins, R. Kumar, A. Kononenko, E. Eisenhauer, I. E. Veillard, W.
+       Yamagami, S. J. Hill, K. A. Sarosiek, O. O. Yeku, D. R. Spriggs, B. R. Rueda, Targeting Galectin
+       3 illuminates its contributions to the pathology of uterine serous carcinoma. Br. J. Cancer 130,
+       1463–1476 (2024).
+107.   J. Ryan, J. Montero, J. Rocco, A. Letai, iBH3: simple, fixable BH3 profiling to determine
+       apoptotic priming in primary tissue by flow cytometry. Biol. Chem. 0 (2016).
+108.   M. Uhlén, E. Björling, C. Agaton, C. A.-K. Szigyarto, B. Amini, E. Andersen, A.-C. Andersson, P.
+       Angelidou, A. Asplund, C. Asplund, L. Berglund, K. Bergström, H. Brumer, D. Cerjan, M.
+       Ekström, A. Elobeid, C. Eriksson, L. Fagerberg, R. Falk, J. Fall, M. Forsberg, M. G. Björklund, K.
+       Gumbel, A. Halimi, I. Hallin, C. Hamsten, M. Hansson, M. Hedhammar, G. Hercules, C. Kampf,
+       K. Larsson, M. Lindskog, W. Lodewyckx, J. Lund, J. Lundeberg, K. Magnusson, E. Malm, P.
+       Nilsson, J. Odling, P. Oksvold, I. Olsson, E. Oster, J. Ottosson, L. Paavilainen, A. Persson, R.
+       Rimini, J. Rockberg, M. Runeson, A. Sivertsson, A. Sköllermo, J. Steen, M. Stenvall, F. Sterky, S.
+       Strömberg, M. Sundberg, H. Tegel, S. Tourle, E. Wahlund, A. Waldén, J. Wan, H. Wernérus, J.
+       Westberg, K. Wester, U. Wrethagen, L. L. Xu, S. Hober, F. Pontén, A human protein atlas for
+       normal and cancer tissues based on antibody proteomics. Mol. Cell. Proteomics MCP 4, 1920–32
+       (2005).
+109.   P. Jaaks, E. A. Coker, D. J. Vis, O. Edwards, E. F. Carpenter, S. M. Leto, L. Dwane, F. Sassi, H.
+       Lightfoot, S. Barthorpe, D. van der Meer, W. Yang, A. Beck, T. Mironenko, C. Hall, J. Hall, I.
+       Mali, L. Richardson, C. Tolley, J. Morris, F. Thomas, E. Lleshi, N. Aben, C. H. Benes, A. Bertotti,
+       L. Trusolino, L. Wessels, M. J. Garnett, Effective drug combinations in breast, colon and
+       pancreatic cancer cells. Nature 603, 166–173 (2022).
+
+Acknowledgments: We thank the members of our labs for their thoughtful suggestions on this work.
+
+Funding: This work was supported by funding from:
+      National Institutes of Health grant R00CA188679 (KAS)
+      National Institutes of Health grant R37CA248565 (KAS)
+      National Institutes of Health grant R01DK125263 (KAS)
+      National Institutes of Health grant F31CA246811 (SY)
+      National Institutes of Health grant 1F31CA281083 (LJ)
+      National Institutes of Health grant F31CA275321 (MHF)
+      Alex’s Lemonade Stand Foundation (KAS)
+      Andrew McDonough B+ Foundation (KAS)
+      Blavatnik Institute at Harvard (KAS)
+      HSPH Dean’s Fund for Scientific Advancement (KAS)
+      HSPH National Institute for Environmental Health Sciences (NIEHS) Center Grant National
+      Institutes of Health grant P30ES000002 (KAS)
+      National Institutes of Health grant K08CA237871 (EHS)
+      Ovarian Cancer Research Alliance grant CRDG-2023-3-1001 (EHS and KAS)
+
+
+Author contributions:
+       Conceptualization: XQ, KAS
+       Methodology: XQ, CWC, LJ, OS, AP, MHCF, YM, BSS, WX, AY, JC, CF, FG, JS, SY, FP, YY,
+       MX, PZ
+       Investigation: XQ, CWC, LJ, OS, AP, MHCF, YM, BSS, WX, AY, JC, CF, FG, JS, SY, FP, YY,
+       MX, PZ
+       Visualization: XQ, KS
+       Funding acquisition: KAS
+       Project administration: KAS
+       Supervision: KAS
+       Writing – original draft: XQ, KAS
+       Writing – review & editing: all authors
+
+
+Declaration of interests: Co-authors D.Z. and G.Z. are co-inventors of DT2216 and co-founders of and
+have equity in Dialectic Therapeutics, which develops DT2216 to treat cancer, and provided us with
+access to DT2216 for these studies but did not have a leadership role in study conception, data analysis,
+data interpretation or the decision to submit this manuscript. All other authors declare no competing
+interests.
+
+Declaration of generative AI and AI-assisted technologies in the manuscript preparation process
+During the preparation of this work the authors used ChatGPT o4-mini-high in order to overcome
+challenges with figure aesthetics and syntax errors in Figure 1A and S1B, all other aspects of the code
+were derived of the authors’ reasoning and design. After using this tool, the authors reviewed and edited
+the content as needed and take full responsibility for the content of the published article.
+
+Data availability: The raw data generated in this study are available upon request from the corresponding
+author. RPPA dataset is available for download at https://figshare.com/s/d45e5637c7a1e3eb9c67.
+Figures:
+Figure 1: Landscape of targetable apoptotic dependencies across cancers. (A) Publicly available data
+on the characteristics of various types of cancer cell lines (n=1,993) including their expression of BCL-2
+family genes, the impact of their CRISPR-mediated knock-out or RNAi-mediated knock-down on fitness
+and their sensitivity to indicated drugs from the GDSC and DepMap PRISM databases. (B-J) Correlation
+analysis comparing expression (mRNA), essentiality (loss of fitness in response to CRISPR or RNAi-
+mediated gene targeting, with values lower than -0.5 indicating depletion in many cell lines while values
+lower than -1 indicating strong killing; a value of -1 is comparable to the median of all pan-essential
+genes; positive values indicate enhanced fitness after gene targeting), and drug sensitivity from GDSC
+and DepMap PRISM databases. (K) Chemosensitivity analysis of cancer cell lines of indicated subtype
+using single-agent or combination BH3 mimetics treatment targeting BCL-2 family proteins including
+A1331852 (inhibits BCL-XL), ABT-199 (inhibits BCL-2) or S63845 (inhibits MCL-1) for 48 hours and
+annexin V positivity as direct readout for apoptosis. Data are shown as a heatmap from n = 3 independent
+experiments.
+Figure 2: Ovarian cancer cell lines are primed for apoptosis and dependent on BCL-XL for
+survival. (A) BH3 profiling of OvCa cell lines with BIM and BID activator peptides that inhibit all pro-
+survival proteins and also directly activate BAX and BAK and the PUMA BH3 sensitizer peptide that
+only inhibits all pro-survival proteins but does not activate BAX or BAK. Cytochrome c release, as
+indicated by the percentage of cells that are cytochrome c negative, signals initiation of apoptosis and
+serves as a measurement of apoptotic priming. Mean is shown for n = 3 biological replicates. (B) BH3
+profiling of OvCa cell lines with BAD, HRK and MS1 peptides that only inhibit indicated pro-survival
+proteins and do not activate BAX or BAK. Cytochrome c release indicates initiation of apoptosis and
+serves as a measurement of cell dependence on pro-survival protein(s) being inhibited. Mean is shown for
+n = 3 biological replicates. (C) Annexin V staining and flow cytometry analysis of OvCa cell lines treated
+with agents targeting BCL-2 family proteins including ABT-199 (inhibits BCL-2 only), ABT-263
+(inhibits BCL-2, BCL-XL and BCL-W), DT2216 (degrades BCL-XL), A1331852 (inhibits BCL-XL), or
+S63845 (inhibits MCL-1) for 72 hours. Mean is shown for n = 3 biological replicates. (D) Spearman’s rho
+correlation analysis comparing responses to BAD BH3 peptide at 100 μM in BH3 profiling versus
+apoptosis induced by indicated BH3 mimetic in annexin/PI chemosensitivity analysis. (E) Data from the
+Cancer Dependency Map (DepMap) showing (E) effect of CRISPR knockout of indicated gene on fitness
+of OvCa cell lines, (F) mRNA expression of pro-survival BCL-2 family genes, (G) effect of RNAi
+knockdown of indicated gene on fitness of OvCa cell lines, (H-I) comparison of the effects of BCL2L1
+knockout and expression of BCL2L1 (H) or MCL1 (I) mRNA expression levels. Each data point
+represents an OvCa cell line. (J) Immunoblotting analysis of OvCa cells treated with DT2216 for
+indicated duration. (K) Immunoblotting analysis of OVCAR3 cells treated with ABT-263 or DT2216 for
+indicated duration. (L) Immunoblotting analysis of OVCAR3 cells treated with DT2216 for indicated
+duration after pretreatment with either vehicle (DMSO) or paclitaxel for 24 hours. (M) Immunoblotting
+analysis of OVCAR3 cells treated with DT2216 or ABT-263 for indicated duration with either vehicle
+(DMSO) or J2 pretreatment for 6 hours. (N) Annexin/PI staining and flow cytometry analysis of HGSOC
+cell lines pre-treated with DMSO or J2 for 6 hours and then treated with BH3 mimetics for 24 hours.
+Mean is shown for n = 3 biological replicates. (M) Immunoblotting analysis of OVCAR3 cells treated
+with DT2216 or ABT-263 for indicated duration with either vehicle (DMSO) or J2 pretreatment for 6
+hours. (O) Immunoblotting analysis of HGSOC cell lines with no treatment. All immunoblotting results
+are representative of n ≥ 2 biological replicates. All P values compare biological replicates in a one- or
+two-way ANOVA with Holm-Sidak’s adjustment for multiple comparisons.
+Figure 3: Paclitaxel increases apoptotic priming and BCL-XL dependence in OvCa cell lines,
+synergizes with BCL-XL inhibition. (A) Immunoblotting analysis of OVCAR3 cells treated with
+indicated agent at 1/50 of Cmax. (B-C) BH3 profiling of OvCa cell lines that were treated with carboplatin
+or paclitaxel for 24 hours to measure apoptotic priming (B) or dependencies (C). Mean is shown for n = 3
+biological replicates. (D) Chemosensitivity analysis of HGSOC cell lines treated with BH3 mimetics in
+combination with paclitaxel for 72 hours using annexin V positivity as a readout for apoptosis. Data are
+shown as a heatmap from n = 3 biological replicates. (E) Colony formation assay performed on OVCAR3
+cells treated with paclitaxel in combination with indicated agents targeting BCL-XL. Data are
+representative of n = 3 biological replicates. (F) Chemosensitivity analysis of cancer cell lines of
+indicated subtypes treated with BH3 mimetics in combination with paclitaxel for 72 hours using annexin
+V positivity as a readout for apoptosis. Data are shown as a heatmap from n = 3 biological replicates. (G-
+I) Combination screens performed by the Wellcome Sanger Institute in (G) breast, (H) colon and (I)
+pancreas cancer cell lines. Data are % of cell lines that exhibit synergistic sensitivity to indicated drug
+combination. (J) Comparison of navitoclax synergy with agents targeting indicated pathway, protein,
+cellular process or component in breast, colon and pancreas cancer cell lines. (K) Immunoblotting
+analysis of OVCAR3 cells treated with paclitaxel in combination with DT2216 for 24 hours at various
+concentrations. (L) Immunoblotting analysis of indicated HGSOC cell line treated with paclitaxel in
+combination with DT2216 for 24 hours. All immunoblotting results are representative of n ≥ 2 biological
+replicates. P values compare biological replicates in a one- or two-way ANOVA with Holm-Sidak’s
+adjustment for multiple comparisons.
+Figure 4: DT2216 induces synergistic apoptosis in combination with inhibitors of AURKA, PLK1
+and microtubule function. (A-D) Chemosensitivity analysis of GBM, NSCLC, HGSOC and breast
+cancer cell lines treated with DT2216 and the Aurora A kinase inhibitor alisertib (A), the Polo-like kinase
+1 inhibitor BI-2536 (B), the microtubule disruptor vincristine (C) and the microtubule hyper-stabilizer
+docetaxel (D). Data are shown as a heatmap from n = 3 biological replicates. (E) Chemosensitivity
+analysis of OVCAR8 HGSOC cells treated with the antibody-drug conjugate payload MMAF in
+combination with BH3 mimetics for 72 hours using annexin V and PI positivity as a readout for
+apoptosis. Data are shown for n = 3 biological replicates. (F) Chemosensitivity analysis of OVCAR8 cells
+treated with the indicated antibody-drug conjugate payload in combination with DT2216 at 1 μM. Data
+are shown for n = 3 biological replicates for DM4 and MMAE and n = 1 biological replicate for MMAF.
+Figure 5: Combination treatment of HGSOC cells with paclitaxel and DT2216 induces mitotic
+arrest, loss of MCL-1 expression and release of pro-apoptotic BIM, BAX and BAK from BCL-XL to
+trigger apoptosis; OvCa primary tumors are primed for apoptosis and dependent on BCL-XL. (A-
+B) Immunoprecipitation of BCL-XL (A) or MCL-1 (B) in OVCAR3 cells treated with DT2216 ±
+paclitaxel for 24 hours. Input lanes show all proteins collected in various treatments. IP indicates
+immunoprecipitation (bound proteins) while SN indicates supernatant (unbound proteins). Data are
+representative of n = 2 biological replicates. (C-D) BH3 profiling of non-mitotic and mitotic OVCAR3
+cells 24 hours following treatment with paclitaxel to measure apoptotic priming (C) or dependencies (D).
+Mean is shown for n = 3 biological replicates. (E) Immunoblotting of non-mitotic and mitotic OVCAR3
+cells 24 hours following treatment with paclitaxel at 20 nM. Data are representative of n = 3 biological
+replicates. (F-G) BH3 profiling of OvCa primary tumors to measure apoptotic priming (F) or
+dependencies (G). Data are shown for n = 1 biological replicate with 2-4 technical replicates. (H-I) BH3
+profiling of OvCa primary tumor DF4379 treated with paclitaxel for 24 hours to measure apoptotic
+priming (H) or dependencies (I). Mean is shown for n = 1 biological replicate with 1-2 technical
+replicates. (J) Annexin staining and flow cytometry analysis of OvCa primary tumors treated with agents
+targeting BCL-2 family proteins. Mean is shown for n = 1 biological replicate with 1-2 technical
+replicates. (K) Annexin/PI staining and flow cytometry analysis of OvCa primary tumor DF4379 treated
+with paclitaxel or carboplatin in combination with agents targeting BCL-2 family proteins for 72 hours.
+Mean is shown for n = 1 biological replicate with 1-2 technical replicates. (L-M) Immunoblotting analysis
+of DF4379 (L) and DF5053 (M) treated with indicated agents for 24 hours. Data are from n = 1 biological
+replicate.
+Figure 6: HGSOC PDO and PDX models are broadly sensitive to combination treatment with
+paclitaxel and DT2216. (A-B) Annexin/7AAD staining and flow cytometry analysis of OvCa patient
+derived organoids treated with paclitaxel and DT2216 for 5 days. Data are shown for n = 1 biological
+replicate. (C) ATP measurements in OvCa patient derived organoids treated with paclitaxel and DT2216
+for 5 days. Data are shown for n = 1 biological replicate. (D) OvCa PDX models collected during in vivo
+growth were cultured ex vivo for 48 hours, then treated with DT2216 ± paclitaxel and viability was
+measured after 96 hours by adding luciferin and measuring luminescence. Mean is shown from one
+biological replicate with 4 technical replicates that is representative of n = 2 biological replicates.
+Figure 7: HGSOC xenograft tumors are sensitive to combination treatment with paclitaxel and
+DT2216. (A-B) Annexin staining and flow cytometry analysis of platelets collected from mice (A) or
+humans (B) and treated in vitro with indicated BH3 mimetic or PROTAC. Mean is shown for n = 4
+biological replicates. (C) OVCAR3 xenograft tumor volume measurements in mice treated with indicated
+agents. (D) OVCAR3 xenograft tumor volume comparison at day 14 and 28. Mean is shown for n = 3
+biological replicates. (E-F) Weight (E) and platelet (F) measurements of mice bearing OVCAR3
+xenografts that were treated with indicated agents. (G-H) BH3 profiling of OVCAR3 xenograft tumors at
+time of euthanasia treated with DT2216 to measure apoptotic priming (G) or dependencies (H). Mean is
+shown for n = 3 biological replicates. (I) OVCAR8 xenograft tumor volume measurements in mice
+treated with indicated agents. (J) Tumor volume comparison at day 28, 42, and 56. Mean is shown for n =
+6 biological replicates. (K) Overall survival of mice treated with indicated agents. (L-M) Weight (L) and
+platelet (M) measurements of mice treated with indicated agents. P values compare biological replicates
+in a one- or two-way ANOVA with Holm-Sidak’s adjustment for multiple comparisons.
+Figure 8: HGSOC patient-derived xenograft (PDX) tumors are sensitive to combination treatment
+with paclitaxel and DT2216. (A-B) BH3 profiling of OvCa PDX models to measure apoptotic priming
+(A) or dependencies (B). Mean is shown for n = 3-6 biological replicates. (C-D) BH3 profiling of DF83
+PDX flank model following in vitro treatment with paclitaxel or carboplatin to measure apoptotic priming
+(C) or dependencies (D). Mean is shown for n = 3 biological replicates. (E) Immunoblotting analysis of
+indicated proteins in untreated OvCa PDX models. (F) DF83 flank PDX tumor volume measurements in
+mice treated with indicated agents. (G) Tumor volume comparison at day 14, 28, 56 of mice bearing
+DF83 flank PDXs. Mean is shown for n = 5 biological replicates. (H) Overall survival of mice bearing
+DF83 PDX flank tumors treated with indicated agents. (I) Immunoblotting of indicated proteins in DF83
+flank PDX tumors at time of euthanasia treated with indicated agents. (J-K) Weight (J) and platelet counts
+(K) of mice treated with indicated agents. (L) Annexin staining and quantification in EPCAM+ cells from
+DF83 flank PDX tumors treated for 48 hours with indicated agents. Mean is shown for n = 4 biological
+replicates. (M-N) BH3 profiling of platelets isolated from mice treated with indicated agents to measure
+apoptotic priming (M) or dependencies (N). Mean is shown for n = 6 biological replicates. (O)
+Immunoblotting analysis of indicated proteins in DF83 flank PDX tumors treated with indicated agents
+for 48 hours. (P) Images of the bioluminescence signal in representative mice at 7 weeks post treatment
+initiation of DF83 IP PDX model. (Q) Bioluminescent signal quantification of mice in DF83 IP PDX
+model and treated with indicated agents. Green line indicates background signal levels in non-tumor
+bearing animals (n = 2). (R) Tumor burden comparison at day 28, 35, 42, 84, 105 of mice in DF83 IP
+PDX model. Mean is shown for n = 4-6 biological replicates, or number of animals remaining in group at
+indicated time point. Green line indicates background signal levels in non-tumor beating animals (n = 2).
+(S) Overall survival of mice bearing DF83 tumor cells in the peritoneal cavity treated with indicated
+agents. (T) Platelet counts of mice in DF83 IP PDX model and treated with indicated agents. P values
+were calculated using one- or two-way ANOVA with Holm-Sidak’s adjustment for multiple comparisons.
+                         Anatomical location of Treatments prior to         Days since last
+DF code Diagnosis        specimen provided      specimen collection treatment
+                                                1) Cisplatin/paclitaxel; 2)
+                                                carboplatin/paclitaxel; 3)
+         Metastatic high                        doxorubicin liposomal;
+         grade serous                           4) clinical trial drug #1;
+DF3968   carcinoma       Left perirectal tumor  5) clinical trial drug #2            ~14-44
+         Metastatic high
+         grade serous                            1) Carboplatin/paclitaxel
+DF4124   carcinoma         Omentum               (neoadjuvant)                On treatment
+         Metastatic high
+         grade serous                            1) Paclitaxel; 2)
+DF4225   carcinoma         Omentum               carboplatin/paclitaxel                569
+         High grade
+DF4379   serous carcinoma Recto-vaginal septum   1) Carboplatin/paclitaxel             694
+         Metastatic high
+         grade serous                            1) Carboplatin/paclitaxel
+DF4411   carcinoma         Omentum               (neoadjuvant)                On treatment
+         High grade
+         mullerian
+         carcinoma; favor
+         high grade serous
+DF4423   carcinoma         Omentum               None                                  N/A
+         High grade                              1) Carboplatin/paclitaxel
+DF5053   serous carcinoma Tubo-ovarian tumor     (neoadjuvant)                On treatment
+         Metastatic low                          1) carboplatin +
+         grade serous                            taxol, bevacizumab
+DF5226   carcinoma         Ovarian tumor         (NACT)                       On treatment
+         High grade                              1) carboplatin + taxol
+DF5247   serous carcinoma Ovarian tumor          (NACT)                       On treatment
+         High grade                              1) carboplatin + taxol
+DF5272   serous carcinoma Ovarian tumor          (NACT)                       On treatment
+         High grade                              1) carboplatin + taxol
+DF5315   serous carcinoma Ovarian tumor          (NACT)                       On treatment
+
+Table 1: Ovarian cancer primary tumors.
+PDO        Treatment Histology   Sites              Germline   Copy Number Alterations
+17-39      Recurrent HGSOC       Multiple           BRCA1      Myc Amp
+17-116     Neoadjuvant HGSOC     Omentum
+17-121     Recurrent HGSOC       Pleural Effusion
+18-47      Untreated HGSOC       Omentum                       CCNE1 Amp
+VCRB-357   Recurrent HGSOC
+ Table 2: Ovarian cancer patient-derived organoids.
+                             # Prior        Germline               Pan-
+PDX Histo-logical            Chemo Prior    BRCA       PAX8 WT1 CK                    Human
+Model Subtype        Source Cycles Platinum Status     (IHC) (IHC) (IHC) Mutations    CA125
+DF14 HGSOC           Ascites       5 Yes    Unknown    Pos Pos Pos Not performed Pos
+                                                                         TP53; PTEN;
+DF20 HGSOC           Ascites     0 No      Unknown     Pos Pos Pos PPM1D              Pos
+                                           BRCA1                         TP53; BRCA1,
+DF68 HGSOC           Ascites     5 Yes     Q563X       Pos Pos Pos PTEN LOH           Pos
+                                                                         TP53; CDKN2A
+DF83 HGSOC           Ascites     4 Yes     Unknown     Pos Neg Pos LOH                Pos
+                                                                         TP53, BRCA1,
+                     Pleural               BRCA1                         NBN, PTEN
+DF101 HGSOC          Fluid       2 Yes     187delAG    Pos Pos Pos LOH                Pos
+DF106 HGSOC          Ascites     1 Yes     Unknown     Pos Pos Pos TP53, CDKN2A Pos
+DF118 HGSOC          Ascites     1 Yes     Unknown     Pos Pos Pos TP53               Pos
+      Mixed (Serous                                                      TP53; CDKN2A
+DF172 & Endometroid) Ascites     2 Yes     Unknown     Pos Patchy Pos LOH             Pos
+DF181 HGSOC          Ascites     7 Yes     WT          Neg Neg Pos TP53, BRIP1 Neg
+      Adeno-
+DF216 carcinoma      Ascites     2 Yes     WT          Pos   Pos   Pos TP53         Pos
+
+ Table 3: Ovarian cancer PDX models.
+

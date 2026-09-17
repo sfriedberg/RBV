@@ -1,0 +1,15 @@
+LICENSE
+pyproject.toml
+src/dialpha/__init__.py
+src/dialpha/__main__.py
+src/dialpha/engine.py
+src/dialpha/research.py
+src/dialpha.egg-info/PKG-INFO
+src/dialpha.egg-info/SOURCES.txt
+src/dialpha.egg-info/dependency_links.txt
+src/dialpha.egg-info/entry_points.txt
+src/dialpha.egg-info/requires.txt
+src/dialpha.egg-info/top_level.txt
+src/dialpha/web/__init__.py
+src/dialpha/web/api.py
+src/dialpha/web/templates.py

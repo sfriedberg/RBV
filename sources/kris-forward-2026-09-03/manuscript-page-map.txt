@@ -1,0 +1,57 @@
+01: Submitted Manuscript: Confidential template updated: February 2022 / Title: Therapy-induced mitotic arrest drives an apoptotic vulnerability
+02: Abstract: / Despite therapeutic advances, intrinsic and acquired chemoresistance remain major barriers to durable
+03: standard therapy, which includes carboplatin and paclitaxel, most commonly results in a period of / HGSOC remission of variable length, typically 6 months to several years(1, 13, 14). In 60-80% of
+04: RESULTS / Landscape of BCL-2 family dependencies across cancers
+05: striking – this combination potently induced loss of fitness across virtually all cancer types and was / evident in multiple independently-generated datasets (Figure 1A). The combination treatment produced
+06: all pro-survival BCL-2 family proteins and also activate BAX and BAK directly(24, 47). Differences / between these cell lines were evident at lower doses – the most primed of the cell lines were OVCAR8,
+07: being an indicator of potential dependence, we found that mRNA expression of this gene is correlated / with its essentiality (Figure 2H). Interestingly, high expression of MCL1 transcripts was associated with
+08: Furthermore, J2 enhanced the apoptosis induced by these BH3 mimetics in OVCAR3, OVCAR4 and / OVCAR8 cells but not OV90 (Figure 2N). Notably, subsequent analysis of HSP27 expression in these
+09: We next confirmed that the cell death induced by DT2216 plus paclitaxel was apoptosis by showing its / inhibition with the pan-caspase inhibitor QVD-OPH (Figure S3C-F). In addition, colony formation assays
+10: in OVCAR3 cells treated with DT2216 at three different concentrations (Figure 3K), reflecting RAA. / This was also evident in the other cell lines treated with DT2216 (Figure 3L), reflecting RAA. In contrast,
+11: BCL-XL restrains BAX, BAK and BIM in HGSOC cells / The consistent synergy between mitotic arrest-inducing agents and DT2216 prompted us to investigate
+12: of an existing gene expression dataset from 20 patients with advanced stage (IIIC or IV) HGSOC prior to / and after receiving neoadjuvant chemotherapy(69) showed that pro-survival gene expression largely
+13: A1331852, ABT-263 or DT2216 induced modest levels of apoptosis (Figure 5J), as did inhibition of / MCL-1 with S63845 in certain tumors. We also confirmed that combination treatment with paclitaxel and
+14: particularly noteworthy given their resistance to paclitaxel treatment, presumably due to their extensive / prior treatment with this agent. Five of the PDX models (63%) exhibited sensitivity to single agent
+15: ceased over 30 days prior to tumor collection, we detected higher levels of apoptotic priming in DT2216 / treated tumors compared with vehicle treated controls (Figure 7G). Further, we detected reduced
+16: therapy, tumors showed no evidence of regrowth during the additional 100-day monitoring period (Figure / 8G-H).
+17: responses. Single agent DT2216 or paclitaxel were both able to reduce tumor burden and extend median / survival, yet the combination therapy produced faster and more durable regressions of tumors (Figure 8P-
+18: especially since paclitaxel is a standard of care agent in other solid cancers including breast and non-small / cell lung cancer (NSCLC)(88).
+19: have an enduring impact on the clinical care of these patients. Finally, although our validation in vitro and / in vivo studies focused on HGSOC, we expect DT2216 to be highly effective in other subtypes of OvCa
+20: regulation of apoptosis in these cells in a preclinical therapeutic setting. Specifically, we found that / dosing mice with DT2216 led to decreased apoptotic priming and decreased, but still detectable, BCL-XL
+21: This project and all described experiments were conducted in accordance with the guidelines and / regulations of the Committee on Microbiological Safety at the Harvard T.H. Chan School of Public
+22: S63845 (1, 0.1, 0.01 μM), DT2216 (1, 0.1, 0.01 μM), ABT-737 (1, 0.1, 0.01 μM), Carboplatin (25, 100, / 250 μM), Paclitaxel (0.3, 1, 3, 10, 30, 100, 300 nM), and QVD-OPH (10 μM). Combination treatments
+23: and subsequently transferred to PVDF membranes. Membranes were blocked in 5% milk and incubated / with primary
+24: OVCAR4 cells were seeded in a 96-well flat plate (CORNING, 3603) at a density of 3,000 cells per well. / The following day, cells were stained with Tetramethylrhodamine, Ethyl Ester, Perchlorate (TMRE,
+25: initiated therapy and monitored responses (on average, the time period before initiation of treatment was / 24 days for this DF83 intraperitoneal model). DF83-Luc tumor bearing mice were imaged at post-
+26: NSG mice bearing subcutaneous DF83 PDX tumors were treated with either vehicle, paclitaxel, DT2216 / or paclitaxel + DT2216 and tumors were collected 48 hours later and fixed in 4% paraformaldehyde
+27: exposure, the medium was replaced with fresh medium, and the cells were incubated for additional two / weeks under standard culture conditions. At the end of the incubation period, the medium was removed,
+28: Figure S1 (Related to Figure 1) | Figure S2 (Related to Figure 2) | Figure S3 (Related to Figure 3)
+29: Table S1: Ovarian cancer patient tumors. | Table S2: Ovarian cancer patient-derived organoids. | Table S3: Ovarian cancer PDX models.
+30: D. Hubbard, S. Gupta, A. Crenshaw, A. H. Ramos, L. Chin, A. Protopopov, J. Zhang, T. M. Kim, / I. Perna, Y. Xiao, H. Zhang, G. Ren, N. Sathiamoorthy, R. W. Park, E. Lee, P. J. Park, R.
+31: D. J. Deangelo, D. J. McConkey, S. E. Sallan, L. Silverman, M. S. Hirsch, D. R. Carrasco, A. / Letai, Pretreatment mitochondrial priming correlates with clinical response to cytotoxic
+32: DT2216—a Bcl-xL-specific degrader is highly active against Bcl-xL-dependent T cell / lymphomas. J. Hematol. Oncol.J Hematol Oncol 13, 95 (2020).
+33: 54. R. Akbani, P. K. S. Ng, H. M. J. Werner, M. Shahmoradgoli, F. Zhang, Z. Ju, W. Liu, J.-Y. Yang, / K. Yoshihara, J. Li, S. Ling, E. G. Seviour, P. T. Ram, J. D. Minna, L. Diao, P. Tong, J. V.
+34: 71. M. Ghandi, F. W. Huang, J. Jané-Valbuena, G. V. Kryukov, C. C. Lo, E. R. McDonald, J. / Barretina, E. T. Gelfand, C. M. Bielski, H. Li, K. Hu, A. Y. Andreev-Drakhlin, J. Kim, J. M. Hess,
+35: 83. K. A. Sarosiek, C. Fraser, N. Muthalagu, P. D. Bhola, W. Chang, S. K. McBrayer, A. Cantlon, S. / Fisch, G. Golomb-Mello, J. A. Ryan, J. Deng, B. Jian, C. Corbett, M. Goldenberg, J. R. Madsen,
+36: 95. A. Letai, Functional precision cancer medicine—moving beyond pure genomics. Nat. Med. 23, / 1028–1035 (2017).
+37: Mali, L. Richardson, C. Tolley, J. Morris, F. Thomas, E. Lleshi, N. Aben, C. H. Benes, A. Bertotti, / L. Trusolino, L. Wessels, M. J. Garnett, Effective drug combinations in breast, colon and
+38: Figures:
+39: 
+40: Figure 1: Landscape of targetable apoptotic dependencies across cancers. (A) Publicly available data
+41: 
+42: Figure 2: Ovarian cancer cell lines are primed for apoptosis and dependent on BCL-XL for
+43: 
+44: Figure 3: Paclitaxel increases apoptotic priming and BCL-XL dependence in OvCa cell lines,
+45: 
+46: Figure 4: DT2216 induces synergistic apoptosis in combination with inhibitors of AURKA, PLK1
+47: 
+48: Figure 5: Combination treatment of HGSOC cells with paclitaxel and DT2216 induces mitotic
+49: 
+50: Figure 6: HGSOC PDO and PDX models are broadly sensitive to combination treatment with
+51: 
+52: Figure 7: HGSOC xenograft tumors are sensitive to combination treatment with paclitaxel and
+53: 
+54: Figure 8: HGSOC patient-derived xenograft (PDX) tumors are sensitive to combination treatment
+55: Table 1: Ovarian cancer primary tumors.
+56: Table 2: Ovarian cancer patient-derived organoids.
+57: Table 3: Ovarian cancer PDX models.

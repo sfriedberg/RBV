@@ -1,0 +1,565 @@
+Mahadevan et al. Journal of Hematology & Oncology                         (2025) 18:98                                                                               Journal of Hematology &
+https://doi.org/10.1186/s13045-025-01753-8
+                                                                                                                                                                                   Oncology
+
+
+ RESEARCH                                                                                                                                                                                        Open Access
+
+
+First in human phase 1 study of DT2216,
+a selective BCL-xL degrader, in patients
+with relapsed/refractory solid malignancies
+Daruka Mahadevan1*, Minal Barve2, Devalingam Mahalingam3, Jay Parekh1, Michael Kurman4, James Strauss4,
+Larry Tremaine4, Robert Hromas1,4, Joshua Sills4, John McCulloch4, John Harkey4, Stacy Suberg4, Lisa Zimmerman4,
+Guangrong Zheng5 and Daohong Zhou1
+
+
+  Abstract
+  Background Small molecule inhibition of BCL-XL with navitoclax resulted in on-target dose-limiting
+  thrombocytopenia. DT2216 was more effective than navitoclax and reduced platelet toxicity in preclinical models by
+  selectively degrading BCL-XL via the VHL E3 ligase, which is minimally expressed in platelets.
+  Methods A dose escalation study using a 3 + 3 design with doses ranging from 0.04 to 0.4 mg/kg IV twice weekly
+  (BIW) was performed. Eligible subjects had solid tumors of any histology that had progressed on standard treatment
+  and had measurable tumor by RECIST v1.1. Tumor assessment was performed at 8-week intervals. BCL-XL levels were
+  measured in peripheral leukocytes by western blotting.
+  Results Twenty patients were enrolled, with a median age of 60.5 year; 60% were female. Only one dose-limiting
+  toxicity was observed, grade 4 thrombocytopenia that resolved within 48 h. Stable disease, observed in 20% of the
+  patients. The lowest platelet count in the first cycle ranged from 24,000 to 297,000. In all cases, the platelet count
+  recovered to > 50,000 within 4 days and > 75,000 within 1 week. There were no episodes of bleeding or treatment
+  emergent adverse events leading to death. The median overall survival was 7.9 months. The plasma AUC of DT2216
+  was dose proportional with no dose accumulation. Patients receiving 0.4 mg/kg DT2216 demonstrated rapid and
+  sustained degradation of BCL-XL.
+  Conclusions Based on the rapid recovery of transient thrombocytopenia that occurred only in the first cycle and the
+  degradation of BCL-XL in peripheral leukocytes, the RP2D of DT2216 is 0.4 mg/kg IV BIW. (NCT04886622)
+
+
+
+
+*Correspondence:
+Daruka Mahadevan
+mahadevand@uthscsa.edu
+1
+  Mays Cancer Center, San Antonio, TX, USA
+2
+  Sarah Cannon Cancer Research, Dallas, TX, USA
+3
+  Robert H. Lurie Comprehensive Cancer Center, Chicago, IL, USA
+4
+  Dialectic Therapeutics, Dallas, TX, USA
+5
+  University of Florida, Gainesville, FL, USA
+
+
+                                        © The Author(s) 2025. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use,
+                                        sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and
+                                        the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this
+                                        article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included
+                                        in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will
+                                        need to obtain permission directly from the copyright holder. To view a copy of this licence, visit ​h​t​t​p​​:​/​/​​c​r​e​a​​t​i​​v​e​c​​o​m​m​​o​n​s​.​​o​r​​g​/​l​i​c​e​n​s​e​s​/​b​y​/​4​.​0​/.
+Mahadevan et al. Journal of Hematology & Oncology   (2025) 18:98                                                     Page 2 of 12
+
+
+
+
+Introduction                                                       Methods
+The evasion of apoptosis is a key mechanism that pro-              Clinical study design
+motes the progression of cancer and resistance to anti-            NCT04886622 is a phase 1, first-in-human, multicenter,
+cancer therapies. This is partly attributable to the               open-label, dose escalation, and expansion study of
+overexpression of anti-apoptotic proteins of the BCL-2             DT2216, designed and sponsored by Dialectic Therapeu-
+family, including BCL-2, BCL-XL, and MCL-1 [1]. How-               tics, Inc. Data for the dose escalation phase are presented
+ever, the development of specific inhibitors of these pro-         here. For the dose escalation portion of the study, the first
+teins has been challenging because of insufficient activity,       patient was enrolled on 9–21-2021, and the last patient
+excessive toxicity, or both. Venetoclax, a BCL-2 inhibi-           was enrolled on 8-8-2023.
+tor, is the only inhibitor of this family of anti–apoptotic           The primary objective of the escalation phase was to
+proteins approved for the treatment of chronic lympho-             determine the recommended phase 2 dose (RP2D) for
+cytic leukemia (CLL), small lymphocytic lymphoma, and              DT2216. The secondary objectives were to characterize
+acute myeloid leukemia [2]. However, its use in cancer is          the adverse event (AE) profile, determine the pharmaco-
+limited because BCL-XL is a primary survival factor for            kinetic profile (PK)/pharmacodynamic profile (PD) and
+most cancer cells and plays a unique role in the general           describe preliminary evidence of efficacy using objec-
+resistance to cytotoxic agents [3]. A safe and effective           tive response rate (ORR), disease control rate (DCR), and
+BCL-XL target would be particularly useful as it would             progression-free survival (PFS) based on Response Evalu-
+broaden the applicability of apoptosis inhibitors to other         ation Criteria in Solid Tumors (RECIST) v1.1. Explor-
+malignancies. However, mechanism-related toxicities,               atory objectives were to characterize the baseline and
+particularly thrombocytopenia, have presented draw-                on-treatment expression of BCL-XL and VHL on blood
+backs in the development of BCL-XL inhibitors [4].                 lymphocytes, as well as other circulating biomarkers.
+   DT2216 is a novel, rationally designed small-molecule           Exploratory objectives included characterizing the base-
+degrader of BCL-XL protein, which functions as a mol-              line and on-treatment changes in platelet count and cor-
+ecule called proteolysis targeting chimeras (PROTACs)              relating them with DT2216 drug levels.
+[5]. PROTACs are bivalent small molecules contain-                    Eligible patients included those with advanced histo-
+ing a pharmacophore that recognizes a target protein               logically or cytologically confirmed solid tumors that
+linked to a second pharmacophore that binds to a spe-              exhausted all treatment options or had a contraindication
+cific E3 ubiquitin ligase. DT2216 is the first drug candi-         to approved therapies or generally recognized standard-
+date in a new class of bivalent small molecules targeting          of-care measures for their cancer after having progressed
+the BCL-2 family of proteins and is named Antiapoptotic            or being intolerant to the last treatment as determined
+Protein Targeted Degradation (APTaD™). As a bifunc-                by the investigators. Patients were aged ≥ 18 years and
+tional APTaD™, DT2216 binds to BCL-XL with one arm                 had an Eastern Cooperative Oncology Group (ECOG)
+and the von Hippel–Lindau protein (VHL) E3 ligase with             performance status of 0 or 1. Patients had evaluable or
+the other arm, which leads to BCL-XL ubiquitination and            measurable disease according to RECIST v1.1. Patients
+subsequent degradation of BCL-XL by the ubiquitin-pro-             had to have an adequate marrow reserve with a base-
+teasome system, which is a major pathway for intracellu-           line platelet count ≥ 100,000 and adequate liver and renal
+lar protein degradation. Because human platelets express           function. Key exclusion criteria included prior BCL-
+minimal levels of VHL, DT2216 is expected to be less               XL directed therapy, history of a major surgical proce-
+toxic to platelets than other BCL-XL inhibitors, such as           dure, growth factor use, blood products, participation in
+navitoclax (also known as ABT-263).                                another investigational agent study within 1 month prior
+   In preclinical pharmacological testing, DT2216 was              to commencing the study drug, and known active brain
+shown to degrade BCL-XL in vitro, and this effect was              metastases/carcinomatous meningitis. The full eligibil-
+rapid and long-lasting. In addition, DT2216 demon-                 ity criteria are available in the protocol (Supplementary
+strated in vitro anti-cancer activity against a broad range        Information).
+of tumor cells at low EC50 values. DT2216 demonstrated                Dose escalation consisted of the administration of
+dose-dependent antitumor activity in vivo as a mono-               DT2216 intravenously twice weekly at several different
+therapy for cutaneous T-cell lymphoma (CTCL) and                   doses outlined in protocol attached. The starting dose
+demonstrated synergy in combination with various con-              was 0.04 mg/kg, established based on pre-clinical toxicity
+ventional chemotherapeutics and targeted drugs against             studies. Safety was evaluated using CTCAE version 5.0.
+a variety of hematological malignancies and solid tumors.          The initial three dose levels enrolled one patient, follow-
+This first-in-human phase 1 study was designed to deter-           ing which for dose level 4 and 5, a 3 + 3 design was uti-
+mine RP2D, investigate the safety, tolerability, pharma-           lized following a 100% incremental dose increase for dose
+cokinetics (PK), pharmacodynamics (PD) and efficacy of             levels 2 to 5 until the first dose limiting toxicity (DLT) in
+DT2216 in patients with advanced solid tumors.                     cycle 1 was observed. Thereafter, a modified Fibonacci
+Mahadevan et al. Journal of Hematology & Oncology   (2025) 18:98                                                     Page 3 of 12
+
+
+
+
+sequence was used to define dose escalation increments             Inclusion criteria
+until the maximum tolerated dose (MTD) was reached as              The full eligibility criteria are available in the protocol
+described in protocol. If no dose-limiting toxicity (DLT)          (supplementary information). Subjects were eligible to
+was observed during the DLT monitoring period of first             participate in the study if they met the following criteria:
+28 days, the next patient was enrolled at the next higher          (1) Adults aged 18 years or older on the day of signing
+dose level. Dose-limiting toxicities (DLTs) during the first       the informed consent form. (2) Written informed con-
+treatment cycle were defined as any Grade 5 toxicity;              sent was provided for the trial, including the willingness
+Grade 4 neutropenia lasting > 7 days; febrile neutropenia;         to comply with all study-related requirements. (3) Histo-
+Grade 4 thrombocytopenia or Grade 3 thrombocytope-                 logically or cytologically confirmed solid tumors. (4) Evi-
+nia with clinically significant hemorrhage or lasting ≥ 7          dence of disease progression or inadequate response to
+days; and Grade ≥ 3 non-hematologic toxicities, excluding          the last regimen was assessed by an investigator. (5) Has
+nausea, vomiting, or diarrhea lasting ≤ 3 days or transient        exhausted standard of care options or had contraindica-
+laboratory abnormalities resolving within 72 h. Hepa-              tions. (6) The presence of measurable disease as assessed
+totoxicity meeting Hy’s law criteria was also considered           by the Investigator per Response Evaluation Criteria in
+a DLT. Transient Grade 3–4 electrolyte abnormalities               Solid Tumors (RECIST) v1.1. (7) An Eastern Cooperative
+resolving to ≤ Grade 2 within 72 h were not considered             Oncology Group (ECOG) performance status of 0 or 1.
+DLTs.                                                              (8) Has adequate organ functions as defined by param-
+  Patients were allowed a maximum of two intra-patient             eters outlined in protocol.
+dose escalations. Patients received DT2216 by intrave-
+nous infusion on days 1 and 4 weekly for at least 4 weeks,         Exclusion criteria
+with each cycle consisting of a 28-day cycle for a maxi-           Subjects were excluded from participation if they met
+mum duration of 1 year until disease progression, unac-            any of the following criteria:1. received prior BCL-XL
+ceptable toxicity, or other withdrawal criteria, as listed in      directed therapy. 2. Administration of any blood product
+the protocol. The extent of disease was evaluated using            within 30 days preceding the planned administration of
+imaging studies and disease-appropriate tumor mark-                study therapy. 3. History of clinically significant bleed-
+ers every 8 weeks from day 1 of the first cycle. RP2D was          ing and/or bleeding predisposition. 4. Significant liver
+established based on MTD as well as other relevant data,           insufficiency was defined as Child-Pugh class B or C. 5.
+including clinical signals of activity, PK, and PD data.           Concurrent administration of medications or foods that
+  Premedication prior to each infusion was at the dis-             are strong inhibitors or inducers of cytochrome P4503A
+cretion of the investigator or according to institutional          (CYP3A). Strong CYP3A inhibitors and inducers should
+guidelines. Patient assessment and follow-up proce-                be discontinued at least two weeks prior to the first dose
+dures can be found in the schedule of assessments in this          of DT2216. 6. Known active central nervous system
+study. The clinical response was evaluated using RECIST            (CNS) metastases/and or carcinomatous meningitis. A
+v1.1 per protocol. Blood samples were collected for PK             complete list of detailed exclusion criteria are available in
+analysis before and after post-infusion at defined inter-          protocol attached.
+vals, along with platelet counts. Exploratory biomark-
+ers include (but are not limited to) the assessment of             Statistical analysis
+BCL-XL and VHL levels in peripheral white blood cells              Descriptive statistics were used to display dose escala-
+(WBC).                                                             tion data and results. Continuous variables, including
+  All relevant ethical regulations were followed during            baseline characteristics, will be summarized by reporting
+this study. The methods were performed in accordance               the number of observations, mean, standard deviation,
+with relevant guidelines and regulations and approved              median, minimum, and maximum values. Categorical/
+by the Food and Drug Administration (FDA). Written                 discrete variables will be summarized using frequency
+informed consent was obtained from all study partici-              tables that show the number and percentage of subjects
+pants. The Institutional Review Boards (IRBs) of all par-          within a category. Time-to-event analysis was performed
+ticipating institutions approved the study protocol. The           using the Kaplan–Meier method. The overall response
+institutions participating in the study were Northwestern          rate (ORR) and its 2-sided 95% confidence interval (CI)
+University Medical School, Chicago, IL; Mary Crowley               were calculated using the Clopper-Pearson method.
+Cancer Research, Dallas, TX; and Mays Cancer Center,
+UT Health San Antonio, TX.                                         Results
+  We used the CONSORT checklist when writing our                   Clinical patient population, treatment, and disposition
+report.                                                            Twenty patients who received at least 1 dose of DT2216
+                                                                   were evaluated after initial screening (Fig. 1). Patient
+                                                                   demographics and disease characteristics according to
+Mahadevan et al. Journal of Hematology & Oncology            (2025) 18:98                                                    Page 4 of 12
+
+
+
+
+                                                                              The patient population was heavily pre-treated; all
+                                                                            patients received ≥ 3 prior treatment regimens for
+                                                                            advanced/metastatic disease. All 20 patients received one
+                                                                            dose of DT2216, and 19 completed the DLT assessment
+                                                                            period (C1D28), as one patient chose to proceed with
+                                                                            hospice care after receiving an initial dose due to disease-
+                                                                            related clinical decline. While none of the patients had
+                                                                            dose escalation, dose interruption occurred in 8 patients
+                                                                            due to transient thrombocytopenia, and 2 patients had
+                                                                            dose reduction due to repeated thrombocytopenia that
+                                                                            resolved. The highest number of treatment cycles given
+                                                                            to a patient was 9, and the median duration of treatment
+                                                                            was 57 days (range, 7–253) (Fig. 2). 15/20(75%) patients
+                                                                            discontinued treatment because of objective disease pro-
+                                                                            gression. Reasons for treatment discontinuation are listed
+                                                                            in Table 2.
+                                                                              The incidence of ≥ grade 3 AEs suspected to be related
+                                                                            to the study drug was very low 4/20 (20%). Sixteen
+                                                                            patients (80%) experienced at least one related treatment-
+                                                                            emergent adverse event (TEAE). A TEAE is defined
+Fig. 1 Consort flow diagram of patients enrolled in DT2216 phase 1 trial
+                                                                            as any event that occurs on or after the first dose of the
+                                                                            study drug administration or any pre-existing event that
+dose cohort are shown in Table 1. The median age was                        worsened in severity after dosing. There were no major
+60.5 years (range 30–80) and 100% of patients had an                        bleeding events or treatment related deaths. Throm-
+ECOG performance status of0 or 1. A variety of tumor                        bocytopenia was the most common adverse event but
+types were enrolled, as shown in Table 1.                                   none of the patients required platelet transfusions dur-
+                                                                            ing the study. 8/20 patients had dose interruption due to
+
+Table 1 Demographics
+Baseline characteristics                        Cohort (dose mg/kg)
+                                                1            2               3           4            5            6             Total
+                                                (0.04)       (0.08)          (0.12)      (0.24)       (0.32)       (0.40)
+N                                               1            1               1           7            6            4             20
+Median Age                                      54           65              50          68           47           71.5          60.5
+(range)                                         (54)         (65)            (50)        (48–76)      (30–80)      (52–74)       (30–80)
+M/F                                             0/1          0/1             0/1         3/4          3/3          2/2           8/12
+Race
+Caucasian                                       1              1             1           5            3            3             14
+African American                                0              0             0           2            1            0             3
+Asian                                           0              0             0           0            1            1             2
+Unknown                                         0              0             0           0            0            1             1
+ECOG
+0                                               0              0             1           2            3            3             9
+1                                               1              1             0           5            3            1             11
+Median No. Prior Systemic Therapies             7              5             5           3            3            4             4
+Tumor Type
+Colorectal                                                                                                                       5
+Pancreas                                                                                                                         4
+Ovarian                                                                                                                          2
+NSCLC                                                                                                                            2
+Thymus                                                                                                                           2
+Breast                                                                                                                           1
+Liver                                                                                                                            1
+SCLC                                                                                                                             1
+Other                                                                                                                            2
+Mahadevan et al. Journal of Hematology & Oncology               (2025) 18:98                                                                   Page 5 of 12
+
+
+
+
+Fig. 2 Swimmer plot of individual patients on the trial. Each horizontal bar represents individual patient with the tumor type as listed on the vertical left
+axis and their duration on study with radiological response per RECIST v1.1. The bars are color coded according to the dose cohort. Note: Patients 7, 10,
+15, 21 & 23 did not pass screening. Patient 8 experienced disease progression prior to enrollment. * Patients 5 and 13 dose reduced from 0.24 mg/kg BIW
+to 0.12 mg/kg BIW at beginning of Cycle 3 and Cycle 2 of treatment, respectively. End of treatment objective response assessment not performed for
+patients 1, 4, 12, 16 and 22
+
+Table 2 Patient disposition
+Event                                                 Cohort (dose mg/kg)
+                                                      1            2                  3              4               5               6               Total
+                                                      (0.04)       (0.08)             (0.12)         (0.24)          (0.32)          (0.40)
+Subjects treated                                      1            1                  1              7               6               4               20
+Subjects discontinuing treatment                      1            1                  1              7               6               4               20
+Reason for treatment discontinuation
+Adverse event                                         0               0               0              0               0               0               0
+Withdrawal by subject                                 0               0               0              1               0               0               1
+Clinical progression of neoplastic disease            1               0               0              2               1               0               4
+Objective progression of neoplastic disease           0               1               1              4               5               4               15
+
+
+Table 3 Adverse Events                                                          thrombocytopenia with median duration of dose inter-
+Event                                   Number of sub-         Grade > 3        ruption of 5 days. 1 patient had dose reduction due to
+                                        jects (%)                               thrombocytopenia. The most frequently related TEAEs
+Thrombocytopenia                        9 (45)                 1                are shown in Table 3: thrombocytopenia (9 patients,
+Fatigue                                 2 (10)                 0                45%), fatigue (2 patients, 10%), and infusion-related reac-
+Infusion related reaction               2 (10)                 0                tion (2 patients, 10%). The lowest platelet count observed
+Alanine aminotransferase increased      1 (5)                  0
+                                                                                during the study was 24,000/µL. (Fig. 3).
+Blood bilirubin increased               1 (5)                  0
+                                                                                  Throughout the course of the dose escalation trial, only
+Lipase increased                        1 (5)                  0
+                                                                                one dose-limiting toxicity was observed, with grade 4
+Temperature intolerance                 1 (5)                  0
+                                                                                thrombocytopenia at a dose level of 0.32 mg/kg. Figure 4
+Contusion                               1 (5)                  0
+                                                                                shows the plasma concentration of DT2216, with time = 0
+Decreased appetite                      1 (5)                  0
+                                                                                representing the start of a 30-minute intravenous infu-
+Hematuria                               1 (5)                  0
+                                                                                sion. The pharmacokinetic parameters of DT2216 were
+                                                                                determined in patients following doses on Cycle 1 Day 1
+                                                                                and Cycle 1 Day 22 (Tables 4 and 5). Following IV infu-
+                                                                                sion of DT2216, the Cmax and AUC values for DT2216
+                                                                                increased with increasing dose, with mean Cmax values
+Mahadevan et al. Journal of Hematology & Oncology            (2025) 18:98                                                                Page 6 of 12
+
+
+
+
+Fig. 3 Trend of platelet count of cohort 6 patients at DT2216 dose 0.40 mg/kg IV BIW. Vertical axis represents the platelet count (x103/microliter) and
+horizontal axis represents the days on study. Rebound of platelets post-dosing demonstrates the regenerative nature of bone marrow and that mega-
+karyocytes are not harmed. DLT, PK and RP2D
+
+
+ranging from 738 ng/mL to 8590 ng/mL in the dose range                       Efficacy
+of 0.04 mg/kg 0.4 mg/kg. AUC0-∞ values ranged from                           While efficacy was a secondary endpoint for evaluation
+8650 to 72,300 ng · h/mL over the dose range of 0.04 mg/                     in this trial, DT2216 did not demonstrate single-agent
+kg 0.4 mg/kg. DT2216 was eliminated from the plasma                          activity in patients with different advanced solid tumors,
+with a mean half-life ranging from 7.09 to 12.8 h over the                   which was not unexpected because most cancer cells
+dose range tested and was independent of dose. DT2216                        require a pro-apoptotic signal triggered by chemotherapy
+clearance values ranging from 4.10 to 7.89 mL/min/kg                         to respond to BCL-XL inhibition [5]. The best response
+were relatively constant over the dose range as well. The                    per RECIST v1.1 criteria was stable disease which noted
+volume of distribution at steady state (Vss) was small                       in 20% of patients with a median duration of response of
+(< 100 mL/kg) and consistent across the dose groups.                         107 days. The median overall survival, as estimated by
+Following repeated dosing, accumulation of DT2216 in                         the Kaplan–Meier method was 7.9 months (95% CI 4.0 –
+plasma was not observed with twice weekly dosing, with                       NE). Figure 7 shows the response to target liver lesions at
+accumulation ratio values ranging from 0.74 to 1.07 on                       the end of C4 in comparison with baseline prior to start-
+Cycle 1 Day 22 (the fifth dose) across the dose groups.                      ing DT2216 in a 70-year-old male with non-small cell
+Based on pre-dose and 2-hour post infusion plasma                            lung adenocarcinoma refractory to three prior lines of
+DT2216 concentrations, steady state appeared to be                           treatment (Fig. 8).
+reached by at least Cycle 1, Day 15, and to be maintained
+out to Cycle 9 in patients who were continuing the study.                    Discussion
+Figure5 shows that clinically relevant DT2216 plasma                         Here, we report the first-in-human trial of DT2216,
+concentrations are capable of completely degrading BCL-                      a BCL-XL PROTAC, in patients with advanced solid
+XL in normal human WBCs. Figure 7 demonstrates the                           tumors that were refractory to multiple lines of prior
+mean plasma concentration of DT2216 in micromolar in                         systemic therapies. The primary aim of this study was
+4 patients infused with DT2216 at 0.4 mg/kg over time in                     to identify RP2D and assess the safety/tolerability, PK/
+hours against inhibitory concentration 90%(IC90) for var-                    PD, and anti-tumor activity of this first-in-class investi-
+ious cell lines. Figure 6 shows the pharmacodynamic pro-                     gational agent, which targets an important anti-apoptotic
+files of BCL-XL and VHL after C1D1 of DT2216. Based                          pathway in human malignancies.
+on these data, RP2D was chosen to be 0.4 mg/kg BIW.                            DT2216 treatment in this population was safe and well
+                                                                             tolerated apart from the grade 4 thrombocytopenia. The
+Mahadevan et al. Journal of Hematology & Oncology             (2025) 18:98                                                                Page 7 of 12
+
+
+
+
+Fig. 4 Plasma concentration of DT2216 on vertical axis(nanogram/milliliter) and time in hours post infusion start (30-minute infusion duration) on hori-
+zontal axis. The PK profile is consistent with a dose proportional increase in DT2216 exposure
+
+major drug-related toxicity was asymptomatic thrombo-                         concentration with increasing dose levels. The maximum
+cytopenia, with no evidence of major bleeding and rapid                       concentration of 8590ng/ml was observed at 0.4 a BIW
+recovery within 3–4 days. No other ≥ grade 3 adverse                          dose. DT2216 has a small dose-independent volume of
+events were suspected to be related to the study drug                         distribution and dose-independent clearance of approx-
+were identified. None of the patients with thrombocy-                         imately 7 ml/min/kg with a low coefficient of variation,
+topenia required platelet transfusions and there were no                      favoring a stable pharmacokinetic profile. DT2216 was
+major hemorrhagic events during the study. It was shown                       eliminated from plasma in a dose independent fashion
+previously that platelets but not megakaryocytes and                          with mean half-life ranging between 7 and 12 h irrespec-
+hematopoietic stem progenitor cells (HSPCs) are solely                        tive of dose level and accumulation ratio between 0.7 and
+dependent on BCL-xL for survival because megakaryo-                           1.01 even at the highest dose level of 0.4 mg/kg favoring
+cytes and HSPCs also express MCL-1. BCL-xL inhibition                         the appropriate dosing schedule.
+or degradation can kill mature platelets but has no signif-                     The pharmacodynamic (PD) profile revealed a decrease
+icant effect on megakaryopoiesis and hematopoiesis [6].                       in BCL-XL expression in peripheral WBCs, which was
+There were no treatment-related deaths as determined by                       rapid after administration of DT2216. Furthermore, we
+the clinical principal investigators, and all patients com-                   observed that with a biweekly dose of DT2216 (0.4 mg/
+pleted the DLT assessment period except one patient                           kg, BCL-XL expression continued to remain low while
+who chose hospice care due to clinical decline unrelated                      simultaneously not significantly affecting VHL expres-
+to the study drug.                                                            sion levels and deemed the RP2D. A clinically rele-
+  The pharmacokinetic (PK) profile showed a dose-                             vant and safe concentration of DT2216 in plasma was
+dependent increase in exposure and maximum                                    achieved, demonstrating the degradation of BCL-XL and
+Mahadevan et al. Journal of Hematology & Oncology                      (2025) 18:98                                                                        Page 8 of 12
+
+
+
+
+Table 4 Mean (CV%) DT2216 plasma Pharmacokinetic parameters in patients from Cycle 1, day 1
+PK parameters             DT2216                  DT2216                   DT2216                  DT2216                  DT2216                   DT2216
+                          0.04 mg/kg (N = 1)      0.08 mg/kg (N = 1)       0.12 mg/kg (N = 1)      0.24 mg/kg (N = 7)      0.32 mg/kg (N = 6)       0.4 mg/kg
+                                                                                                                                                    (N = 4)
+Tmax, hour                0.75                    1.50                     0.75                    0.75 (0.75, 0.75)       0.75 (0.75, 1.50)        0.75 (0.75, 0.75)
+                          (N = 1)                 (N = 1)                  (N = 1)                 (N = 7)                 (N = 6)                  (N = 4)
+Cmax, ng/mL               738                     1450                     3710                    4080 (12.0)             5710 (20.4)              8590 (27.9) (N = 4)
+                          (N = 1)                 (N = 1)                  (N = 1)                 (N = 7)                 (N = 6)
+AUC0−24, ng*h/mL          5920                    13,400                   12,900                  24,500 (31.9)           33,300 (12.7)            53,000 (15.1)
+                          (N = 1)                 (N = 1)                  (N = 1)                 (N = 6)                 (N = 6)                  (N = 4)
+AUClasta, ng*h/mL         8470                    19,100                   17,900                  37,600 (22.8)           43,200 (21.9)            72,300 (15.7)
+                          (N = 1)                 (N = 1)                  (N = 1)                 (N = 6)                 (N = 6)                  (N = 4)
+AUC0−∞b, ng*h/mL          8650                    19,500                   18,000                  36,500 (31.4) (N = 7)   41,500 (16.7)            73,200 (15.6)
+                          (N = 1)                 (N = 1)                  (N = 1)                                         (N = 5)                  (N = 4)
+T½b, hour                 12.8                    12.5                     8.92                    10.4 (29.4)             7.09 (35.4)              10.7 (7.70)
+                          (N = 1)                 (N = 1)                  (N = 1)                 (N = 7)                 (N = 5)                  (N = 4)
+CLb, mL/min/kg            4.62                    4.10                     6.67                    7.32 (38.7)             7.89 (17.4)              5.57 (15.5)
+                          (N = 1)                 (N = 1)                  (N = 1)                 (N = 7)                 (N = 5)                  (N = 4)
+Vdssb, mL/kg              77.6                    70.0                     55.7                    83.9 (15.8)             68.3 (15.4)              70.9 (18.3)
+                          (N = 1)                 (N = 1)                  (N = 1)                 (N = 7)                 (N = 5)                  (N = 4)
+AUClast = area under the curve from time zero to last measurable concentration; AUC0-∞=area under the curve from time zero to infinity; CL = clearance;
+Cmax = maximum plasma concentration; t1/2 = terminal elimination half-life; Tmax = time to Cmax; Vss = volume of distribution; CV = coefficient of variation. Tmax
+is presented as median (minimum, maximum). Tmax is measured from the start of the infusion. Preliminary PK parameters were calculated on intended and not
+actual sampling times. Plasma samples for Cycle 1 Day 1 were obtained pre-dose, and 0.25, 1, 2, 4-, 6-, 24- and 72-hour post-infusion for calculation of PK parameters
+a
+ 2 patients on Cycle 1 Day 1 had samples collected only up to 24 h. The AUClast values for these two subjects are not included as AUClast is defined as area under the
+curve from time zero to last measurable concentration
+b
+    for 1 patient, the elimination phase for this subject could not be adequately estimated for half-life, CL, Vdss and AUC0-∞ could not be calculated
+
+
+Table 5 Mean (CV%) DT2216 plasma Pharmacokinetic parameters in patients from cycle 1, day 22
+PK parameters             DT2216                  DT2216                   DT2216                  DT2216                  DT2216                   DT2216
+                          0.04 mg/kg (N = 1)      0.08 mg/kg (N = 1)       0.12 mg/kg (N = 2)      0.24 mg/kg (N = 7)      0.32 mg/kg (N = 6)       0.4 mg/kg
+                                                                                                                                                    (N = 4)
+Tmax, hour                2.50                    2.50                     2.50                    2.50 (2.50, 2.50)       2.50 (2.50, 2.50)        2.50 (2.50, 2.50)
+                          (N = 1)                 (N = 1)                  (N = 1)                 (N = 6)                 (N = 6)                  (N = 4)
+Cmax, ng/mL               541                     962                      2190                    3090 (26.8)             4480 (10.0)              6270 (25.2) (N = 4)
+                          (N = 1)                 (N = 1)                  (N = 1)                 (N = 6)                 (N = 6)
+AUC0−24, ng*h/mL          5350                    9840                     13,900                  26,300 (30.9)           32,700 (10.2)            53,700 (23.0)
+                          (N = 1)                 (N = 1)                  (N = 1)                 (N = 6)                 (N = 5)                  (N = 4)
+AUClasta, ng*h/mL         5390                    9910                     13,900                  26,400 (30.9)           32,900 (10.3)            54,000 (23.0)
+                          (N = 1)                 (N = 1)                  (N = 1)                 (N = 6)                 (N = 5)                  (N = 4)
+AUC0−∞, ng*h/mL           6230                    11,700                   14,500                  30,100 (35.2) (N = 6)   35,000 (11.0)            59,500 (23.1)
+                          (N = 1)                 (N = 1)                  (N = 1)                                         (N = 5)                  (N = 4)
+T½a, hour                 8.18                    8.63                     5.24                    7.27 (33.5)             5.82 (9.5)               6.70 (14.8)
+                          (N = 1)                 (N = 1)                  (N = 1)                 (N = 6)                 (N = 5)                  (N = 4)
+CLa, mL/h/kg              6.42                    6.84                     8.25                    8.99 (40.4)             9.23 (11.3)              7.01 (24.2)
+                          (N = 1)                 (N = 1)                  (N = 1)                 (N = 6)                 (N = 5)                  (N = 4)
+Vdssa, mL/kg              81.0                    91.0                     66.5                    93.9 (25.5)             83.7 (9.5)               72.9 (19.7)
+                          (N = 1)                 (N = 1)                  (N = 1)                 (N = 6)                 (N = 5)                  (N = 4)
+ArAUC0−24                 0.90                    0.74                     1.07                    1.08 (11.6)             1.02 (6.7)               1.01 (8.7)
+                          (N = 1)                 (N = 1)                  (N = 1)                 (N = 6)                 (N = 5)                  (N = 4)
+ArAUC0-24 h = accumulation ratio; AUClast = area under the curve from time zero to last measurable concentration; AUC0-∞=area under the curve from time zero to
+infinity; CL = clearance; Cmax = maximum plasma concentration; CV = coefficient of variation; t1/2 = terminal elimination half-life; Tmax = time to Cmax; Vss = volume
+of distribution. Tmax is presented as median (minimum, maximum). Tmax is measured from the start of the infusion. Preliminary PK parameters were calculated on
+intended and not actual sampling times. Plasma samples for Cycle 1 Day 22 were obtained pre-dose and 2-, 4-, 6-, and 24-hour post-infusion for calculation of PK
+parameters
+a
+    One patient on Cycle 1 Day 22 had samples collected only up to 6 h, therefore half-life, CL, Vdss and AUClast, values for this subject were not calculated
+Mahadevan et al. Journal of Hematology & Oncology             (2025) 18:98                                                                 Page 9 of 12
+
+
+
+
+Fig. 5 Levels of BCL-XL in WBCs from a normal human donor. They were determined after incubation with increasing concentrations of DT2216 as
+depicted in the figure for approximately 16 hours​. We observe a dose dependent degradation. BCL-XL expression after incubation with DT2216 in com-
+parison to beta actin which acts as control in the figure
+
+
+
+
+Fig. 6 Changes in BCL-XL and VHL expression after infusion of DT2216 at 0.4 mg/kg in 4 patients. Left panel shows changes in fold BCL XL expression after
+C1D1. Expression of BCL XL decreases rapidly after infusion of DT2216 and is persistent. Right panel depicts fold changes in VHL expression in the same
+patients after infusion of DT2216. VHL expression did not demonstrate a simultaneous drop in contrast to BCL XL
+
+confirming the biological effect without partial or com-                        The advanced solid tumor population of patients in the
+plete responses. Notably, in our preclinical studies, BCL-                    study was heavily pre-treated with >3 previous lines of
+XL degradation in MOLT-4 T-ALL xenografts lasted                              therapy and a significant disease burden. Although stable
+much longer (approximately 2 weeks) than that in human                        disease was the best overall radiographic response in 20%
+peripheral WBCs after a single dosing, suggesting that                        of patients given the early phase nature of the trial, we
+the effect of DT2216 on tumor levels of BCL-XL might be                       observed in our exploratory secondary analysis, a median
+underestimated based on its effect on WBC BCL-XL [5].                         overall survival of 7.9 months in a heavily pretreated
+                                                                              population with a diverse disease spectrum. As shown
+Mahadevan et al. Journal of Hematology & Oncology              (2025) 18:98                                                                 Page 10 of 12
+
+
+
+
+Fig. 7 Mean Plasma concentration of DT2216 in 4 patients infused with DT2216 at 0.4 mg/kg over time against in vitro inhibitory concentration 90%(IC90)
+for various cell lines. SCLC – small cell lung cancer; OC- ovarian carcinoma; T-ALL – T cell acute lymphoblastic leukemia, CTCL – Cutaneous T cell lymphoma
+
+
+
+
+Fig. 8 Target liver lesions in a 70-year-old male with non-small cell lung adenocarcinoma refractory to prior lines of treatment on dose level 0.24 mg/kg.
+Panel above shows target liver lesions at baseline 14 days prior to C1D1 infusion of DT2216. Panel below shows a decrease in size of target liver lesions
+after completion of C4 of DT2216
+
+
+previously in the preclinical and clinical studies by us and                   chemotherapy or targeted therapy to overcome drug
+others, most solid tumors rarely depend only on BCL-                           resistance. This is because these therapies can stimulate
+xL for survival and thus respond poorly to the single                          the expression of pro-apoptotic proteins via activation
+agent treatment that targets BCL-xL alone except cuta-                         of the p53 pathway or inhibit the expression of other
+neous T cell lymphoma (CTCL) [5, 7–10]. DT2216 was                             BCL-2 anti-apoptotic proteins (such as MCL-1 by pacli-
+primarily designed to be combined with conventional                            taxel) to make cancer cells more dependent on BCL-xL
+Mahadevan et al. Journal of Hematology & Oncology                 (2025) 18:98                                                                                                      Page 11 of 12
+
+
+
+
+                                                                                 Author contributions
+for survival [8, 11]. For example, preliminary studies                           All authors had access to study data, and reviewed, revised, and approved
+have shown that the combination of DT2216 and pacli-                             the final manuscript.D. Mahadevan conceptualized and designed the study.
+taxel is very effective in eradicating drug-resistant ovar-                      D. Mahadevan, MB, D. Mahalingam coordinated and conducted patient
+                                                                                 enrollment and clinical trial execution at participating sites. MK, LT, RH and
+ian cancer cells [8]. This is in part because paclitaxel can                     JS (Sills) contributed to trial design and protocol development. LT, RH, and JS
+inhibit MCL-1 transcription and translation via induc-                           oversaw clinical operations and data integrity. GZ and DZ developed DT2216
+tion of mitotic arrest, which makes ovarian cancer cells                         and performed preclinical studies essential for trial initiation. MK, LT, RH,
+                                                                                 SS, LZ, JM and JH contributed to the development strategy, oversight, and
+highly sensitive to DT2216-induced BCL-xL degradation.                           provided regulatory guidance. JP, MK, LT and MB conducted data analysis and
+In addition, our preclinical studies also showed that the                        interpretation. JP drafted the initial manuscript with input from D. Mahadevan,
+combination of DT2216 with various targeted-therapeu-                            DZ, and RH. All authors critically revised the manuscript for important
+                                                                                 intellectual content and approved the final version.
+tic agents (such as BCL-2 inhibitors, mTOR inhibitors,
+and KRAS G12C inhibitors) as well as other conventional                          Data availability
+chemotherapeutic agents (such as gemcitabine, irinote-                           No datasets were generated or analysed during the current study.
+
+can, and azacytidine) can synergistically kill various can-
+cer and leukemic cells [5, 10, 12–15]. Further studies with                      Declarations
+these different combinations can also expand the clini-                          Ethics approval and consent to participate
+cal application of DT2216. DT2216 will be tested in two                          All relevant ethical regulations were followed during this study. The methods
+recently initiated phase II studies: DT2216 plus paclitaxel                      were performed in accordance with relevant guidelines and regulations and
+                                                                                 approved by the Food and Drug Administration (FDA). Written informed
+to treat drug resistant ovarian cancer (NCT06964009)                             consent was obtained from all study participants. The Institutional Review
+and DT2216 plus irinotecan to treat metastatic fibrola-                          Boards (IRBs) of all participating institutions approved the study protocol. The
+mellar hepatocellular carcinoma (NCT06620302).                                   institutions participating in the study were Northwestern University Medical
+                                                                                 School, Chicago, IL; Mary Crowley Cancer Research, Dallas, TX; and Mays
+   Overall, limitations of the study do include the fact                         Cancer Center, UT Health San Antonio, TX.
+that this was an early phase clinical trial with a relatively
+small number of patients. Also, the patient population                           Consent for publication
+                                                                                 Not applicable.
+was heterogenous with several different tumor types with
+exposure to several different lines of standard of care                          Competing interests
+therapies. These factors make interpretation of efficacy                         The authors declare no competing interests.
+
+data limited. The use of surrogate tissue WBCs for PD
+                                                                                 Received: 19 July 2025 / Accepted: 14 October 2025
+analysis was another limitation of our study.
+   Currently, several other PROTACs are under clinical
+development, including degraders of Bruton tyrosine
+kinase (BTK), estrogen receptor (ER), Ikaros, and Aiolos                         References
+transcription factors through Cereblon E3 (CRBN E3)                              1. Vela L, Marzo I. Bcl-2 family of proteins as drug targets for cancer chemo-
+ligase and KRAS G12C/D, but none has been approved                                   therapy: the long way of BH3 mimetics from bench to bedside. Curr Opin
+                                                                                     Pharmacol. 2015/08/01;23.
+by the US FDA for clinical use [16–19]. Another                                  2. Souers AJ, Leverson JD, Boghaert ER, Ackler SL, Catron ND, Chen J, et al. ABT-
+PROTAC targeting BCL-XL pending clinical evaluation                                  199, a potent and selective BCL-2 inhibitor, achieves antitumor activity while
+utilizing CRBN E3 ligase, which is also not expressed                                sparing platelets. Nat Med. 2013;19:2. 2013-01-06;19(2).
+                                                                                 3. Amundson SA, Myers TG, Scudiero D, Kitada S, Reed JC, Fornace AJ. An infor-
+in human platelets, would be an alternative therapeutic                              matics approach identifying markers of chemosensitivity in human cancer
+approach [20].                                                                       cell lines. Cancer Res. 2000;60(21):6101–10.
+                                                                                 4. Lessene G, Czabotar PE, Sleebs BE, Zobel K, Lowes KN, Adams JM, et al.
+                                                                                     Structure-guided design of a selective BCL-XL inhibitor. Nat Chem Biol.
+Conclusion                                                                           2013;9:6. 2013-04-21;9(6).
+DT2216 is safe and tolerable in patients with refractory                         5. Khan S, Zhang X, Lv D, Zhang Q, He Y, Zhang P, et al. A selective BCL-XL
+advanced solid tumors, with one dose-limiting toxicity of                            PROTAC degrader achieves safe and potent antitumor activity. Nat Med.
+                                                                                     2019. ​h​t​t​p​​s​:​/​​/​d​o​i​​.​o​​r​g​/​​1​0​.​​1​0​3​8​​/​s​​4​1​5​9​1​-​0​1​9​-​0​6​6​8​-​z
+asymptomatic grade 4 thrombocytopenia and no other                               6. Mason KD, Carpinelli MR, Fletcher JI, Collinge JE, Hilton AA, Ellis S, et
+safety signals. DT2216 0.4 mg/kg was determined to be                                al. Programmed anuclear cell death delimits platelet life span. Cell.
+RP2D.                                                                                2007;128(6):1173–86.
+                                                                                 7. Ashkenazi A, Fairbrother WJ, Leverson JD, Souers AJ. From basic apoptosis
+Acknowledgements                                                                     discoveries to advanced selective BCL-2 family inhibitors. Nat Rev Drug
+The authors acknowledge the patients, their caregivers, research coordinators,       Discov. 2017;16(4):273–84.
+and data managers who participated in this trial. This trial was funded by       8. Qin X, Presser A, Johnson L, Matoba Y, Shay BS, Xu W et al. Paclitaxel-induced
+Dialectic Therapeutics. DZ was partially supported by grants from the NIH            mitotic arrest results in a convergence of apoptotic dependencies that can
+(R01 CA260239 and CA241191). The support of the National Institutes of               be safely exploited by BCL-X. bioRxiv. 2025.
+Health [R01 CA139429] and Cancer Prevention and Research Institute of Texas      9. Khan S, Cao L, Wiegand J, Zhang P, Zajac-Kaye M, Kaye FJ, et al. PROTAC-medi-
+[RP220269] to R. H. is gratefully acknowledged. The development of DT2216            ated dual degradation of BCL-xL and BCL-2 is a highly effective therapeutic
+and the Phase 1 trial were supported by the Cancer Prevention and Research           strategy in small-cell lung cancer. Cells. 2024. ​h​t​t​p​​s​:​/​​/​d​o​i​​.​o​​r​g​/​​1​0​.​​3​3​9​0​​/​c​​e​l​l​s​1​3​
+Institute of Texas [DP210005].                                                       0​6​0​5​2​8
+                                                                                 10. Khan S, Kellish P, Connis N, Thummuri D, Wiegand J, Zhang P, et al. Co-
+                                                                                     targeting BCL-X. Cell Death Discov. 2023;9(1):1.
+Mahadevan et al. Journal of Hematology & Oncology                                          (2025) 18:98                                                                         Page 12 of 12
+
+
+
+
+11. Tian X, Srinivasan PR, Tajiknia V, Sanchez Sevilla Uruchurtu AF, Seyhan AA,                                    Kinase (BTK) Degrader Bgb-16673 in Patients (Pts) with Relapsed or Refrac-
+    Carneiro BA, et al. Targeting apoptotic pathways for cancer therapy. J Clin                                    tory (R/R) B-Cell Malignancies (BGB-16673-101). Blood. 2023/11/02;142(Sup-
+    Invest. 2024;134(14):e179570. ​h​t​t​p​​s​:​/​​/​d​o​i​​.​o​​r​g​/​​1​0​.​​1​1​7​2​​/​J​​C​I​1​7​9​5​7​0       plement 1).
+12. Thummuri D, Khan S, Underwood PW, Zhang P, Wiegand J, Zhang X, et al.                                      18. Liu Y, Mo CC, Hartley-Brown MA, Sperling AS, Midha S, Yee AJ et al. Targeting
+    Overcoming gemcitabine resistance in pancreatic cancer using the BCL-X.                                        Ikaros and aiolos: reviewing novel protein degraders for the treatment of
+    Mol Cancer Ther. 2022;21(1):184–92.                                                                            multiple myeloma, with a focus on iberdomide and mezigdomide. Expert
+13. Khan S, Wiegand J, Zhang P, Hu W, Thummuri D, Budamagunta V, et al. BCL-X                                      Rev Hematol. 2024-08-02;17(8).
+    J Hematol Oncol. 2022;15(1):23.                                                                            19. Yang J, Wang Q-L, Wang G-N, Ye J-C, Li Z-Q, Wang J-Y, et al. A pan-KRAS
+14. Shebl B, Ng D, Lalazar G, Rosemore C, Finkelstein TM, Migler RD, et al. Target-                                degrader for the treatment of KRAS-mutant cancers. Cell Discovery. 2024;10:1.
+    ing BCL-XL in fibrolamellar hepatocellular carcinoma. JCI Insight. 2022. ​h​t​t​p​s​:​​​/​​                    2024-06-28;10(1).
+    /​d​o​​i​.​​o​r​​g​​/​​1​0​​.​1​1​​​7​2​​/​​j​c​i​.​i​n​s​i​​g​h​t​.​1​6​1​8​2​0                           20. Negi A, Voisin-Chiret AS. Strategies to Reduce the On-Target Platelet Toxicity
+15. Wang Z, Skwarska A, Poigaialwar G, Chaudhry S, Rodriguez-Meira A, Sui P, et                                    of Bcl‐xL Inhibitors: PROTACs, SNIPERs and Prodrug‐Based Approaches.
+    al. Efficacy of a novel BCL-xL degrader, DT2216, in preclinical models of JAK2-                                ChemBioChem. 2022/06/20;23(12).
+    mutated post-MPN AML. Blood. 2025;146(3):341–55.
+16. SM G, JJ F, E JTMA. R, M P, Oral Estrogen Receptor PROTAC Vepdegestrant
+    (ARV-471) Is Highly Efficacious as Monotherapy and in Combination with                                     Publisher’s note
+    CDK4/6 or PI3K/mTOR Pathway Inhibitors in Preclinical ER + Breast Cancer                                   Springer Nature remains neutral with regard to jurisdictional claims in
+    Models - PubMed. Clinical cancer research: an official journal of the American                             published maps and institutional affiliations.
+    Association for Cancer Research. 08/15/2024;30(16).
+17. Seymour JF, Cheah CY, Parrondo R, Thompson MC, Stevens DA, Lasica M et
+    al. First Results from a Phase 1, First-in-Human Study of the Bruton’s Tyrosine
+

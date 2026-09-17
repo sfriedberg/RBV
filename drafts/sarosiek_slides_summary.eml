@@ -1,0 +1,29 @@
+From: stephen@rockbrookventures.com
+To: stephen@rockbrookventures.com
+Subject: New Sarosiek manuscript slides for Dialectic deck
+Date: Fri, 4 Sep 2026 14:30:00 -0500
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+The 5 Sarosiek slides are built and ready. They are appended at positions 35-39 in:
+
+/Users/stephenfriedberg/Rockbrook-Diligence-Workstreams/Dialectic-Therapeutics/drafts/Dialectic_Presentation_09.04.26_A_PLUS_W_SAROSIEK_SLIDES.pptx
+
+SUMMARY:
+
+Slide 35: Rapid Apoptotic Adaptation - why single-agent BCL-XL targeting fails
+Slide 36: Paclitaxel's three mechanisms - MCL-1 degradation, BCL-XL inactivation, HSP27 suppression
+Slide 37: Co-IP molecular evidence - BIM/BAX/BAK release only with both drugs
+Slide 38: Patient tumor BH3 profiling - 11 of 12 primary tumors BCL-XL-dependent
+Slide 39: Platform sensitizer - DT2216 synergizes with all mitotic-arrest agents
+
+INSERTION ORDER RECOMMENDATION:
+- Slide 35 -> after current slide 17
+- Slide 36 -> after slide 35
+- Slide 37 -> after slide 36 (or replace slide 18)
+- Slide 38 -> after current slide 19
+- Slide 39 -> after current slide 22
+
+Each slide has: data tables or structured evidence, manuscript figure citations, red take-away bar, and CONFIDENTIAL footer.
+
+Build script: sarosiek_slides.py
